@@ -1,0 +1,1294 @@
+21	Shirt
+22	Leather Shirt
+23	Wooden Breastplate
+24	Bone Breastplate
+25	Piece Bone Breastplate
+26	Bronze Breastplate
+27	Hard Leather Shirt
+28	Pants
+29	Leather Pants
+30	Hard Leather Pants
+31	Bone Gaiters
+32	Piece Bone Gaiters
+33	Hard Leather Gaiters
+34	Bronze Gaiters
+35	Cloth Shoes
+36	Leather Sandals
+37	Leather Shoes
+38	Low Boots
+39	Boots
+40	Leather Boots
+41	Cloth Cap
+42	Leather Cap
+43	Wooden Helmet
+44	Leather Helmet
+45	Bone Helmet
+46	Bronze Helmet
+47	Helmet
+48	Short Gloves
+49	Gloves
+50	Leather Gloves
+51	Bracer
+52	Hemp Cloak
+53	Cotton Cloak
+54	Silk Cloak
+55	Cotton Undergarment
+56	Wool Undergarment
+58	Mithril Breastplate
+59	Mithril Gaiters
+60	Composite Armor
+61	Mithril Gloves
+62	Mithril Boots
+63	Gauntlets
+64	Composite Boots
+112	Apprentice's Earring
+113	Mystic's Earring
+114	Earring of Strength
+115	Earring of Wisdom
+116	Magic Ring
+117	Ring of Mana
+118	Necklace of Magic
+119	Necklace of Binding
+347	Ring Mail Breastplate
+348	Scale Mail
+349	Compound Scale Mail
+350	Dwarven Scale Mail
+351	Blast Plate
+352	Brigandine Tunic
+353	Half Plate Armor
+354	Chain Mail Shirt
+355	Dwarven Chain Mail Shirt
+356	Full Plate Armor
+357	Zubei's Breastplate
+358	Blue Wolf Breastplate
+359	Shining Dragon Armor
+360	Armor of Victory
+361	Breastplate of Valor
+362	Glorious Armor
+363	Red Flame Armor
+364	Elven Crystal Breastplate
+365	Dark Crystal Breastplate
+366	Implosion Armor
+367	Dark Dragon Armor
+368	Elven Vagian Armor
+369	Dark Vagian Armor
+370	Complete Set of Plate Armor
+371	Hell Plate
+372	Art of Plate
+373	Masterpiece Armor
+374	Armor of Nightmare
+375	Dragon Scale Mail
+376	Iron Plate Gaiters
+377	Scale Gaiters
+378	Compound Scale Gaiters
+379	Dwarven Scale Gaiters
+380	Plate Gaiters
+381	Chain Gaiters
+382	Dwarven Chain Gaiters
+383	Zubei's Gaiters
+384	Wolf Gaiters
+385	Gaiters of Victory
+386	Gaiters of Valor
+387	Elven Crystal Gaiters
+388	Dark Crystal Gaiters
+389	Dragon Scale Gaiters
+390	Cotton Shirt
+391	Puma Skin Shirt
+392	Lion Skin Shirt
+393	Mithril Banded Mail
+394	Reinforced Leather Shirt
+395	Manticore Skin Shirt
+396	Salamander Skin Mail
+397	Mithril Shirt
+398	Plated Leather
+399	Rind Leather Armor
+400	Theca Leather Armor
+401	Drake Leather Armor
+402	Chain Mail of Silence
+403	Gust Chain Mail
+404	Prairie Leather Armor
+405	Leather Armor of The Underworld
+406	Leather Suit of Concentration
+407	Ace's Leather Armor
+408	Guardian's Leather Armor
+409	Marksman's Leather Armor
+410	Unicorn Leather Armor
+411	Dragon Leather Armor
+412	Cotton Pants
+413	Puma Skin Gaiters
+414	Lion Skin Gaiters
+415	Mithril Banded Gaiters
+416	Reinforced Leather Gaiters
+417	Manticore Skin Gaiters
+418	Plated Leather Gaiters
+419	Rind Leather Gaiters
+420	Theca Leather Gaiters
+421	Prairie Leather Gaiters
+422	Gaiters of The Underworld
+423	Guardian's Leather Gaiters
+424	Marksman's Leather Gaiters
+425	Apprentice's Tunic
+426	Tunic
+427	Cotton Robe
+428	Feriotic Tunic
+429	Leather Tunic
+430	Robe of Devotion
+431	Robe of Magic
+432	Cursed Tunic
+433	Elven Tunic
+434	White Tunic
+435	Mystic's Tunic
+436	Tunic of Knowledge
+437	Mithril Tunic
+438	Sage's Rag
+439	Karmian Tunic
+440	Robe of Seal
+441	Demon's Tunic
+442	Divine Tunic
+443	Tunic of Mana
+444	Sage's Robe
+445	Paradia Tunic
+446	Inferno Tunic
+447	Tunic of Solar Eclipse
+448	Robe of Black Ore
+449	Tunic of Summoning
+450	Otherworldly Robe
+451	Elemental Tunic
+452	Tunic of Phantom
+453	Tunic of Grace
+454	Robe of Holy Spirit
+455	Phoenix Tunic
+456	Cerberus Tunic
+457	Tunic of Aid
+458	Robe of Blessing
+459	Dasparion's Robe
+460	The Robe
+461	Apprentice's Stockings
+462	Stockings
+463	Feriotic Stockings
+464	Leather Stockings
+465	Cursed Stockings
+466	Elven Stockings
+467	Dark Stockings
+468	Mystic's Stockings
+469	Stockings of Knowledge
+470	Mithril Stockings
+471	Karmian Stockings
+472	Demon's Stockings
+473	Divine Stockings
+474	Stockings of Mana
+475	Paradia Stockings
+476	Inferno Stockings
+477	Stockings of Solar Eclipse
+478	Stockings of Summoning
+479	Elemental Stockings
+480	Stockings of Phantom
+481	Stockings of Grace
+482	Phoenix Stockings
+483	Cerberus Stockings
+484	Stockings of Aid
+485	Tattoo of Power
+486	Tattoo of Fire
+487	Tattoo of Resolve
+488	Tattoo of Flame
+489	Tattoo of Bravery
+490	Tattoo of Blood
+491	Tattoo of Absolute
+492	Tattoo of Soul
+493	Tattoo of Avadon
+494	Tattoo of Doom
+495	Tattoo of Pledge
+496	Tattoo of Divine
+497	Chain Helmet
+498	Steel Plate Helmet
+499	Mithril Helmet
+500	Great Helmet
+501	Armet
+502	Close Helmet
+503	Zubei's Helmet
+504	Dragon Helmet
+505	Wolf Helmet
+506	Shining Dragon Helmet
+507	Helmet of Victory
+508	Helmet of Valor
+509	Glorious Helmet
+510	Red Flame Helmet
+511	Elven Crystal Helmet
+512	Dark Crystal Helmet
+513	Implosion Helmet
+514	Dark Dragon Helmet
+515	Elven Vagian Helm
+516	Dark Vagian Helm
+517	Composite Helmet
+518	Hell Helm
+519	Art of Helmet
+520	Masterpiece Helm
+521	Helmet of Silence
+522	Gust Helmet
+523	Prairie Helmet
+524	Helm of The Underworld
+525	Helmet of Concentration
+526	Ace's Helmet
+527	Guardian's Helmet
+528	Marksman Helmet
+529	Cap of Mana
+530	Sage's Cap
+531	Paradia Hood
+532	Inferno Hood
+533	Hood of Solar Eclipse
+534	Hood of Black Ore
+535	Hood of Summoning
+536	Otherworldly Hood
+537	Elemental Hood
+538	Hood of Phantom
+539	Hood of Grace
+540	Hood of Holy Spirit
+541	Phoenix Hood
+542	Cerberus Hood
+543	Hood of Aid
+544	Hood of Blessing
+545	Flame Helm
+546	Helm of Bravery
+547	Tallum Helm
+548	Absolute Helm
+549	Helm of Avadon
+550	Helm of Doom
+551	Helmet of Pledge
+552	Divine Helm
+553	Iron Boots
+554	Zubei's Boots
+555	Dragon Boots
+556	Wolf Boots
+557	Shining Dragon Boots
+558	Boots of Victory
+559	Boots of Valor
+560	Glorious Boots
+561	Red Flame Boots
+562	Elven Crystal Boots
+563	Dark Crystal Boots
+564	Implosion Boots
+565	Dark Dragon Boots
+566	Elven Vagian Boots
+567	Dark Vagian Boots
+568	Composite Boots
+569	Hell Boots
+570	Art of Boots
+571	Masterpiece Boots
+572	Boots of Silence
+573	Gust Boots
+574	Prairie Boots
+575	Boots of The Underworld
+576	Boots of Concentration
+577	Ace's Boots
+578	Guardian's Boots
+579	Marksman Boots
+580	Boots of Mana
+581	Sage's Boots
+582	Paradia Boots
+583	Majestic Boots
+584	Boots of Solar Eclipse
+585	Boots of Black Ore
+586	Boots of Summoning
+587	Otherworldly Boots
+588	Elemental Boots
+589	Boots of Phantom
+590	Boots of Grace
+591	Boots of Holy Spirit
+592	Phoenix Boots
+593	Cerberus Boots
+594	Boots of Aid
+595	Boots of Blessing
+596	Flame Boots
+597	Boots of Bravery
+598	Blood Boots
+599	Absolute Boots
+600	Avadon Boots
+601	Boots of Doom
+602	Boots of Pledge
+603	Divine Boots
+604	Crafted Leather Gloves
+605	Leather Gauntlets
+606	Rip Gauntlets
+607	Ogre Power Gauntlets
+608	Mithril Gauntlets
+609	Gauntlets of Ghost
+610	Saint Knight's Gauntlets
+611	Soul Leech Gauntlets
+612	Zubei's Gauntlets
+613	Sand Dragon Gloves
+614	Knight's Cloak
+615	Cobweb Cloak
+616	Cloak of Magic
+617	Mithril Cloak
+618	Cloak of Self Protection
+619	Ancient Cloak
+620	Cloak of Protection
+621	Cloak of Hell
+622	Holy Spirit's Cloak
+623	Divine Cloak
+624	Cloak of Invisibility
+675	Silk Yarn Undergarment Set
+676	Pure White Undergarment Set
+677	One-Piece Swimsuit
+678	Bikini Set
+679	Cursed Undergarment Set
+680	Mithril Undergarment Set
+681	Fascination Undergarment Set
+682	Demon's Undergarment Set
+683	Holy Undergarment Set
+684	Underwear of Rule
+685	Crystal Swimsuit Set
+845	Cat's Eye Earring
+846	Coral Earring
+847	Red Crescent Earring
+848	Enchanted Earring
+849	Tiger's Eye Earring
+850	Elven Earring
+851	Omen Beast's Eye Earring
+852	Moonstone Earring
+853	Earring of Protection
+854	Earring of Binding
+855	Nassen's Earring
+856	Adamantite Earring
+857	Blessed Earring
+858	Tateossian Earring
+859	Earring of Mana
+860	Sage's Earring
+861	Paradia Earring
+862	Majestic Earring
+863	Earring of Solar Eclipse
+864	Earring of Black Ore
+865	Earring of Summoning
+866	Otherworldly Earring
+867	Elemental Earring
+868	Earring of Phantom
+869	Earring of Grace
+870	Earring of Holy Spirit
+871	Phoenix Earring
+872	Cerberus Earring
+873	Earring of Aid
+874	Earring of Blessing
+875	Ring of Knowledge
+876	Ring of Anguish
+877	Ring of Wisdom
+878	Blue Coral Ring
+879	Enchanted Ring
+880	Black Pearl Ring
+881	Elven Ring
+882	Mithril Ring
+883	Aquastone Ring
+884	Ring of Protection
+885	Ring of Ages
+886	Ring of Binding
+887	Adamantite Ring
+888	Blessed Ring
+889	Tateossian Ring
+890	Ring of Devotion
+891	Sage's Ring
+892	Paradia Ring
+893	Majestic Ring
+894	Ring of Solar Eclipse
+895	Ring of Black Ore
+896	Ring of Summoning
+897	Otherworldly Ring
+898	Elemental Ring
+899	Ring of Phantom
+900	Ring of Grace
+901	Ring of Holy Spirit
+902	Phoenix Ring
+903	Cerberus Ring
+904	Ring of Aid
+905	Ring of Blessing
+906	Necklace of Knowledge
+907	Necklace of Anguish
+908	Necklace of Wisdom
+909	Blue Diamond Necklace
+910	Necklace of Devotion
+911	Enchanted Necklace
+912	Near Forest Necklace
+913	Elven Necklace
+914	Necklace of Darkness
+915	Aquastone Necklace
+916	Necklace of Protection
+917	Necklace of Mermaid
+918	Adamantite Necklace
+919	Blessed Necklace
+920	Tateossian Necklace
+921	Necklace of Mana
+922	Sage's Necklace
+923	Paradia Necklace
+924	Majestic Necklace
+925	Necklace of Solar Eclipse
+926	Necklace of Black Ore
+927	Necklace of Summoning
+928	Otherworldly Necklace
+929	Elemental Necklace
+930	Necklace of Phantom
+931	Necklace of Grace
+932	Necklace of Holy Spirit
+933	Phoenix Necklace
+934	Cerberus Necklace
+935	Necklace of Aid
+936	Necklace of Blessing
+990	Mandragora Essence
+991	Royen's Key
+992	Shilen's 1st Mark
+993	Shilen's 2nd Mark
+994	Eye of Abyss
+995	Wanted Poster
+996	Alex's Dagger
+997	Pinter's Bill
+998	Book of Aklantoth - Part 1
+999	Book of Aklantoth - Part 2
+1000	Book of Aklantoth - Part 3
+1100	Cotton Tunic
+1101	Tunic of Devotion
+1102	Tunic of Magic
+1103	Cotton Stockings
+1104	Stockings of Devotion
+1105	Stockings of Magic
+1119	Short Leather Gloves
+1120	Pa'agrian Hand
+1121	Apprentice's Shoes
+1122	Cotton Shoes
+1123	Blue Buckskin Boots
+1124	Boots of Power
+1125	Assault Boots
+1126	Crimson Boots
+1127	Forgotten Boots
+1128	Adamantite Boots
+1129	Crude Leather Shoes
+1146	Squire's Shirt
+1147	Squire's Pants
+1148	Hard Leather Helmet
+1149	Shining Circlet
+1308	Compound Scale Mail
+1309	Mithril Breastplate
+1310	Tunic of Magic
+1311	Puma Skin Shirt
+1312	White Tunic
+1313	Compound Scale Gaiters
+1314	Mithril Gaiters
+1315	Stockings of Magic
+1316	Puma Skin Gaiters
+1317	Dark Stockings
+1318	Gloves
+1319	Leather Gloves
+1320	Crafted Leather Gloves
+1321	Rip Gauntlets
+1322	Bracer
+1323	Leather Shoes
+1324	Low Boots
+1325	Leather Boots
+1326	Iron Boots
+1327	Boots
+1506	Necklace of Courage
+1507	Necklace of Valor
+1508	Ring of Raccoon
+1509	Ring of Firefly
+2376	Avadon Breastplate
+2377	Mithril Scale Gaiters
+2378	Brigandine Gaiters
+2379	Avadon Gaiters
+2380	Blue Wolf Gaiters
+2381	Doom Plate Armor
+2382	Tallum Plate Armor
+2383	Majestic Plate Armor
+2384	Zubei's Leather Shirt
+2385	Dark Crystal Leather Armor
+2386	Wooden Gaiters
+2387	Tempered Mithril Gaiters
+2388	Zubei's Leather Gaiters
+2389	Dark Crystal Leggings
+2390	Avadon Leather Armor
+2391	Blue Wolf Leather Armor
+2392	Leather Armor of Doom
+2393	Tallum Leather Armor
+2394	Nightmarish Leather Armor
+2395	Majestic Leather Armor
+2396	Elven Mithril Tunic
+2397	Tunic of Zubei
+2398	Blue Wolf Tunic
+2399	Tunic of Doom
+2400	Tallum Tunic
+2401	Elven Mithril Stockings
+2402	Stockings of Zubei
+2403	Blue Wolf Stockings
+2404	Stockings of Doom
+2405	Tallum Stockings
+2406	Avadon Robe
+2407	Dark Crystal Robe
+2408	Nightmare Robe
+2409	Majestic Robe
+2410	Nightmarish Tattoo
+2411	Brigandine Helmet
+2412	Plate Helmet
+2413	Chain Hood
+2414	Full Plate Helmet
+2415	Avadon Circlet
+2416	Blue Wolf Helmet
+2417	Doom Helmet
+2418	Helm of Nightmare
+2419	Majestic Circlet
+2420	Dragon Headgear
+2421	The Hood
+2422	Reinforced Leather Boots
+2423	Boots of Knowledge
+2424	Manticore Skin Boots
+2425	Brigandine Boots
+2426	Elven Mithril Boots
+2427	Salamander Skin Boots
+2428	Plate Boots
+2429	Chain Boots
+2430	Karmian Boots
+2431	Plated Leather Boots
+2432	Dwarven Chain Boots
+2433	Boots of Seal
+2434	Rind Leather Boots
+2435	Demon's Boots
+2436	Theca Leather Boots
+2437	Drake Leather Boots
+2438	Full Plate Boots
+2439	Blue Wolf Boots
+2440	Boots of Nightmare
+2441	Dark Legion Boots
+2442	Dasparion's Boots
+2443	Dragon Leather Boots
+2444	The Boots
+2445	Dragon Scale Boots
+2446	Reinforced Leather Gloves
+2447	Gloves of Knowledge
+2448	Manticore Skin Gloves
+2449	Brigandine Gauntlets
+2450	Elven Mithril Gloves
+2451	Sage's Worn Gloves
+2452	Reinforced Mithril Gloves
+2453	Chain Gloves
+2454	Karmian Gloves
+2455	Plated Leather Gloves
+2456	Dwarven Chain Gloves
+2457	Gloves of Seal
+2458	Rind Leather Gloves
+2459	Demon's Gloves
+2460	Theca Leather Gloves
+2461	Drake Leather Gloves
+2462	Full Plate Gauntlets
+2463	Divine Gloves
+2464	Avadon Gloves
+2465	Chain Gloves of Silence
+2466	Guardian's Gloves
+2467	Gloves of Blessing
+2468	Blessed Gloves
+2469	Gloves of The Underworld
+2470	Gloves of Phantom
+2471	Dark Legion Gloves
+2472	Dark Crystal Gloves
+2473	The Gloves
+2474	Dasparion's Gloves
+2475	Doom Gloves
+2476	Dragon Gauntlets
+2477	Dragon Leather Gloves
+2478	Tallum Gloves
+2479	Gauntlets of Nightmare
+2480	Elemental Gloves
+2481	Gloves of Grace
+2482	Majestic Gauntlets
+2483	Gust Bracer
+2484	Cerberus Gloves
+2485	Implosion Gauntlets
+2486	Paradia Gloves
+2487	Blue Wolf Gloves
+2488	Phoenix Gloves
+2489	Gloves of Black Ore
+2490	Cloak of Silence
+2491	Golden Yarn Cloak
+2492	Shadow Cloak
+2506	Wolf's Leather Armor
+3891	Wolf's Hide Armor
+3892	Wolf's Hard Leather Mail
+3893	Wolf's Wooden Armor
+3894	Wolf's Ring Mail
+3895	Wolf's Bone Armor
+3896	Wolf's Scale Male
+3897	Wof's Bronze Armor
+3898	Wolf's Plate Mail
+3899	Wolf's Steel Armor
+3900	Wolf's Luxury Plate
+3901	Wolf's Mithril Armor
+3912	Hatchling's Soft Leather
+3913	Hatchling's Scale Mail
+3914	Hatchling's Brigandine
+3915	Hatchling's Bronze Coat
+3916	Hatchling's Steel Coat
+3917	Hatchling's Shadowplate
+3918	Hatchling's Mithril Coat
+4224	Dream Armor
+4225	Dream Stockings
+4226	Dream Gloves
+4227	Dream Boots
+4228	Ubiquitous Armor
+4229	Ubiquitous Stockings
+4230	Ubiquitous Gloves
+4231	Ubiquitous Boots
+4234	Hatchling's Level 65 Armor
+4235	Hatchling's Level 75 Armor
+4236	Gara Item
+5170	Mithril Panzer Coat
+5171	Brigadine Panzer Coat
+5172	Draconic Panzer Coat
+5173	Blood Panzer Coat
+5174	Ophidian Panzer Coat
+5175	Inferno Panzer Coat
+5182	Hatchling's Gorgon Coat
+5183	Hatchling's Ophidian Plate
+5184	Hatchling's Crimson Plate
+5185	Hatchling's Draconic Plate
+5186	Hatchling's Inferno Plate
+5216	Wolf Level 75 Armor
+5287	Sealed Dark Crystal breastplate
+5288	Sealed Dark Crystal Gaiters
+5289	Sealed Dark Crystal Helmet
+5290	Sealed Dark Crystal Gloves
+5291	Sealed Dark Crystal Boots
+5293	Sealed Tallum Plate Armor
+5294	Sealed Tallum Helmet
+5295	Sealed Tallum Gloves
+5296	Sealed Tallum Boots
+5297	Sealed Dark Crystal Leather Armor
+5298	Sealed Dark Crystal Leggings
+5299	Sealed Gloves of The Underworld
+5300	Sealed Boots of The Underworld
+5301	Sealed Tallum Leather Armor
+5302	Sealed Gust Bracer
+5303	Sealed Gust Boots
+5304	Sealed Tallum Tunic
+5305	Sealed Tallum Stockings
+5306	Sealed Gloves of Black Ore
+5307	Sealed Red Flame Boots
+5308	Sealed Dark Crystal Robe
+5309	Sealed Phoenix Gloves
+5310	Sealed Phoenix Boots
+5311	Sealed Armor of Nightmare
+5312	Sealed Helm of Nightmare
+5313	Sealed Gauntlets of Nightmare
+5314	Sealed Boots of Nightmare
+5316	Sealed Majestic Plate Armor
+5317	Sealed Majestic Circlet
+5318	Sealed Majestic Gauntlets
+5319	Sealed Majestic Boots
+5320	Sealed Leather Armor of Nightmare
+5321	Sealed Dark Legion Gloves
+5322	Sealed Dark Legion Boots
+5323	Sealed Majestic Leather Armor
+5324	Sealed Gloves of Phantom
+5325	Sealed Boots of Phantom
+5326	Sealed Nightmare Robe
+5327	Sealed Cerberus Gloves
+5328	Sealed Cerberus Boots
+5329	Sealed Majestic Robe
+5330	Sealed Dasparion's Gloves
+5331	Sealed Dasparion's Boots
+5576	Sound Test Boots
+5590	Squeaking Shoes
+5709	Sealed Zubei's Gauntlets
+5710	Zubei's Gauntlets'
+5711	Zubei's Gauntlets'
+5712	Zubei's Gauntlets'
+5713	Sealed Avadon Gloves
+5714	Avadon Gloves'
+5715	Avadon Gloves'
+5716	Avadon Gloves'
+5717	Sealed Blue Wolf Gloves
+5718	Blue Wolf Gloves'
+5719	Blue Wolf Gloves'
+5720	Blue Wolf Gloves'
+5721	Sealed Doom Gloves
+5722	Doom Gloves'
+5723	Doom Gloves'
+5724	Doom Gloves'
+5725	Sealed Zubei's Boots
+5726	Zubei's Boots'
+5727	Zubei's Boots'
+5728	Zubei's Boots'
+5729	Sealed Avadon Boots
+5730	Avadon Boots'
+5731	Avadon Boots'
+5732	Avadon Boots'
+5733	Sealed Blue Wolf Boots
+5734	Blue Wolf Boots'
+5735	Blue Wolf Boots'
+5736	Blue Wolf Boots'
+5737	Sealed Boots of Doom
+5738	Doom Boots'
+5739	Doom Boots'
+5740	Doom Boots'
+5765	Dark Crystal Gloves'
+5766	Dark Crystal Gloves'
+5767	Dark Crystal Gloves'
+5768	Tallum Gloves'
+5769	Tallum Gloves'
+5770	Tallum Gloves'
+5771	Gauntlets of Nightmare'
+5772	Gauntlets of Nightmare'
+5773	Gauntlets of Nightmare'
+5774	Majestic Gauntlets'
+5775	Majestic Gauntlets'
+5776	Majestic Gauntlets'
+5777	Dark Crystal Boots'
+5778	Dark Crystal Boots'
+5779	Dark Crystal Boots'
+5780	Tallum Boots'
+5781	Tallum Boots'
+5782	Tallum Boots'
+5783	Boots of Nightmare'
+5784	Boots of Nightmare'
+5785	Boots of Nightmare'
+5786	Majestic Boots'
+5787	Majestic Boots'
+5788	Majestic Boots'
+5808	Party Mask
+6323	Sealed Phoenix Necklace
+6324	Sealed Phoenix Earring
+6325	Sealed Phoenix Ring
+6326	Sealed Majestic Necklace
+6327	Sealed Majestic Earring
+6328	Sealed Majestic Ring
+6373	Imperial Crusader Breastplate
+6374	Imperial Crusader Gaiters
+6375	Imperial Crusader Gauntlets
+6376	Imperial Crusader Boots
+6378	Imperial Crusader Helmet
+6379	Draconic Leather Armor
+6380	Draconic Leather Gloves
+6381	Draconic Leather Boots
+6382	Draconic Leather Helmet
+6383	Major Arcana Robe
+6384	Major Arcana Gloves
+6385	Major Arcana Boots
+6386	Major Arcana Circlet
+6394	Red Party Mask
+6408	Formal Wear
+6656	Earring of Antharas
+6657	Necklace of Valakas
+6658	Ring of Baium
+6659	Zaken's Earring
+6660	Ring of Queen Ant
+6661	Earring of Orfen
+6662	Ring of Core
+6674	Sealed Imperial Crusader Breastplate
+6675	Sealed Imperial Crusader Gaiters
+6676	Sealed Imperial Crusader Gauntlet
+6677	Sealed Imperial Crusader Boots
+6679	Sealed Imperial Crusader Helmet
+6680	Sealed Draconic Leather Armor
+6681	Sealed Draconic Leather Glove
+6682	Sealed Draconic Leather Boots
+6683	Sealed Draconic Leather Helmet
+6684	Sealed Major Arcana Robe
+6685	Sealed Major Arcana Glove
+6686	Sealed Major Arcana Boots
+6687	Sealed Major Arcana Circlet
+6724	Sealed Tateossian Earring
+6725	Sealed Tateossian Ring
+6726	Sealed Tateossian Necklace
+6834	Circlet of Innadril
+6835	Circlet of Dion
+6836	Circlet of Goddard
+6837	Circlet of Oren
+6838	Circlet of Gludio
+6839	Circlet of Giran
+6840	Circlet of Aden
+6841	The Lord's Crown
+6842	Wings of Destiny Circlet
+6843	Cat Ear
+6844	Lady's Hair Pin
+6845	Pirate's Eye Patch
+6846	Monocle
+7059	Golden Festival Mask
+7060	Tateossian Hairband
+7680	Raccoon Ears
+7681	Outlaw's Eyepatch
+7682	Maiden's Hairpin
+7683	Rabbit Ears
+7694	Noblesse Tiara
+7695	Forget-me-not Hairpin
+7696	Daisy Hairpin
+7836	Santa's Hat
+7837	Sayha's White Mask
+7838	Santa's Hat
+7839	Gran Kain's Black Mask
+7840	Rabbit Ears 
+7841	Racoon Ears 
+7842	Cat Ears 
+7843	Pirate's Eyepatch 
+7844	Monocle 
+7845	Outlaw's Eyepatch 
+7846	Lady's Hairpin 
+7847	Noblewoman's Hairpin 
+7848	Forget-me-not Hairpin 
+7849	Daisy Hairpin 
+7850	Clan Oath Helm
+7851	Clan Oath Armor
+7852	Clan Oath Gauntlets'
+7853	Clan Oath Sabaton'
+7854	Clan Oath Brigandine
+7855	Clan Oath Leather Gloves'
+7856	Clan Oath Boots'
+7857	Clan Oath Aketon
+7858	Clan Oath Padded Gloves'
+7859	Clan Oath Sandals'
+7860	Apella Helm
+7861	Apella Plate Armor
+7862	Apella Gauntlet'
+7863	Apella Solleret'
+7864	Apella Brigandine
+7865	Apella Leather Gloves'
+7866	Apella Boots'
+7867	Apella Doublet
+7868	Apella Silk Gloves'
+7869	Apella Sandals'
+7870	Sealed Apella Helm
+7871	Sealed Apella Plate Armor
+7872	Sealed Apella Gauntlet
+7873	Sealed Apella Solleret
+7874	Sealed Apella Brigandine
+7875	Sealed Apella Leather Gloves
+7876	Sealed Apella Boots
+7877	Sealed Apella Doublet
+7878	Sealed Apella Silk Gloves
+7879	Sealed Apella Sandals
+8177	Raid Challenger's Circlet
+8178	Raid Adventurer's Circlet
+8179	Raid Master's Circlet
+8180	Circlet of Ice Fairy Sirra
+8181	Academy Circlet
+8182	Circlet of Rune
+8183	Circlet of Schuttgart
+8184	Party Hat
+8185	Feathered Hat
+8186	Artisan's Goggles
+8187	Demon Horns
+8188	Little Angel Wings
+8189	Fairy Antennae
+8191	Frintezza's Necklace
+8541	Little Harness
+8552	Mask of Spirits
+8557	Blue Party Hat
+8558	Eva's Mark 
+8559	Diadem
+8560	Teddy Bear Hat
+8561	Piggy Hat
+8562	Jester Hat
+8563	Wizard Hat
+8564	Dapper Cap
+8565	Romantic Chapeau
+8566	Iron Circlet
+8567	Valakas Slayer Circlet
+8568	Antharas Slayer Circlet
+8569	Half Face Mask
+8660	Demon Horns
+8661	Mask of Spirits
+8662	Fairy Antennae 
+8910	Black Feather Mask 
+8911	Black Half-Mask 
+8912	Single Stem Flower
+8913	Butterfly Hairpin
+8914	Luxurious Gold Circlet
+8915	Luxurious Silver Circlet
+8916	Eye Patch
+8917	Goddess Circlet
+8918	Leather Cap
+8919	First Mate's Hat
+8920	Angel Halo
+8921	Demon Circlet
+8922	Pirate Hat
+8923	Scar
+8936	Santa's Antlers
+8947	L2 Day: Rabbit Ears
+8948	L2 Day: Little Angel Wings
+8949	L2 Day: Fairy Antennae
+8950	L2 Day: Feathered Hat
+8951	L2 Day: Artisan's Goggles
+9030	Shadow Item: Bronze Breastplate
+9031	Shadow Item: Bronze Gaiters
+9032	Shadow Item: Hard Leather Shirt
+9033	Shadow Item: Hard Leather Gaiters
+9034	Shadow Item: Tunic of Magic
+9035	Shadow Item: Stockings of Magic
+9037	Shadow Item: Hard Leather Helmet
+9038	Shadow Item: Boots
+9039	Shadow Item: Bracer
+9040	Shadow Item: Mithril Breastplate
+9041	Shadow Item: Mithril Gaiters
+9042	Shadow Item: Gauntlet
+9043	Shadow Item: Iron Boots
+9045	Shadow Item: Reinforced Leather Shirt
+9046	Shadow Item: Reinforced Leather Gaiters
+9047	Shadow Item: Reinforced Leather Gloves
+9048	Shadow Item: Reinforced Leather Boots
+9049	Shadow Item: Tunic of Knowledge
+9050	Shadow Item: Stockings of Knowledge
+9051	Shadow Item: Gloves of Knowledge
+9052	Shadow Item: Boots of Knowledge
+9053	Shadow Item: Helmet
+9054	Shadow Item: Composite Armor
+9055	Shadow Item: Composite Boots
+9057	Shadow Item: Composite Helmet
+9058	Shadow Item: Theca Leather Armor
+9059	Shadow Item: Theca Leather Gaiters
+9060	Shadow Item: Theca Leather Boots
+9061	Shadow Item: Theca Leather Gloves
+9062	Shadow Item: Demon's Tunic
+9063	Shadow Item: Demon's Stockings
+9064	Shadow Item: Demon's Boots
+9065	Shadow Item: Demon's Gloves
+9066	Shadow Item: Shining Circlet
+9067	Shadow Item: Zubei's Breastplate
+9068	Shadow Item: Zubei's Gaiters
+9069	Shadow Item: Zubei's Helmet
+9071	Shadow Item: Zubei's Gauntlet
+9072	Shadow Item: Zubei's Boots
+9073	Shadow Item: Zubei's Leather Shirt
+9074	Shadow Item: Zubei's Leather Gaiters
+9075	Shadow Item: Zubei's Gauntlet
+9076	Shadow Item: Zubei's Boots
+9077	Shadow Item: Tunic of Zubei
+9078	Shadow Item: Stockings of Zubei
+9079	Shadow Item: Zubei's Gauntlet
+9080	Shadow Item: Zubei's Boots
+9081	Shadow Item: Dark Crystal Breastplate
+9082	Shadow Item: Dark Crystal Gaiters
+9083	Shadow Item: Dark Crystal Helmet
+9085	Shadow Item: Dark Crystal Gloves
+9086	Shadow Item: Dark Crystal Boots
+9087	Shadow Item: Dark Crystal Leather Armor
+9088	Shadow Item: Dark Crystal Leggings
+9089	Shadow Item: Dark Crystal Gloves
+9090	Shadow Item: Dark Crystal Boots
+9091	Shadow Item: Dark Crystal Robe
+9092	Shadow Item: Dark Crystal Gloves
+9093	Shadow Item: Dark Crystal Boots
+9094	Shadow Item: Majestic Plate Armor
+9095	Shadow Item: Magestic Circlet
+9096	Shadow Item: Magestic Gauntlet
+9097	Shadow Item: Magestic Boots
+9098	Shadow Item: Majestic Leather Armor
+9099	Shadow Item: Magestic Gauntlet
+9100	Shadow Item: Magestic Boots
+9101	Shadow Item: Magestic Robe
+9102	Shadow Item: Magestic Gauntlet
+9103	Shadow Item: Magestic Boots
+9128	Shadow Item: Mithril Gauntlet
+9138	Santa's Hat
+9145	Little Angel Wings 
+9158	Golden Circlet of Redemption
+9159	Silver Circlet of Salvation
+9160	Pig Wrangler's Cap
+9161	Santa's Antlers[bad]
+9177	Teddy Bear Hat - Blessed Resurrection Effect
+9178	Piggy Hat - Blessed Resurrection Effect
+9179	Jester Hat - Blessed Resurrection Effect
+9180	Wizard Hat - Blessed Resurrection Effect
+9181	Dapper Cap - Blessed Resurrection Effect
+9182	Romantic Chapeau - Blessed Resurrection Effect
+9183	Iron Circlet - Blessed Resurrection Effect
+9184	Teddy Bear Hat - Blessed Escape Effect
+9185	Piggy Hat - Blessed Escape Effect
+9186	Jester Hat - Blessed Escape Effect
+9187	Wizard Hat - Blessed Escape Effect
+9188	Dapper Cap - Blessed Escape Effect
+9189	Romantic Chapeau - Blessed Escape Effect
+9190	Iron Circlet - Blessed Escape Effect
+9191	Teddy Bear Hat - Big Head
+9192	Piggy Hat - Big Head
+9193	Jester Hat - Big Head
+9194	Wizard Hat - Big Head
+9195	Dapper Hat - Big Head
+9196	Romantic Chapeau - Big Head
+9197	Iron Circlet - Big Head
+9198	Teddy Bear Hat - Firework
+9199	Piggy Hat - Firework
+9200	Jester Hat - Firework
+9201	Wizard Hat - Firework
+9202	Dapper Hat - Firework
+9203	Romantic Chapeau - Firework
+9204	Iron Circlet - Firework
+9208	Phantom Mask 
+9391	Human Circlet
+9392	Elven Circlet
+9393	Dark Elven Circlet
+9394	Orcish Circlet
+9395	Dwarven Circlet
+9396	Kamaelic Circlet
+9397	Shield Master Circlet
+9398	Bard Circlet
+9399	Force Master Circlet
+9400	Weapon Master Circlet
+9401	Dagger Master Circlet
+9402	Bow Master Circlet
+9403	Wizard Circlet
+9404	Summoner Circlet
+9405	Healer Circlet
+9406	Enchanter Circlet
+9407	Weapon Master Circlet 
+9408	Bow Master Circlet 
+9409	Black Phantom Mask 
+9410	Human Veteran's Circlet
+9411	Elven Veteran's Circlet
+9412	Dark Elven Veteran's Circlet
+9413	Orcish Veteran's Circlet
+9414	Dwarf Veteran's Circlet
+9415	Kamaelic Veteran's Circlet
+9416	Dynasty Breast Plate
+9417	Dynasty Breast Plate'
+9418	Dynasty Breast Plate'
+9419	Dynasty Breast Plate'
+9420	Dynasty Breast Plate'
+9421	Dynasty Gaiter
+9422	Dynasty Helmet
+9423	Dynasty Gauntlet'
+9424	Dynasty Boots'
+9425	Dynasty Leather Armor
+9426	Dynasty Leather Armor'
+9427	Dynasty Leather Armor'
+9428	Dynasty Leather Leggings
+9429	Dynasty Leather Helmet
+9430	Dynasty Leather Gloves'
+9431	Dynasty Leather Boots'
+9432	Dynasty Tunic
+9433	Dynasty Tunic'
+9434	Dynasty Tunic'
+9435	Dynasty Tunic'
+9436	Dynasty Tunic'
+9437	Dynasty Stockings
+9438	Dynasty Circlet
+9439	Dynasty Gloves'
+9440	Dynasty Shoes'
+9452	Sealed Dynasty Earring
+9453	Sealed Dynasty Necklace
+9454	Sealed Dynasty Ring
+9455	Dynasty Earrings
+9456	Dynasty Necklace
+9457	Dynasty Ring
+9458	Dynasty Earrings'
+9459	Dynasty Necklace'
+9460	Dynasty Ring'
+9461	Dynasty Earrings'
+9462	Dynasty Necklace'
+9463	Dynasty Ring'
+9464	Dynasty Earrings'
+9465	Dynasty Necklace'
+9466	Dynasty Ring'
+9467	Dynasty Earrings'
+9468	Dynasty Necklace'
+9469	Dynasty Ring'
+9470	Dynasty Earrings'
+9471	Dynasty Necklace'
+9472	Dynasty Ring'
+9473	Dynasty Earrings'
+9474	Dynasty Necklace'
+9475	Dynasty Ring'
+9476	Dynasty Earrings'
+9477	Dynasty Necklace'
+9478	Dynasty Ring'
+9479	Dynasty Earrings'
+9480	Dynasty Necklace'
+9481	Dynasty Ring'
+9514	Sealed Dynasty Breast Plate
+9515	Sealed Dynasty Gaiter
+9516	Sealed Dynasty Helmet
+9517	Sealed Dynasty Gauntlets
+9518	Sealed Dynasty Boots
+9519	Sealed Dynasty Leather Armor
+9520	Sealed Dynasty Leather Leggings
+9521	Sealed Dynasty Leather Helmet
+9522	Sealed Dynasty Leather Gloves
+9523	Sealed Dynasty Leather Boots
+9524	Sealed Dynasty Tunic
+9525	Sealed Dynasty Stockings
+9526	Sealed Dynasty Circlet
+9527	Sealed Dynasty Gloves
+9528	Sealed Dynasty Shoes
+9577	Cotton Shirt
+9578	Linen Shirt
+9579	Silk Shirt
+9580	Leather Shirt
+9581	Scale Shirt
+9582	Mithril Shirt
+9583	Striped Cotton Shirt
+9584	Striped Linen Shirt
+9585	Striped Silk Shirt
+9586	Striped Leather Shirt
+9587	Striped Scale Shirt
+9588	Striped Mithril Shirt
+9589	Iron Bracelet
+9590	Bronze Bracelet
+9591	Steel Bracelet
+9592	Mithril Bracelet
+9605	Agathion Seal Bracelet - Rainbow Clan Hall
+9606	Agathion Seal Bracelet - Wild Beast Reserve
+9607	Agathion Seal Bracelet - Gludio
+9608	Agathion Seal Bracelet - Dion
+9609	Agathion Seal Bracelet - Giran
+9610	Agathion Seal Bracelet - Oren
+9611	Agathion Seal Bracelet - Aden
+9612	Agathion Seal Bracelet - Innadril
+9613	Agathion Seal Bracelet - Goddard
+9614	Agathion Seal Bracelet - Rune
+9615	Agathion Seal Bracelet - Schuttgart
+9662	Great Wolf Scale Armor
+9663	Great Wolf Bronze Armor
+9664	Great Wolf Plate Armor
+9665	Great Wolf Mithril Armor
+9666	Great Wolf Oriharukon Armor
+9667	Great Wolf Orichalcum Armor
+9669	Native Helmet
+9670	Native Tunic
+9671	Native Pants
+9677	Ring of Wind Mastery
+9820	Shadow Item: Clan Oath Helm
+9821	Shadow Item: Clan Oath Armor
+9822	Shadow Item: Clan Oath Gauntlets'
+9823	Shadow Item: Clan Oath Sabaton'
+9824	Shadow Item: Clan Oath Brigandine
+9825	Shadow Item: Clan Oath Leather Gloves'
+9826	Shadow Item: Clan Oath Boots'
+9827	Shadow Item: Clan Oath Aketon
+9828	Shadow Item: Clan Oath Padded Gloves'
+9829	Shadow Item: Clan Oath Sandals'
+9830	Improved Apella Helm
+9831	Improved Apella Plate Armor
+9832	Improved Apella Gauntlet'
+9833	Improved Apella Solleret'
+9834	Improved Apella Brigandine
+9835	Improved Apella Leather Gloves'
+9836	Improved Apella Boots'
+9837	Improved Apella Doublet
+9838	Improved Apella Silk Gloves'
+9839	Improved Apella Sandals'
+9883	Teddy Bear Hat - Big Head
+9884	Piggy Hat - Big Head
+9885	Jester Hat - Big Head
+9886	Wizard Hat - Big Head
+9887	Dapper Hat - Big Head
+9888	Romantic Chapeau - Big Head
+9889	Iron Circlet - Big Head
+9890	Teddy Bear Hat - Firework
+9891	Piggy Hat - Firework
+9892	Jester Hat - Firework
+9893	Wizard Hat - Firework
+9894	Dapper Hat - Firework
+9895	Romantic Chapeau - Firework
+9896	Iron Circlet - Firework
+9899	Weight Loss Ring
+9900	Quiet Footsteps Ring
+9909	Agathion Seal Bracelet
+9913	Talisman_Test
+9914	Blue Talisman of Power
+9915	Blue Talisman of Wild Magic
+9916	Blue Talisman of Defense
+9917	Red Talisman of Minimum Clarity
+9918	Red Talisman of Maximum Clarity
+9919	Blue Talisman of Reflection
+9920	Blue Talisman of Invisibility
+9921	Blue Talisman - Shield Protection
+9922	Black Talisman - Mending
+9923	Black Talisman - Escape
+9924	Blue Talisman of Healing
+9925	Red Talisman of Recovery
+9926	Blue Talisman of Defense
+9927	Blue Talisman of Magic Defense
+9928	Red Talisman of Mental Regeneration
+9929	Blue Talisman of Protection
+9930	Blue Talisman of Evasion
+9931	Red Talisman of Meditation
+9932	Blue Talisman of Invincibility
+9933	Yellow Talisman of Power
+9934	Yellow Talisman of Violent Haste
+9935	Yellow Talisman of Arcane Defense
+9936	Yellow Talisman of Arcane Power
+9937	Yellow Talisman of Arcane Haste
+9938	Yellow Talisman of Accuracy
+9939	Yellow Talisman of Defense
+9940	Yellow Talisman of Alacrity
+9941	Yellow Talisman of Speed
+9942	Yellow Talisman of Critical Reduction
+9943	Yellow Talisman of Critical Power
+9944	Yellow Talisman of Critical Dodging
+9945	Yellow Talisman of Evasion
+9946	Yellow Talisman of Healing
+9947	Yellow Talisman of CP Regeneration
+9948	Yellow Talisman of Physical Regeneration
+9949	Yellow Talisman of Mental Regeneration
+9950	Grey Talisman of Weight Training
+9951	Grey Talisman of Mid-Grade Fishing
+9952	Orange Talisman - Hot Springs Recovery
+9953	Orange Talisman - Elixir of Life
+9954	Orange Talisman - Elixir of Mental Strength
+9955	Black Talisman of Vocalization
+9956	Black Talisman of Arcane Freedom
+9957	Black Talisman of Physical Freedom
+9958	Black Talisman of Rescue
+9959	Black Talisman of Free Speech
+9960	White Talisman of Bravery
+9961	White Talisman of Motion
+9962	White Talisman of Grounding
+9963	White Talisman of Attention
+9964	White Talisman of Bandages
+9965	White Talisman of Protection
+9966	White Talisman of Freedom
+10018	Agathion Seal Bracelet - Fortress
+10019	Ring Mail Breastplate
+10020	Iron Plate Gaiters
+10021	Puma Skin Shirt
+10022	Puma Skin Gaiters
+10023	Cursed Tunic
+10024	Cursed Stockings
+10122	Red Crescent Earring
+10123	Necklace of Devotion
+10124	Ring of Devotion
+10126	Dynasty Leather Armor'
+10127	Dynasty Leather Armor'
+10139	Agathion Bracelet
+10140	Blessed Ring of Escape
+10141	Grey Talisman - Yeti Transform
+10142	Grey Talisman - Buffalo Transform
+10158	Grey Talisman of Upper Grade Fishing
+10168	Dynasty Leather Armor'
+10169	Enchanter Circlet 
+10170	Baylor's Earring
+10175	Gobblin Circlet 
+10176	Half Face Mask 
+10177	Black Half-Mask 
+10207	Enhanced Striped Scale Shirt
+10208	Enhanced Striped Mithril Shirt
+10209	Enhanced Steel Bracelet
+10210	Enhanced Mithril Bracelet
+10211	Blessed Ring of Resurrection
+10214	Dynasty Leather Armor'
+10227	Dynasty Platinum Plate
+10228	Dynasty Platinum Plate'
+10229	Dynasty Platinum Plate'
+10230	Dynasty Platinum Plate'
+10231	Dynasty Platinum Plate'
+10232	Dynasty Jewel Leather Mail
+10233	Dynasty Jewel Leather Mail'
+10234	Dynasty Jewel Leather Mail'
+10235	Dynasty Silver Satin Tunic
+10236	Dynasty Silver Satin Tunic'
+10237	Dynasty Silver Satin Tunic'
+10238	Dynasty Silver Satin Tunic'
+10239	Dynasty Silver Satin Tunic'
+10240	Bird Nest
+10241	Purple Viking Circlet
+10242	Golden Viking Circlet
+10243	Panda Hat
+10244	White Sheep Hat
+10245	Black Sheep Hat
+10246	Frog Hat
+10247	Fish Hat
+10248	Straw Hat
+10249	Chicken Hat
+10250	Explorer Hat
+10251	Medieval Party Mask
+10273	Wolf Summoning Bracelet

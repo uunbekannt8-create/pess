@@ -1,0 +1,1642 @@
+1	Short Sword
+2	Long Sword
+3	Broadsword
+4	Club
+5	Mace
+6	Apprentice's Wand
+7	Apprentice's Rod
+8	Willow Staff
+9	Cedar Staff
+10	Dagger
+11	Bone Dagger
+12	Knife
+13	Short Bow
+14	Bow
+15	Short Spear
+16	Great Spear
+18	Leather Shield
+19	Small Shield
+20	Buckler
+66	Gladius
+67	Orcish Sword
+68	Falchion
+69	Bastard Sword
+70	Claymore
+71	Flamberge
+72	Stormbringer
+73	Shamshir
+74	Katana
+75	Caliburs
+76	Sword of Delusion
+77	Tsurugi
+78	Great Sword
+79	Sword of Damascus
+80	Tallum Blade
+81	Dragon Slayer
+82	God's Blade
+83	Sword of Magic
+84	Homunkulus's Sword
+85	Phantom Sword
+86	Tomahawk
+87	Iron Hammer
+88	Morning Star
+89	Big Hammer
+90	Goat Head Staff
+91	Heavy War Axe
+92	Sprite's Staff
+93	Winged Spear
+94	Bec de Corbin
+95	Poleaxe
+96	Scythe
+97	Lance
+98	Halberd
+99	Apprentice's Spellbook
+100	Voodoo Doll
+101	Scroll of Wisdom
+102	Round Shield
+103	Tower Shield
+104	Shield of Victory
+105	Implosion Shield
+106	Dark Dragon Shield
+107	Composite Shield
+108	Masterpiece Shield
+109	Shield of Solar Eclipse
+110	Doom Shield
+111	Shield of Pledge
+120	Sword of Reflection
+121	Sword of Watershadow
+122	Handmade Sword
+123	Saber
+124	Two-Handed Sword
+125	Spinebone Sword
+126	Artisan's Sword
+127	Crimson Sword
+128	Knight's Sword
+129	Sword of Revolution
+130	Elven Sword
+131	Spirit Sword
+132	Sword of Limit
+133	Raid Sword
+134	Sword of Nightmare
+135	Samurai Longsword
+136	Blade of Serenity
+137	Mist Sword
+138	Sword of Desert
+139	Dusk Sword
+140	Eminence Sword
+141	Hazard Sword
+142	Keshanberk
+143	Sword of Mystic
+144	Sword of Occult
+145	Sword of Whispering Death
+146	Ghoulbane
+147	Tear of Darkness
+148	Sword of Valhalla
+149	Sword of Life
+150	Elemental Sword
+151	Sword of Miracles
+152	Heavy Chisel
+153	Sickle
+154	Dwarven Mace
+155	Flanged Mace
+156	Hand Axe
+157	Spiked Club
+158	Tarbar
+159	Bonebreaker
+160	Battle Axe
+161	Silver Axe
+162	War Axe
+163	_
+164	Elysian
+165	Yablonski's Hammer
+166	Heavy Mace
+167	Scalpel
+168	Work Hammer
+169	Skull Breaker
+170	_
+171	Deadman's Glory
+172	Heavy Bone Club
+173	Skull Graver
+174	Nirvana Axe
+175	Art of Battle Axe
+176	Journeyman's Staff
+177	Mage Staff
+178	Bone Staff
+179	Mace of Prayer
+180	Mace of Judgment
+181	Mace of Miracle
+182	Doom Hammer
+183	Mystic Staff
+184	Conjuror's Staff
+185	Staff of Mana
+186	Staff of Magic
+187	Atuba Hammer
+188	Ghost Staff
+189	Staff of Life
+190	Atuba Mace
+191	Heavy Doom Hammer
+192	Crystal Staff
+193	Stick of Faith
+194	Heavy Doom Axe
+195	Cursed Staff
+196	Stick of Eternity
+197	Paradia Staff
+198	Inferno Staff
+199	Pa'agrian Hammer
+200	Sage's Staff
+201	Club of Nature
+202	Mace of The Underworld
+203	Pa'agrian Axe
+204	Deadman's Staff
+205	Ghoul's Staff
+206	Demon's Staff
+207	Staff of Phantom
+208	Staff of Seal
+209	Divine Staff
+210	Staff of Evil Spirits
+211	Staff of Nobility
+212	Dasparion's Staff
+213	Branch of The Mother Tree
+214	The Staff
+215	Doom Dagger
+216	Dirk
+217	Shining Knife
+218	Throwing Knife
+219	Sword Breaker
+220	Crafted Dagger
+221	Assassin Knife
+222	Poniard Dagger
+223	Kukuri
+224	Maingauche
+225	Mithril Dagger
+226	Cursed Dagger
+227	Stiletto
+228	Crystal Dagger
+229	Kris
+230	Wolverine Needle
+231	Grace Dagger
+232	Dark Elven Dagger
+233	Dark Screamer
+234	Demon Dagger
+235	Bloody Orchid
+236	Soul Separator
+237	Dragon's Tooth
+238	Dagger of Mana
+239	Mystic Knife
+240	Conjurer's Knife
+241	Shilen Knife
+242	Soulfire Dirk
+243	Hell Knife
+244	Elven Fighter Fist
+245	Dark Fighter Fist
+246	Human Fighter Fist
+247	Dwarven Fighter Fist
+248	Orc Fighter Fist
+249	Elven Mystic Fist
+250	Dark Mystic Fist
+251	Human Mystic Fist
+252	Orc Shaman Fist
+253	Spiked Gloves
+254	Iron Gloves
+255	Fox Claw Gloves
+256	Cestus
+257	Viper Fang
+258	Bagh-Nakh
+259	Single-Edged Jamadhr
+260	Triple-Edged Jamadhr
+261	Bich'Hwa
+262	Scallop Jamadhr
+263	Chakram
+264	Pata
+265	Fisted Blade
+266	Great Pata
+267	Arthro Nail
+268	Bellion Cestus
+269	Blood Tornado
+270	Dragon Grinder
+271	Hunting Bow
+272	Forest Bow
+273	Composite Bow
+274	Strengthened Bow
+275	Long Bow
+276	Elven Bow
+277	Dark Elven Bow
+278	Gastraphetes
+279	Strengthened Long Bow
+280	Light Crossbow
+281	Crystallized Ice Bow
+282	Elemental Bow
+283	Akat Long Bow
+284	Dark Elven Long Bow
+285	Noble Elven Bow
+286	Eminence Bow
+287	Bow of Peril
+288	Carnage Bow
+289	Soul Bow
+290	The Bow
+291	Trident
+292	Pike
+293	War Hammer
+294	War Pick
+295	Dwarven Trident
+296	Dwarven Pike
+297	Glaive
+298	Orcish Glaive
+299	Orcish Poleaxe
+300	Great Axe
+301	Scorpion
+302	Body Slasher
+303	Widow Maker
+304	Orcish Halberd
+305	Tallum Glaive
+306	Dragon Claw Axe
+307	Aurakyria Lance
+308	Buffalo's Horn
+309	Tears of Eva
+310	Relic of The Saints
+311	Crucifix of Blessing
+312	Branch of Life
+313	Temptation of Abyss
+314	Proof of Revenge
+315	Divine Tome
+316	Blood of Saints
+317	Tome of Blood
+318	Crucifix of Blood
+319	Eye of Infinity
+320	Blue Crystal Skull
+321	Demon Fangs
+322	Vajra Wands
+323	Ancient Reagent
+324	Tears of Fairy
+325	Horn of Glory
+326	Heathen's Book
+327	Hex Doll
+328	Candle of Wisdom
+329	Blessed Branch
+330	Phoenix Feather
+331	Cerberus Eye
+332	Scroll of Destruction
+333	Claws of Black Dragon
+334	Three Eyed Crow's Feather
+335	Soul Crystal
+336	Scroll of Mana
+337	Scroll of Massacre
+338	Wyvern's Skull
+339	Blood Crystal
+340	Unicorn's Horn
+341	Forgotten Tome
+342	Enchanted Flute
+343	Headless Arrow
+344	Proof of Overlord
+345	Deathbringer Sword
+346	Tears of Fallen Angel
+625	Bone Shield
+626	Bronze Shield
+627	Aspis
+628	Hoplon
+629	Kite Shield
+630	Square Shield
+631	Eldarake
+632	Knight's Shield
+633	Zubei's Shield
+634	Dragon Shield
+635	Wolf Shield
+636	Shining Dragon Shield
+637	Shield of Valor
+638	Glorious Shield
+639	Red Flame Shield
+640	Elven Crystal Shield
+641	Dark Crystal Shield
+642	Elven Vagian Shield
+643	Dark Vagian Shield
+644	Hell Shield
+645	Art of Shield
+646	Shield of Silence
+647	Gust Shield
+648	Prairie Shield
+649	Shield of The Underworld
+650	Shield of Concentration
+651	Ace's Shield
+652	Guardian's Shield
+653	Marksman Shield
+654	Shield of Mana
+655	Sage's Shield
+656	Paradia Shield
+657	Inferno Shield
+658	Shield of Black Ore
+659	Shield of Summoning
+660	Otherworldly Shield
+661	Elemental Shield
+662	Shield of Phantom
+663	Shield of Grace
+664	Shield of Holy Spirit
+665	Phoenix Shield
+666	Cerberus Shield
+667	Shield of Aid
+668	Shield of Blessing
+669	Flame Shield
+670	Shield of Bravery
+671	Blood Shield
+672	Absolute Shield
+673	Avadon Shield
+674	Divine Shield
+738	Sword of Solidarity
+743	Sword of Sentinel
+744	Staff of Sentinel
+747	Wand of Adept
+748	Gallint's Oak Wand
+749	0
+754	Red Sunset Staff
+945	Skeleton Buckler
+946	Skeleton Dagger
+975	Blood Saber
+981	Red Sunset Sword
+989	Eldritch Dagger
+1142	Rusted Bronze Sword
+1181	Neti's Bow
+1182	Neti's Dagger
+1213	Guard's Bow
+1295	Long Sword
+1296	Gladius
+1297	Bastard Sword
+1298	Caliburs
+1299	Great Sword
+1300	Apprentice's Rod
+1301	Big Hammer
+1302	Bec de Corbin
+1303	Lance
+1304	Conjuror's Staff
+1305	Knife
+1306	Crafted Dagger
+1307	Bow
+1328	Shield of Grace
+1329	Shield of Victory
+1330	Zubei's Shield
+1331	Otherworldly Shield
+1332	Knight's Shield
+1333	Brandish
+1376	Guard Spear
+1471	Silenos Blowgun
+1472	Dreadbane
+1510	Butcher's Sword
+1511	Silversmith Hammer
+1660	Cursed Maingauche
+2368	Training Gloves
+2369	Squire's Sword
+2370	Guild Member's Club
+2371	Fist of Butcher
+2372	Dagger of Adept
+2373	Eldritch Staff
+2374	Red Sunset Dagger
+2493	Brigandine Shield
+2494	Plate Shield
+2495	Chain Shield
+2496	Dwarven Chain Shield
+2497	Full Plate Shield
+2498	Shield of Nightmare
+2499	Elven Long Sword
+2500	Dark Legion's Edge
+2501	Bone Club
+2502	Dwarven War Hammer
+2503	Yaksa Mace
+2504	Meteor Shower
+2505	Iron Canine
+2507	Lizardspear
+2516	Saber*Saber
+2517	Saber*Bastard Sword
+2518	Saber*Spinebone Sword
+2519	Saber*Artisan's Sword
+2520	Saber*Knight's Sword
+2521	Saber*Crimson Sword
+2522	Saber*Elven Sword
+2523	Saber*Sword of Revolution
+2524	Saber*Elven Long Sword
+2525	Bastard Sword*Bastard Sword
+2526	Bastard Sword*Spinebone Sword
+2527	Bastard Sword*Artisan's Sword
+2528	Bastard Sword*Knight's Sword
+2529	Bastard Sword*Crimson Sword
+2530	Bastard Sword*Elven Sword
+2531	Bastard Sword*Sword of Revolution
+2532	Bastard Sword*Elven Long Sword
+2533	Spinebone Sword*Spinebone Sword
+2534	Spinebone Sword*Artisan's Sword
+2535	Spinebone Sword*Knight's Sword
+2536	Spinebone Sword*Crimson Sword
+2537	Spinebone Sword*Elven Sword
+2538	Spinebone Sword*Sword of Revolution
+2539	Spinebone Sword*Elven Long Sword
+2540	Artisan's Sword*Artisan's Sword
+2541	Artisan's Sword*Knight's Sword
+2542	Artisan's Sword*Crimson Sword
+2543	Artisan's Sword*Elven Sword
+2544	Artisan's Sword*Sword of Revolution
+2545	Artisan's Sword*Elven Long Sword
+2546	Knight's Sword*Knight's Sword
+2547	Knight's Sword*Crimson Sword
+2548	Knight's Sword*Elven Sword
+2549	Knight's Sword*Sword of Revolution
+2550	Knight's Sword*Elven Long Sword
+2551	Crimson Sword*Crimson Sword
+2552	Crimson Sword*Elven Sword
+2553	Crimson Sword*Sword of Revolution
+2554	Crimson Sword*Elven Long Sword
+2555	Elven Sword*Elven Sword
+2556	Elven Sword*Sword of Revolution
+2557	Elven Sword*Elven Long Sword
+2558	Sword of Revolution*Sword of Revolution
+2559	Sword of Revolution*Elven Long Sword
+2560	Elven Long Sword*Elven Long Sword
+2561	Stormbringer*Stormbringer
+2562	Stormbringer*Shamshir
+2563	Stormbringer*Katana
+2564	Stormbringer*Spirit Sword
+2565	Stormbringer*Raid Sword
+2566	Stormbringer*Caliburs
+2567	Stormbringer*Sword of Limit
+2568	Stormbringer*Sword of Delusion
+2569	Stormbringer*Sword of Nightmare
+2570	Stormbringer*Tsurugi
+2571	Stormbringer*Samurai Long sword
+2572	Shamshir*Shamshir
+2573	Shamshir*Katana
+2574	Shamshir*Spirit Sword
+2575	Shamshir*Raid Sword
+2576	Shamshir*Caliburs
+2577	Shamshir*Sword of Limit
+2578	Shamshir*Sword of Delusion
+2579	Shamshir*Sword of Nightmare
+2580	Shamshir*Tsurugi
+2581	Shamshir*Samurai Long Sword
+2582	Katana*Katana
+2583	Katana*Spirit Sword
+2584	Katana*Raid Sword
+2585	Katana*Caliburs
+2586	Katana*Sword of Limit
+2587	Katana*Sword of Delusion
+2588	Katana*Sword of Nightmare
+2589	Katana*Tsurugi
+2590	Katana*Samurai Long Sword
+2591	Spirit Sword*Spirit Sword
+2592	Spirit Sword*Raid Sword
+2593	Spirit Sword*Caliburs
+2594	Spirit Sword*Sword of Limit
+2595	Spirit Sword*Sword of Delusion
+2596	Spirit Sword*Sword of Nightmare
+2597	Spirit Sword*Tsurugi
+2598	Spirit Sword*Samurai Long Sword
+2599	Raid Sword*Raid Sword
+2600	Raid Sword*Caliburs
+2601	Raid Sword*Sword of Limit
+2602	Raid Sword*Sword of Delusion
+2603	Raid Sword*Sword of Nightmare
+2604	Raid Sword*Tsurugi
+2605	Raid Sword*Samurai Long Sword
+2606	Caliburs*Caliburs
+2607	Caliburs*Sword of Limit
+2608	Caliburs*Sword of Delusion
+2609	Caliburs*Sword of Nightmare
+2610	Caliburs*Tsurugi
+2611	Caliburs*Samurai Long Sword
+2612	Sword of Limit*Sword of Limit
+2613	Sword of Limit*Sword of Delusion
+2614	Sword of Limit*Sword of Nightmare
+2615	Sword of Limit*Tsurugi
+2616	Sword of Limit*Samurai Long Sword
+2617	Sword of Delusion*Sword of Delusion
+2618	Sword of Delusion*Sword of Nightmare
+2619	Sword of Delusion*Tsurugi
+2620	Sword of Delusion*Samurai Long Sword
+2621	Sword of Nightmare*Sword of Nightmare
+2622	Sword of Nightmare*Tsurugi
+2623	Sword of Nightmare*Samurai Long Sword
+2624	Tsurugi*Tsurugi
+2625	Tsurugi*Samurai Long Sword
+2626	Samurai Long Sword*Samurai Long Sword
+2915	Old Knight Sword
+3026	Talins Spear
+3027	Old Knight's Sword
+3028	Crescent Moon Bow
+3029	Sword of Binding
+3439	Shining Canine
+3471	Cybellin's Dagger
+3902	Ghost Canine
+3903	Mithril Canine
+3904	Sylvan Canine
+3905	Orikarukon Canine
+3906	Fang of Saltydog
+3907	Fang of Cerberus
+3908	Fang of Coyote
+3909	Crystalized Ice Canine
+3910	Fang of The Blue Wolf
+3911	Fang of Fenril
+3919	Serpent Fang
+3920	Viperbite
+3921	Shadow Fang
+3922	Alya Fang
+3923	Torturer
+3924	Unuk Alhay Fang
+3925	Antiplague
+3937	Giant Bar
+3938	Giant Rod
+3939	Lady's Fan
+4027	Bouquet
+4028	Giant Cannon
+4202	Chrono Cithara
+4219	Dream Sword
+4220	Dream Knife
+4221	Ubiquitous Axe
+4222	Dream Shield
+4223	Ubiquitous Shield
+4233	Knuckle Duster
+4237	Hatchling's Level 65 Weapon
+4238	Hatchling's Level 75 Weapon
+4665	Pipette Knife
+4681	Stormbringer'
+4682	Stormbringer'
+4683	Stormbringer'
+4684	Shamshir'
+4685	Shamshir'
+4686	Shamshir'
+4687	Katana'
+4688	Katana'
+4689	Katana'
+4690	Spirit Sword'
+4691	Spirit Sword'
+4692	Spirit Sword'
+4693	Raid Sword'
+4694	Raid Sword'
+4695	Raid Sword'
+4696	Caliburs'
+4697	Caliburs'
+4698	Caliburs'
+4699	Sword of Delusion'
+4700	Sword of Delusion'
+4701	Sword of Delusion'
+4702	Tsurugi'
+4703	Tsurugi'
+4704	Tsurugi'
+4705	Sword of Nightmare'
+4706	Sword of Nightmare'
+4707	Sword of Nightmare'
+4708	Samurai Longsword'
+4709	Samurai Longsword'
+4710	Samurai Longsword'
+4711	Flamberge'
+4712	Flamberge'
+4713	Flamberge'
+4714	Keshanberk'
+4715	Keshanberk'
+4716	Keshanberk'
+4717	Sword of Damascus'
+4718	Sword of Damascus'
+4719	Sword of Damascus'
+4720	Tallum Blade'
+4721	Tallum Blade'
+4722	Tallum Blade'
+4723	Great Sword'
+4724	Great Sword'
+4725	Great Sword'
+4726	Big Hammer'
+4727	Big Hammer'
+4728	Big Hammer'
+4729	Battle Axe'
+4730	Battle Axe'
+4731	Battle Axe'
+4732	Silver Axe'
+4733	Silver Axe'
+4734	Silver Axe'
+4735	Skull Graver'
+4736	Skull Graver'
+4737	Skull Graver'
+4738	Dwarven War Hammer'
+4739	Dwarven War Hammer'
+4740	Dwarven War Hammer'
+4741	War Axe'
+4742	War Axe'
+4743	War Axe'
+4744	Yaksa Mace'
+4745	Yaksa Mace'
+4746	Yaksa Mace'
+4747	Heavy War Axe'
+4748	Heavy War Axe'
+4749	Heavy War Axe'
+4750	Deadman's Glory'
+4751	Deadman's Glory'
+4752	Deadman's Glory'
+4753	Art of Battle Axe'
+4754	Art of Battle Axe'
+4755	Art of Battle Axe'
+4756	Meteor Shower'
+4757	Meteor Shower'
+4758	Meteor Shower'
+4759	Cursed Dagger'
+4760	Cursed Dagger'
+4761	Cursed Dagger'
+4762	Dark Elven Dagger'
+4763	Dark Elven Dagger'
+4764	Dark Elven Dagger'
+4765	Stiletto'
+4766	Stiletto'
+4767	Stiletto'
+4768	Grace Dagger'
+4769	Grace Dagger'
+4770	Grace Dagger'
+4771	Dark Screamer'
+4772	Dark Screamer'
+4773	Dark Screamer'
+4774	Crystal Dagger'
+4775	Crystal Dagger'
+4776	Crystal Dagger'
+4777	Kris'
+4778	Kris'
+4779	Kris'
+4780	Demon Dagger'
+4781	Demon Dagger'
+4782	Demon Dagger'
+4783	Bloody Orchid'
+4784	Bloody Orchid'
+4785	Bloody Orchid'
+4786	Hell Knife'
+4787	Hell Knife'
+4788	Hell Knife'
+4789	Chakram'
+4790	Chakram'
+4791	Chakram'
+4792	Fisted Blade'
+4793	Fisted Blade'
+4794	Fisted Blade'
+4795	Great Pata'
+4796	Great Pata'
+4797	Great Pata'
+4798	Knuckle Duster'
+4799	Knuckle Duster'
+4800	Knuckle Duster'
+4801	Arthro Nail'
+4802	Arthro Nail'
+4803	Arthro Nail'
+4804	Bellion Cestus'
+4805	Bellion Cestus'
+4806	Bellion Cestus'
+4807	Blood Tornado'
+4808	Blood Tornado'
+4809	Blood Tornado'
+4810	Crystallized Ice Bow'
+4811	Crystallized Ice Bow'
+4812	Crystallized Ice Bow'
+4813	Elemental Bow'
+4814	Elemental Bow'
+4815	Elemental Bow'
+4816	Elven Bow of Nobility'
+4817	Elven Bow of Nobility'
+4818	Elven Bow of Nobility'
+4819	Akat Long Bow'
+4820	Akat Long Bow'
+4821	Akat Long Bow'
+4822	Eminence Bow'
+4823	Eminence Bow'
+4824	Eminence Bow'
+4825	Dark Elven Long Bow'
+4826	Dark Elven Long Bow'
+4827	Dark Elven Long Bow'
+4828	Bow of Peril'
+4829	Bow of Peril'
+4830	Bow of Peril'
+4831	Carnage Bow'
+4832	Carnage Bow'
+4833	Carnage Bow'
+4834	Scythe'
+4835	Scythe'
+4836	Scythe'
+4837	Orcish Glaive'
+4838	Orcish Glaive'
+4839	Orcish Glaive'
+4840	Body Slasher'
+4841	Body Slasher'
+4842	Body Slasher'
+4843	Bec de Corbin'
+4844	Bec de Corbin'
+4845	Bec de Corbin'
+4846	Scorpion'
+4847	Scorpion'
+4848	Scorpion'
+4849	Widow Maker'
+4850	Widow Maker'
+4851	Widow Maker'
+4852	Orcish Poleaxe'
+4853	Orcish Poleaxe'
+4854	Orcish Poleaxe'
+4855	Great Axe'
+4856	Great Axe'
+4857	Great Axe'
+4858	Lance'
+4859	Lance'
+4860	Lance'
+4861	Halberd'
+4862	Halberd'
+4863	Halberd'
+4864	Heavy Doom Hammer'
+4865	Heavy Doom Hammer'
+4866	Heavy Doom Hammer'
+4867	Crystal Staff'
+4868	Crystal Staff'
+4869	Crystal Staff'
+4870	Heavy Doom Axe'
+4871	Heavy Doom Axe'
+4872	Heavy Doom Axe'
+4873	Cursed Staff'
+4874	Cursed Staff'
+4875	Cursed Staff'
+4876	Paradia Staff'
+4877	Paradia Staff'
+4878	Paradia Staff'
+4879	Pa'agrian Hammer'
+4880	Pa'agrian Hammer'
+4881	Pa'agrian Hammer'
+4882	Sage's Staff'
+4883	Sage's Staff'
+4884	Sage's Staff'
+4885	Pa'agrian Axe'
+4886	Pa'agrian Axe'
+4887	Pa'agrian Axe'
+4888	Deadman's Staff'
+4889	Deadman's Staff'
+4890	Deadman's Staff'
+4891	Ghoul's Staff'
+4892	Ghoul's Staff'
+4893	Ghoul's Staff'
+4894	Demon's Staff'
+4895	Demon's Staff'
+4896	Demon's Staff'
+4897	Sprite's Staff'
+4898	Sprite's Staff'
+4899	Sprite's Staff'
+4900	Staff of Evil Spirits'
+4901	Staff of Evil Spirits'
+4902	Staff of Evil Spirits'
+4903	Dasparion's Staff
+4904	Dasparion's Staff
+4905	Dasparion's Staff
+5127	Dailaon Knife
+5128	Crokian Blade
+5129	Doll Knife
+5130	Nos Sword
+5131	Parhit Staff
+5132	Giant Trident
+5133	Chrono Unitus
+5176	Serpentine Spike
+5177	Drake Horn
+5178	Assult Alicorn
+5179	Draconic Slicer
+5180	Ohpdian Lance
+5181	Diamond Drill
+5187	Serpentine Grinder
+5188	Fang of Dahak
+5189	Crimson Blood Fang
+5190	Draconic Chopper
+5191	Diabolic Grinder
+5217	Wolf Level 75 Weapon
+5233	Keshanberk*Keshanberk
+5284	Zweihander
+5285	Heavy Sword
+5286	Berserker Blade
+5292	Sealed Dark Crystal Shield
+5315	Sealed Shield of Nightmare
+5596	Dasparion's Staff'
+5597	Dasparion's Staff'
+5598	Dasparion's Staff'
+5599	Meteor Shower'
+5600	Meteor Shower'
+5601	Meteor Shower'
+5602	Elysian'
+5603	Elysian'
+5604	Elysian'
+5605	Branch of The Mother Tree'
+5606	Branch of The Mother Tree'
+5607	Branch of The Mother Tree'
+5608	Carnage Bow'
+5609	Carnage Bow'
+5610	Carnage Bow'
+5611	Soul Bow'
+5612	Soul Bow'
+5613	Soul Bow'
+5614	Bloody Orchid'
+5615	Bloody Orchid'
+5616	Bloody Orchid'
+5617	Soul Separator'
+5618	Soul Separator'
+5619	Soul Separator'
+5620	Blood Tornado'
+5621	Blood Tornado'
+5622	Blood Tornado'
+5623	Dragon Grinder'
+5624	Dragon Grinder'
+5625	Dragon Grinder'
+5626	Halberd'
+5627	Halberd'
+5628	Halberd'
+5629	Orcish Halberd
+5630	Orcish Halberd
+5631	Orcish Halberd
+5632	Tallum Glaive'
+5633	Tallum Glaive'
+5634	Tallum Glaive'
+5635	Tallum Blade'
+5636	Tallum Blade'
+5637	Tallum Blade'
+5638	Elemental Sword'
+5639	Elemental Sword'
+5640	Elemental Sword'
+5641	Sword of Miracles'
+5642	Sword of Miracles'
+5643	Sword of Miracles'
+5644	Dragon Slayer'
+5645	Dragon Slayer'
+5646	Dragon Slayer'
+5647	Dark Legion's Edge'
+5648	Dark Legion's Edge'
+5649	Dark Legion's Edge'
+5704	Keshanberk*Keshanberk
+5705	Keshanberk*Damascus
+5706	Damascus*Damascus
+5791	Tomb Guard A
+5792	Tomb Guard B
+5793	Tomb Savant A
+5794	Tomb Savant B
+5795	Tomb Guard A
+5796	Tomb Guard B
+5797	Tomb Savant A
+5798	Tomb Savant B
+5799	Nephilim Lord
+5800	Nephilim Lord
+5801	Dusk
+5802	Dawn
+5817	Chrono Campana
+6307	Sword of Limit'
+6308	Sword of Limit'
+6309	Sword of Limit'
+6310	Sword of Whispering Death'
+6311	Sword of Whispering Death'
+6312	Sword of Whispering Death'
+6313	Homunkulus's Sword'
+6314	Homunkulus's Sword'
+6315	Homunkulus's Sword'
+6347	Berserker Blade'
+6348	Berserker Blade'
+6349	Berserker Blade'
+6354	Falchion - for Beginners
+6355	Mage Staff - for Beginners
+6356	Dark Elven Dagger'
+6357	Stiletto'
+6358	Crystal Dagger'
+6359	Demon Dagger'
+6364	Forgotten Blade
+6365	Basalt Battlehammer
+6366	Imperial Staff
+6367	Angel Slayer
+6368	Shining Bow
+6369	Dragon Hunter Axe
+6370	Saint Spear
+6371	Demon Splinter
+6372	Heaven's Divider
+6377	Imperial Crusader Shield
+6529	Baby Duck Rod
+6530	Albatross Rod
+6531	Pelican Rod
+6532	KingFisher Rod
+6533	Cygnus Pole
+6534	Triton Pole
+6579	Arcana Mace
+6580	Tallum Blade*Dark Legion's Edge
+6581	Forgotten Blade'
+6582	Forgotten Blade'
+6583	Forgotten Blade'
+6584	Basalt Battlehammer'
+6585	Basalt Battlehammer'
+6586	Basalt Battlehammer'
+6587	Imperial Staff'
+6588	Imperial Staff'
+6589	Imperial Staff'
+6590	Angel Slayer'
+6591	Angel Slayer'
+6592	Angel Slayer'
+6593	Shining Bow'
+6594	Shining Bow'
+6595	Shining Bow'
+6596	Dragon Hunter Axe'
+6597	Dragon Hunter Axe'
+6598	Dragon Hunter Axe'
+6599	Saint Spear'
+6600	Saint Spear'
+6601	Saint Spear'
+6602	Demon Splinter'
+6603	Demon Splinter'
+6604	Demon Splinter'
+6605	Heavens Divider'
+6606	Heavens Divider'
+6607	Heavens Divider'
+6608	Arcana Mace'
+6609	Arcana Mace'
+6610	Arcana Mace'
+6611	Infinity Blade
+6612	Infinity Cleaver
+6613	Infinity Axe
+6614	Infinity Rod
+6615	Infinity Crusher
+6616	Infinity Scepter
+6617	Infinity Stinger
+6618	Infinity Fang
+6619	Infinity Bow
+6620	Infinity Wing
+6621	Infinity Spear
+6678	Sealed Imperial Crusader Shield
+6715	Monster Only
+6716	Monster Only
+6717	Monster Only
+6718	Monster Only
+6719	Monster Only
+6720	Monster Only
+6721	Monster Only
+6722	Monster Only
+6723	Monster Only
+6902	Pledge Shield
+6917	Monster Only 
+6918	Monster Only 
+6919	Monster Only 
+7014	Monster Only 
+7015	Shield of Castle Pledge
+7058	Chrono Darbuka
+7560	Monster Only 
+7575	Draconic Bow
+7576	Draconic Bow'
+7577	Draconic Bow'
+7578	Draconic Bow'
+7701	Stick of Faith'
+7702	Stick of Faith'
+7703	Stick of Faith'
+7704	Stick of Eternity'
+7705	Stick of Eternity'
+7706	Stick of Eternity'
+7707	Nirvana Axe'
+7708	Nirvana Axe'
+7709	Nirvana Axe'
+7710	Club of Nature'
+7711	Club of Nature'
+7712	Club of Nature'
+7713	Mace of The Underworld'
+7714	Mace of The Underworld'
+7715	Mace of The Underworld'
+7716	Inferno Staff'
+7717	Inferno Staff'
+7718	Inferno Staff'
+7719	Poleaxe'
+7720	Poleaxe'
+7721	Poleaxe'
+7722	Sword of Valhalla'
+7723	Sword of Valhalla'
+7724	Sword of Valhalla'
+7810	Soulfire Dirk'
+7811	Soulfire Dirk'
+7812	Soulfire Dirk'
+7813	Hell Knife'
+7814	Hell Knife'
+7815	Hell Knife'
+7816	Apprentice Adventurer's Staff
+7817	Apprentice Adventurer's Bone Club
+7818	Apprentice Adventurer's Knife
+7819	Apprentice Adventurer's Cestus
+7820	Apprentice Adventurer's Bow
+7821	Apprentice Adventurer's Long Sword
+7822	Traveler's Mace
+7823	Traveler's Dark Elven Bow
+7824	Traveler's Long Bow
+7825	Traveler's Staff
+7826	Traveler's Bastard Sword
+7827	Traveler's Wand
+7828	Traveler's Jamadhr
+7829	Traveler's Tomahawk
+7830	Traveler's Poniard Dagger
+7831	Traveler's Pike
+7834	Art of Battle Axe
+7880	Steel Sword
+7881	Titan Sword
+7882	Pa'agrian Sword
+7883	Guardian Sword
+7884	Infernal Master
+7885	Priest Sword
+7886	Sword of Magic Fog
+7887	Mysterious Sword
+7888	Ecliptic Sword
+7889	Wizard's Tear
+7890	Priest Mace
+7891	Ecliptic Axe
+7892	Spell Breaker
+7893	Kaim Vanul's Bones
+7894	Spiritual Eye
+7895	Flaming Dragon Skull
+7896	Titan Hammer
+7897	Dwarven Hammer
+7898	Karik Horn
+7899	Destroyer Hammer
+7900	Ice Storm Hammer
+7901	Star Buster
+7902	Doom Crusher
+7903	Frintezza's Sword
+8102	Pa'agrian Sword'
+8103	Pa'agrian Sword'
+8104	Pa'agrian Sword'
+8105	Guardian Sword'
+8106	Guardian Sword'
+8107	Guardian Sword'
+8108	Infernal Master'
+8109	Infernal Master'
+8110	Infernal Master'
+8111	Mysterious Sword'
+8112	Mysterious Sword'
+8113	Mysterious Sword'
+8114	Ecliptic Sword'
+8115	Ecliptic Sword'
+8116	Ecliptic Sword'
+8117	Wizard's Tear'
+8118	Wizard's Tear'
+8119	Wizard's Tear'
+8120	Dwarven Hammer'
+8121	Dwarven Hammer'
+8122	Dwarven Hammer'
+8123	Karik Horn'
+8124	Karik Horn'
+8125	Karik Horn'
+8126	Destroyer Hammer'
+8127	Destroyer Hammer'
+8128	Destroyer Hammer'
+8129	Ice Storm Hammer'
+8130	Ice Storm Hammer'
+8131	Ice Storm Hammer'
+8132	Star Buster'
+8133	Star Buster'
+8134	Star Buster'
+8135	Doom Crusher'
+8136	Doom Crusher'
+8137	Doom Crusher'
+8138	Ecliptic Axe'
+8139	Ecliptic Axe'
+8140	Ecliptic Axe'
+8141	Spell Breaker'
+8142	Spell Breaker'
+8143	Spell Breaker'
+8144	Kaim Vanul's Bones'
+8145	Kaim Vanul's Bones'
+8146	Kaim Vanul's Bones'
+8147	Spiritual Eye'
+8148	Spiritual Eye'
+8149	Spiritual Eye'
+8150	Flaming Dragon Skull'
+8151	Flaming Dragon Skull'
+8152	Flaming Dragon Skull'
+8190	Demonic Sword Zariche
+8203	Monster Only 
+8204	Monster Only 
+8205	Monster Only 
+8206	Monster Only 
+8207	Monster Only 
+8208	Monster Only 
+8209	Monster Only 
+8210	Monster Only 
+8211	Monster Only 
+8212	Monster Only 
+8213	Monster Only 
+8214	Monster Only 
+8215	Monster Only 
+8216	Monster Only 
+8217	Monster Only 
+8218	Monster Only 
+8219	Monster Only 
+8220	Monster Only 
+8221	Monster Only 
+8222	Monster Only 
+8350	Chrono Maracas
+8527	For Monsters Only 
+8528	For Monsters Only 
+8529	For Monsters Only 
+8530	For Monsters Only 
+8531	For Monsters Only 
+8532	For Monsters Only 
+8533	For Monsters Only 
+8576	Apprentice's Staff 
+8577	Bone Club 
+8578	Shining Knife 
+8579	Cestus 
+8580	Forest Bow 
+8581	Long Sword 
+8582	Mace of Prayer 
+8583	Dark Elven Bow 
+8584	Long Bow 
+8585	Staff of Mana 
+8586	Bastard Sword 
+8587	Divine Tomb 
+8588	Single-Edged Jamadhr 
+8589	Tomahawk 
+8590	Poniard Daggar 
+8591	Pike 
+8678	Sirra's Blade
+8679	Sword of Ipos
+8680	Barakiel's Axe
+8681	Behemoth's Tuning Fork
+8682	Naga Storm
+8683	Tiphon's Spear
+8684	Shyeed's Bow
+8685	Sobekk's Hurricane
+8686	Themis' Tongue
+8687	Cabrio's Hand
+8688	Daimon Crystal
+8689	Blood Sword Akamanah
+8763	Elrokian Trap
+8788	Sirra's Blade'
+8789	Sirra's Blade'
+8790	Sirra's Blade'
+8791	Sword of Ipos'
+8792	Sword of Ipos'
+8793	Sword of Ipos'
+8794	Barakiel's Axe'
+8795	Barakiel's Axe'
+8796	Barakiel's Axe'
+8797	Behemoth's Tuning Fork'
+8798	Behemoth's Tuning Fork'
+8799	Behemoth's Tuning Fork'
+8800	Naga Storm'
+8801	Naga Storm'
+8802	Naga Storm'
+8803	Tiphon's Spear'
+8804	Tiphon's Spear'
+8805	Tiphon's Spear'
+8806	Shyeed's Bow'
+8807	Shyeed's Bow'
+8808	Shyeed's Bow'
+8809	Sobekk's Hurricane'
+8810	Sobekk's Hurricane'
+8811	Sobekk's Hurricane'
+8812	Themis' Tongue'
+8813	Themis' Tongue'
+8814	Themis' Tongue'
+8815	Cabrio's Hand'
+8816	Cabrio's Hand'
+8817	Cabrio's Hand'
+8818	Daimon Crystal'
+8819	Daimon Crystal'
+8820	Daimon Crystal'
+8821	Shadow Item: Two Handed Sword
+8822	Shadow Item: Crimson Sword
+8823	Shadow Item: Spiked Club
+8824	Shadow Item: Staff of Magic
+8825	Shadow Item: Kukuri
+8826	Shadow Item: Dagger of Mana
+8827	Shadow Item: Triple-Edged Jamadhr
+8828	Shadow Item: Gastraphetes
+8829	Shadow Item: War Hammer
+8830	Shadow Item: Katana
+8831	Shadow Item: Bec de Corbin
+8832	Shadow Item: Cursed Staff
+8833	Shadow Item: Stiletto
+8834	Shadow Item: Soulfire Dirk
+8835	Shadow Item: Elemental Bow
+8836	Shadow Item: Dwarven War Hammer
+8837	Shadow Item: Sword of Revolution
+8838	Shadow Item: Knuckle Duster
+8839	Shadow Item: Sword of Delusion
+8840	Shadow Item: Poleaxe
+8841	Shadow Item: Stick of Eternity
+8842	Shadow Item: Inferno Staff
+8843	Shadow Item: Pa'agrian Hammer
+8844	Shadow Item: Dark Screamer
+8845	Shadow Item: Akat Long Bow
+8846	Shadow Item: Pa'agrian Sword
+8847	Shadow Item: Fisted Blade
+8848	Shadow Item: Stormbringer
+8849	Shadow Item: Great Sword
+8850	Shadow Item: Heavy War Axe
+8851	Shadow Item: Sprite's Staff
+8852	Shadow Item: Keshanberk
+8853	Shadow Item: Sword of Valhalla
+8854	Shadow Item: Kris
+8855	Shadow Item: Arthro Nail
+8856	Shadow Item: Dark Elven Long Bow
+8857	Shadow Item: Swords of Delusion
+8858	Shadow Item: Great Axe
+8859	Shadow Item: Tallum Blade
+8860	Shadow Item: Halberd
+8861	Shadow Item: Dasparion's Staff
+8862	Shadow Item: Bloody Orchid
+8863	Shadow Item: Blood Tornado
+8864	Shadow Item: Carnage Bow
+8865	Shadow Item: Dual Keshanberk
+8866	Shadow Item: Meteor Shower
+8867	Shadow Item: Inferno Master
+8926	Shadow Item: Sword of Delusion
+8927	Shadow Item: Poleaxe
+8928	Shadow Item: Stick of Eternity
+8929	Shadow Item: Inferno Staff
+8930	Shadow Item: Pa'agrian Hammer
+8931	Shadow Item: Dark Screamer
+8932	Shadow Item: Akat Long Bow
+8933	Shadow Item: Pa'agrian Sword
+8934	Shadow Item: Fisted Blade
+8935	Test Rapier
+8937	Shadow Item: Stormbringer
+8938	Damascus * Tallum Blade
+8972	Shadow Item: Great Spear
+8973	Shadow Item: Falchion
+8974	Shadow Item: Iron Hammer
+8975	Shadow Item: Voodoo Doll
+8976	Shadow Item: Flanged Mace
+8977	Shadow Item: Mage Staff
+8978	Shadow Item: Sword Breaker
+8979	Shadow Item: Viper Fang
+8980	Shadow Item: Composite Bow
+8981	Shadow Item: Crucifix of Blessing
+8982	Shadow Item: Two Handed Sword
+8983	Shadow Item: Crimson Sword
+8984	Shadow Item: Spiked Club
+8985	Shadow Item: Staff of Magic
+8986	Shadow Item: Kukuri
+8987	Shadow Item: Dagger of Mana
+8988	Shadow Item: Triple-Edged Jamadhr
+8989	Shadow Item: Gastraphetes
+8990	Shadow Item: War Hammer
+8991	Shadow Item: Sword of Delusion
+8992	Shadow Item: Poleaxe
+8993	Shadow Item: Stick of Eternity
+8994	Shadow Item: Inferno Staff
+8995	Shadow Item: Pa'agrian Hammer
+8996	Shadow Item: Dark Screamer
+8997	Shadow Item: Akat Long Bow
+8998	Shadow Item: Pa'agrian Sword
+8999	Shadow Item: Fisted Blade
+9000	Shadow Item: Stormbringer*Stormbringer
+9001	Shadow Item: Great Sword
+9002	Shadow Item: Heavy War Axe
+9003	Shadow Item: Sprite's Staff
+9004	Shadow Item: Keshanberk
+9005	Shadow Item: Sword of Valhalla
+9006	Shadow Item: Kris
+9007	Shadow Item: Arthro Nail
+9008	Shadow Item: Dark Elven Long Bow
+9009	Shadow Item: Sword of Delusion*Sword of Delusion
+9010	Shadow Item: Great Axe
+9011	Shadow Item: Tallum Blade
+9012	Shadow Item: Halberd
+9013	Shadow Item: Dasparion's Staff
+9014	Shadow Item: Bloody Orchid
+9015	Shadow Item: Blood Tornado
+9016	Shadow Item: Carnage Bow
+9017	Shadow Item: Keshanberk*Keshanberk
+9018	Shadow Item: Meteor Shower
+9019	Shadow Item: Inferno Master
+9020	Shadow Item: Keshanberk*Damascus
+9021	Shadow Item: Dragon Slayer
+9022	Shadow Item: Sword of Miracles
+9023	Shadow Item: Elysian
+9024	Shadow Item: Branch of the Mother Tree
+9025	Shadow Item: Soul Separator
+9026	Shadow Item: Dragon Grinder
+9027	Shadow Item: Soul Bow
+9028	Shadow Item: Tallum Glaive
+9029	Shadow Item: Dark Legion
+9036	Shadow Item: Bone Shield
+9044	Shadow Item: Hoplon
+9056	Shadow Item: Composite Shield
+9070	Shadow Item: Zubei's Shield
+9084	Shadow Item: Dark Crystal Shield
+9129	Shadow Item: Shield of Nightmare
+9136	Sword of Valakas 
+9137	Sword of Valakas 
+9140	Salvation Bow
+9141	Redemption Bow
+9209	Rapier
+9210	Talwar
+9211	Talwar
+9212	Field Gun
+9213	Fleuret
+9214	Fleuret
+9215	Fleuret
+9216	Military Talwar
+9217	Hand Crossbow
+9218	Estoc
+9219	Estoc
+9220	Field Sword
+9221	Crossbow
+9222	A?pA
+9223	Katzbalger
+9224	Arm Breaker
+9225	Grand A?pA
+9226	General's Katzbalger
+9227	Cranequin
+9228	Soldat Estoc
+9229	Soldat Estoc'
+9230	Soldat Estoc'
+9231	Soldat Estoc'
+9232	Schlager
+9233	Schlager'
+9234	Schlager'
+9235	Schlager'
+9236	Arbalest
+9237	Arbalest'
+9238	Arbalest'
+9239	Arbalest'
+9240	Chevalier Rapier
+9241	Chevalier Rapier'
+9242	Chevalier Rapier'
+9243	Chevalier Rapier'
+9244	Chevalier Rapier
+9245	Chevalier Rapier'
+9246	Chevalier Rapier'
+9247	Chevalier Rapier'
+9248	Chevalier Rapier
+9249	Chevalier Rapier'
+9250	Chevalier Rapier'
+9251	Chevalier Rapier'
+9252	Chevalier Rapier
+9253	Chevalier Rapier'
+9254	Chevalier Rapier'
+9255	Chevalier Rapier'
+9256	Ballista
+9257	Ballista'
+9258	Ballista'
+9259	Ballista'
+9260	Ballista
+9261	Ballista'
+9262	Ballista'
+9263	Ballista'
+9264	Blinzlasher
+9265	Blinzlasher'
+9266	Blinzlasher'
+9267	Blinzlasher'
+9268	Blinzlasher
+9269	Blinzlasher'
+9270	Blinzlasher'
+9271	Blinzlasher'
+9272	Blinzlasher
+9273	Blinzlasher'
+9274	Blinzlasher'
+9275	Blinzlasher'
+9276	Blinzlasher
+9277	Blinzlasher'
+9278	Blinzlasher'
+9279	Blinzlasher'
+9280	Blinzlasher
+9281	Blinzlasher'
+9282	Blinzlasher'
+9283	Blinzlasher'
+9284	Immortal Edge
+9285	Immortal Edge'
+9286	Immortal Edge'
+9287	Immortal Edge'
+9288	Tathlum
+9289	Tathlum'
+9290	Tathlum'
+9291	Tathlum'
+9292	Admiral's Estoc
+9293	Admiral's Estoc'
+9294	Admiral's Estoc'
+9295	Admiral's Estoc'
+9296	Saber Tooth
+9297	Saber Tooth'
+9298	Saber Tooth'
+9299	Saber Tooth'
+9300	Sharpshooter
+9301	Sharpshooter'
+9302	Sharpshooter'
+9303	Sharpshooter'
+9304	Military Fleuret
+9305	Military Fleuret'
+9306	Military Fleuret'
+9307	Military Fleuret'
+9308	Innominate Victory
+9309	Innominate Victory'
+9310	Innominate Victory'
+9311	Innominate Victory'
+9312	Peacemaker
+9313	Peacemaker'
+9314	Peacemaker'
+9315	Peacemaker'
+9316	Colichemarde
+9317	Colichemarde'
+9318	Colichemarde'
+9319	Colichemarde'
+9320	Dismantler
+9321	Dismantler'
+9322	Dismantler'
+9323	Dismantler'
+9324	Hell Hound
+9325	Hell Hound'
+9326	Hell Hound'
+9327	Hell Hound'
+9328	White Lightning
+9329	White Lightning'
+9330	White Lightning'
+9331	White Lightning'
+9332	Divine Pain
+9333	Divine Pain'
+9334	Divine Pain'
+9335	Divine Pain'
+9336	Doomchanter
+9337	Doomchanter'
+9338	Doomchanter'
+9339	Doomchanter'
+9340	Lacerator
+9341	Lacerator'
+9342	Lacerator'
+9343	Lacerator'
+9344	Undertaker
+9345	Undertaker'
+9346	Undertaker'
+9347	Undertaker'
+9348	Reaper
+9349	Reaper'
+9350	Reaper'
+9351	Reaper'
+9352	A?clair Bijou
+9353	A?clair Bijou'
+9354	A?clair Bijou'
+9355	A?clair Bijou'
+9356	Durendal
+9357	Durendal'
+9358	Durendal'
+9359	Durendal'
+9360	Screaming Vengeance
+9361	Screaming Vengeance'
+9362	Screaming Vengeance'
+9363	Screaming Vengeance'
+9364	Laevateinn
+9365	Laevateinn'
+9366	Laevateinn'
+9367	Laevateinn'
+9368	Gram
+9369	Gram'
+9370	Gram'
+9371	Gram'
+9372	Sarnga
+9373	Sarnga'
+9374	Sarnga'
+9375	Sarnga'
+9376	Dynasty Rapier
+9377	Dynasty Rapier'
+9378	Dynasty Rapier'
+9379	Dynasty Rapier'
+9380	Dynasty Ancient Sword
+9381	Dynasty Ancient Sword'
+9382	Dynasty Ancient Sword'
+9383	Dynasty Ancient Sword'
+9384	Dynasty Crossbow
+9385	Dynasty Crossbow'
+9386	Dynasty Crossbow'
+9387	Dynasty Crossbow'
+9388	Infinity Rapier
+9389	Infinity Sword
+9390	Infinity Shooter
+9441	Dynasty Shield
+9442	Dynasty Sword
+9443	Dynasty Blade
+9444	Dynasty Phantom
+9445	Dynasty Bow
+9446	Dynasty Knife
+9447	Dynasty Halberd
+9448	Dynasty Cudgel
+9449	Dynasty Mace
+9450	Dynasty Bagh-Nakh
+9529	Sealed Dynasty Shield
+9638	Tears r1
+9639	Tears r2
+9640	Tears r3
+9641	Tears l1
+9642	Tears l2
+9643	Tears l3
+9644	npc Only 
+9645	npc Only 
+9646	npc Only 
+9656	Enchanted Wolf Fang
+9657	Enchanted Coyote Fang
+9658	Enchanted Saltydog Fang
+9659	Enchanted Cerberus Fang
+9660	Orichalcum Fang
+9661	Enchanted Fenril Fang
+9720	Warrior's Sword
+9813	Orc Officer
+9819	Combat flag
+9840	Shadow Item: Chevalier Rapier
+9841	Shadow Item: Riter Schlager
+9842	Shadow Item: Ballista
+9843	Shadow Item: Blinzlasher
+9844	Shadow Item: Immortal Edge
+9845	Shadow Item: Tathlum
+9846	Shadow Item: Military Fleuret
+9847	Shadow Item: Innominate Victory
+9848	Shadow Item: Peacemaker
+9854	Dynasty Sword'
+9855	Dynasty Sword'
+9856	Dynasty Sword'
+9857	Dynasty Blade'
+9858	Dynasty Blade'
+9859	Dynasty Blade'
+9860	Dynasty Phantom'
+9861	Dynasty Phantom'
+9862	Dynasty Phantom'
+9863	Dynasty Bow'
+9864	Dynasty Bow'
+9865	Dynasty Bow'
+9866	Dynasty Knife'
+9867	Dynasty Knife'
+9868	Dynasty Knife'
+9869	Dynasty Halberd'
+9870	Dynasty Halberd'
+9871	Dynasty Halberd'
+9872	Dynasty Cudgel'
+9873	Dynasty Cudgel'
+9874	Dynasty Cudgel'
+9875	Dynasty Mace'
+9876	Dynasty Mace'
+9877	Dynasty Mace'
+9878	Dynasty Bagh-Nakh'
+9879	Dynasty Bagh-Nakh'
+9880	Dynasty Bagh-Nakh'
+9901	Improved Falchion
+9902	Improved Great Spear
+9903	Improved Iron Hammer
+9904	Improved Sword Breaker
+9905	Improved Viper Fang
+9906	Improved Composite Bow
+9907	Improved Flanged Mace
+9908	Improved Mage Staff
+9995	Hand Crossbow
+9996	Hand Crossbow
+10003	Fleuret
+10226	Icarus Shooter
+10005	Shadow Item: Fleuret
+10006	Shadow Item: Military Talwar
+10007	Shadow Item: Hand Crossbow
+10008	Shadow Item: Blinzlasher
+10009	Shadow Item: Immortal Edge
+10010	Shadow Item: Tathlum
+10011	Shadow Item - War Axe
+10125	Shadow Item - War Axe
+10128	For Monster only 
+10167	Pig Lollipop
+10212	npc Only 
+10225	Icarus Wingblade
+10224	Icarus Stinger
+10223	Icarus Spitter
+10222	Icarus Hall
+10221	Icarus Hand
+10220	Icarus Hammer
+10219	Icarus Trident
+10218	Icarus Heavy Arms
+10217	Icarus Spirit
+10216	Icarus Disperser
+10215	Icarus Sawsword
+10004	Dynasty Dual Sword
+10278	Monster Only 
+10252	Dynasty Staff
+10253	Dynasty Crusher
+10277	Monster Only 
+10415	Dynasty Dual Sword
+10434	Icarus Sawsword'
+10435	Icarus Sawsword'
+10436	Icarus Sawsword'
+10437	Icarus Heavy Arms'
+10438	Icarus Heavy Arms'
+10439	Icarus Heavy Arms'
+10440	Icarus Spirit'
+10441	Icarus Spirit'
+10442	Icarus Spirit'
+10443	Icarus Spitter'
+10444	Icarus Spitter'
+10445	Icarus Spitter'
+10446	Icarus Disperser'
+10447	Icarus Disperser'
+10448	Icarus Disperser'
+10449	Icarus Trident'
+10450	Icarus Trident'
+10451	Icarus Trident'
+10452	Icarus Hammer'
+10453	Icarus Hammer'
+10454	Icarus Hammer'
+10455	Icarus Hall'
+10456	Icarus Hall'
+10457	Icarus Hall'
+10458	Icarus Hand'
+10459	Icarus Hand'
+10460	Icarus Hand'
+10461	Icarus Stinger'
+10462	Icarus Stinger'
+10463	Icarus Stinger'
+10464	Icarus Wingblade'
+10465	Icarus Wingblade'
+10466	Icarus Wingblade'
+10467	Icarus Shooter'
+10468	Icarus Shooter'
+10469	Icarus Shooter'
+10527	Dynasty Staff'
+10528	Dynasty Staff'
+10529	Dynasty Staff'
+10530	Dynasty Crusher'
+10531	Dynasty Crusher'
+10532	Dynasty Crusher'
