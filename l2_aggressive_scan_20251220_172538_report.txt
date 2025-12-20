@@ -1,0 +1,100 @@
+======================================================================
+L2 AGGRESSIVE SCAN REPORT
+======================================================================
+
+Target player: BigG7
+Target found: False
+Total strings: 193792
+
+TOP PLAYER NAME CANDIDATES:
+----------------------------------------------------------------------
+1. JJVVVVdd (appears 3x, UTF-16)
+   Addresses: 0x10e84, 0x1d0e84, 0x510e84
+
+2. o-l1-1-0 (appears 1x, UTF-16)
+   Addresses: 0x5d1d0
+
+3. reName_0 (appears 1x, UTF-16)
+   Addresses: 0x1804d2
+
+4. MacroWnd (appears 1x, UTF-16)
+   Addresses: 0x184d30
+
+5. ro_Icon1 (appears 2x, UTF-16)
+   Addresses: 0x184d48, 0x18547a
+
+6. kTexture (appears 2x, UTF-16)
+   Addresses: 0x19b290, 0x118b730
+
+7. wZw4igwx (appears 1x, ASCII)
+   Addresses: 0x121731
+
+8. MGRD1rpk (appears 1x, ASCII)
+   Addresses: 0x126f7b
+
+9. gAtFirst (appears 1x, ASCII)
+   Addresses: 0x19f5f0
+
+10. wZw4igwH (appears 1x, ASCII)
+   Addresses: 0x19f6a9
+
+11. mpatible (appears 2x, UTF-16)
+   Addresses: 0x1a02cc, 0x618f88
+
+12. e0e77783 (appears 1x, UTF-16)
+   Addresses: 0x1a0522
+
+13. tomation (appears 1x, UTF-16)
+   Addresses: 0x1a056e
+
+14. Controls (appears 1x, UTF-16)
+   Addresses: 0x1a0c2e
+
+15. roxyStub (appears 1x, UTF-16)
+   Addresses: 0x1a0fc6
+
+16. esources (appears 2x, UTF-16)
+   Addresses: 0x1a1386, 0x118e290
+
+17. cc7014d8 (appears 1x, UTF-16)
+   Addresses: 0x1a1712
+
+18. oBoxEx32 (appears 2x, UTF-16)
+   Addresses: 0x1a2238, 0x1a226c
+
+19. ackbar32 (appears 2x, UTF-16)
+   Addresses: 0x1a22aa, 0x1a22e6
+
+20. updown32 (appears 2x, UTF-16)
+   Addresses: 0x1a2322, 0x1a235a
+
+21. ogress32 (appears 2x, UTF-16)
+   Addresses: 0x1a239a, 0x1a23d6
+
+22. hotkey32 (appears 2x, UTF-16)
+   Addresses: 0x1a2412, 0x1a244a
+
+23. tusbar32 (appears 2x, UTF-16)
+   Addresses: 0x1a248c, 0x1a24cc
+
+24. Header32 (appears 2x, UTF-16)
+   Addresses: 0x1a24fe, 0x1a252e
+
+25. stView32 (appears 2x, UTF-16)
+   Addresses: 0x1a2566, 0x1a259a
+
+26. eeView32 (appears 2x, UTF-16)
+   Addresses: 0x1a25d2, 0x1a2606
+
+27. ontrol32 (appears 2x, UTF-16)
+   Addresses: 0x1a2642, 0x1a267a
+
+28. ddress32 (appears 2x, UTF-16)
+   Addresses: 0x1a26b4, 0x1a26ec
+
+29. SysPager (appears 2x, UTF-16)
+   Addresses: 0x1a2718, 0x1a2744
+
+30. eFontCtl (appears 2x, UTF-16)
+   Addresses: 0x1a277a, 0x1a27ae
+
