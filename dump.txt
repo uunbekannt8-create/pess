@@ -1,0 +1,2417 @@
+==============================================================================
+  L2 CHAT PACKET DUMPER - Extended Version
+  Proxy: 127.0.0.1:18888 -> 87.98.152.71:7777
+  Will capture SESSION KEYs and dump 20 Say2 packets
+  Analyzing correlation between SESSION KEY and chat encryption
+================================================================================
+
+Waiting for connection...
+
+[Connect] Client: ('127.0.0.1', 59318) (Session #1)
+
+================================================================================
+[SESSION KEY CAPTURED]
+  Timestamp: 19:48:50.119
+  Elapsed time: 0.000 seconds
+  Session ID: 1
+  Raw key (8 bytes): e8 32 00 00 00 00 00 00
+  As integers: [232, 50, 0, 0, 0, 0, 0, 0]
+================================================================================
+
+================================================================================
+PACKET DUMP #1
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:48:53.828
+  Elapsed time: 3.709 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 97 bytes
+  Packet ID: 0x4a
+  Chat Type: 10
+
+[FULL HEX DUMP]
+  0000: 61 00 4a 00 00 00 00 0a 00 00 17 d9 93 56 a1 09  | a.J..........V..
+  0010: 31 fb 00 63 00 6f 00 6d 00 65 17 f9 93 75 a1 03  | 1..c.o.m.e...u..
+  0020: 31 b7 00 66 00 72 00 65 00 65 17 f9 93 4d a1 05  | 1..f.r.e.e...M..
+  0030: 31 f9 00 65 00 61 00 67 00 65 17 90 93 48 a1 4c  | 1..e.a.g.e...H.L
+  0040: 31 dc 00 61 00 6d 00 61 00 65 17 b5 93 21 a1 3f  | 1..a.m.a.e...!.?
+  0050: 31 f2 00 72 00 76 00 65 00 72 17 f8 93 21 a1 6c  | 1..r.v.e.r...!.l
+  0060: 31                                               | 1
+
+[PACKET STRUCTURE]
+  Header: 61 00 4a 00 00 00 00 0a 00
+  String data length: 88 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 17 d9 93 56 a1 09 31 fb
+  CLEAR block: 00 63 00 6f 00 6d 00 65
+  EVEN bytes (padding): 17 93 a1 31
+  ODD bytes (encrypted): d9 56 09 fb
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x17 ^ 0xe8 = 0xff
+    padding[0] ^ session_key[1] = 0x17 ^ 0x32 = 0x25
+    padding[0] ^ session_key[2] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[3] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[4] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[5] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[6] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[7] = 0x17 ^ 0x00 = 0x17
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'Welc'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'ONol'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'Tt,d'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: ';{ [07]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[05]sfl'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'QCkD'
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 17 f9 93 75 a1 03 31 b7
+  CLEAR block: 00 66 00 72 00 65 00 65
+  EVEN bytes (padding): 17 93 a1 31
+  ODD bytes (encrypted): f9 75 03 b7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x17 ^ 0xe8 = 0xff
+    padding[0] ^ session_key[1] = 0x17 ^ 0x32 = 0x25
+    padding[0] ^ session_key[2] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[3] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[4] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[5] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[6] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[7] = 0x17 ^ 0x00 = 0x17
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'wFf/'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'ome '
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'tW&('
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'ЛX*K'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '%Pl '
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'q`a[08]'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 17 f9 93 4d a1 05 31 f9
+  CLEAR block: 00 65 00 61 00 67 00 65
+  EVEN bytes (padding): 17 93 a1 31
+  ODD bytes (encrypted): f9 4d 05 f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x17 ^ 0xe8 = 0xff
+    padding[0] ^ session_key[1] = 0x17 ^ 0x32 = 0x25
+    padding[0] ^ session_key[2] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[3] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[4] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[5] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[6] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[7] = 0x17 ^ 0x00 = 0x17
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'w~`a'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'oUcn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'to f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'Л`,[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '%hjn'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'qXgF'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 17 90 93 48 a1 4c 31 dc
+  CLEAR block: 00 61 00 6d 00 61 00 65
+  EVEN bytes (padding): 17 93 a1 31
+  ODD bytes (encrypted): 90 48 4c dc
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x17 ^ 0xe8 = 0xff
+    padding[0] ^ session_key[1] = 0x17 ^ 0x32 = 0x25
+    padding[0] ^ session_key[2] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[3] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[4] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[5] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[6] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[7] = 0x17 ^ 0x00 = 0x17
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'О{)D'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[06]P*K'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'НjiC'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'ree '
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'Lm#K'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'И].c'
+
+  --- BLOCK 4 (offset 65) ---
+  ENC  block: 17 b5 93 21 a1 3f 31 f2
+  CLEAR block: 00 72 00 76 00 65 00 72
+  EVEN bytes (padding): 17 93 a1 31
+  ODD bytes (encrypted): b5 21 3f f2
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x17 ^ 0xe8 = 0xff
+    padding[0] ^ session_key[1] = 0x17 ^ 0x32 = 0x25
+    padding[0] ^ session_key[2] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[3] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[4] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[5] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[6] = 0x17 ^ 0x00 = 0x17
+    padding[0] ^ session_key[7] = 0x17 ^ 0x00 = 0x17
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: ';ВZj'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '#9Ye'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '8[03]Кm'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'W[0c]Ж[0e]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'i[04]Pe'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '=4]M'
+
+  --- REMAINING DATA (7 bytes) ---
+  HEX: 17 f8 93 21 a1 6c 31
+
+================================================================================
+
+================================================================================
+PACKET DUMP #2
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:48:53.835
+  Elapsed time: 3.716 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 113 bytes
+  Packet ID: 0x4a
+  Chat Type: 10
+
+[FULL HEX DUMP]
+  0000: 71 00 4a 00 00 00 00 0a 00 00 11 d9 93 51 a1 00  | q.J..........Q..
+  0010: 31 f2 00 61 00 73 00 65 00 20 11 ac 93 71 a1 08  | 1..a.s.e. ...q..
+  0020: 31 f6 00 74 00 65 00 20 00 79 11 b6 93 74 a1 1e  | 1..t.e. .y...t..
+  0030: 31 b7 00 63 00 6c 00 69 00 65 11 b7 93 75 a1 4c  | 1..c.l.i.e...u.L
+  0040: 31 f1 00 6f 00 72 00 20 00 74 11 b1 93 64 a1 4c  | 1..o.r. .t...d.L
+  0050: 31 d9 00 65 00 77 00 20 00 59 11 bc 93 60 a1 1e  | 1..e.w. .Y...`..
+  0060: 31 b7 00 45 00 76 00 65 00 6e 11 ad 93 2f a1 6c  | 1..E.v.e.n.../.l
+  0070: 31                                               | 1
+
+[PACKET STRUCTURE]
+  Header: 71 00 4a 00 00 00 00 0a 00
+  String data length: 104 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 11 d9 93 51 a1 00 31 f2
+  CLEAR block: 00 61 00 73 00 65 00 20
+  EVEN bytes (padding): 11 93 a1 31
+  ODD bytes (encrypted): d9 51 00 f2
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'Wbej'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'OIfe'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'Ts%m'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: ';|)[0e]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[05]toe'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'QDbM'
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 11 ac 93 71 a1 08 31 f6
+  CLEAR block: 00 74 00 65 00 20 00 79
+  EVEN bytes (padding): 11 93 a1 31
+  ODD bytes (encrypted): ac 71 08 f6
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '"Bmn'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: ':ina'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '!S-i'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'N\![0a]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'pTga'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '$djI'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 11 b6 93 74 a1 1e 31 b7
+  CLEAR block: 00 63 00 6c 00 69 00 65
+  EVEN bytes (padding): 11 93 a1 31
+  ODD bytes (encrypted): b6 74 1e b7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '8G{/'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: ' lx '
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: ';V;('
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'TY7K'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'jQq '
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '>a|[08]'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 11 b7 93 75 a1 4c 31 f1
+  CLEAR block: 00 6f 00 72 00 20 00 74
+  EVEN bytes (padding): 11 93 a1 31
+  ODD bytes (encrypted): b7 75 4c f1
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '9F)i'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '!m*f'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: ':Win'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'UXe[0d]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'kP#f'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '?`.N'
+
+  --- BLOCK 4 (offset 65) ---
+  ENC  block: 11 b1 93 64 a1 4c 31 d9
+  CLEAR block: 00 65 00 77 00 20 00 59
+  EVEN bytes (padding): 11 93 a1 31
+  ODD bytes (encrypted): b1 64 4c d9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '?W)A'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: ''|*N'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '<FiF'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'SIe%'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'mA#N'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '9q.f'
+
+  --- BLOCK 5 (offset 81) ---
+  ENC  block: 11 bc 93 60 a1 1e 31 b7
+  CLEAR block: 00 45 00 76 00 65 00 6e
+  EVEN bytes (padding): 11 93 a1 31
+  ODD bytes (encrypted): bc 60 1e b7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '2S{/'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '*xx '
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '1B;('
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '^M7K'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '`Eq '
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '4u|[08]'
+
+  --- REMAINING DATA (7 bytes) ---
+  HEX: 11 ad 93 2f a1 6c 31
+
+================================================================================
+
+================================================================================
+PACKET DUMP #3
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:48:53.843
+  Elapsed time: 3.724 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 77 bytes
+  Packet ID: 0x4a
+  Chat Type: 10
+
+[FULL HEX DUMP]
+  0000: 4d 00 4a 00 00 00 00 0a 00 00 33 df 93 55 a1 04  | M.J.......3..U..
+  0010: 31 f6 00 6e 00 6b 00 20 00 79 33 b0 93 74 a1 4c  | 1..n.k. .y3..t.L
+  0020: 31 d4 00 68 00 61 00 72 00 6d 33 be 93 6f a1 18  | 1..h.a.r.m3..o..
+  0030: 31 b7 00 66 00 6f 00 72 00 20 33 ac 93 74 a1 1c  | 1..f.o.r. 3..t..
+  0040: 31 e7 00 6f 00 72 00 74 00 21 33 df 93           | 1..o.r.t.!3..
+
+[PACKET STRUCTURE]
+  Header: 4d 00 4a 00 00 00 00 0a 00
+  String data length: 68 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 33 df 93 55 a1 04 31 f6
+  CLEAR block: 00 6e 00 6b 00 20 00 79
+  EVEN bytes (padding): 33 93 a1 31
+  ODD bytes (encrypted): df 55 04 f6
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'Qfan'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'IMba'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'Rw!i'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '=x-[0a]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[03]pka'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'W@fI'
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 33 b0 93 74 a1 4c 31 d4
+  CLEAR block: 00 68 00 61 00 72 00 6d
+  EVEN bytes (padding): 33 93 a1 31
+  ODD bytes (encrypted): b0 74 4c d4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '>G)L'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '&l*C'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '=ViK'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'RYe('
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'lQ#C'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '8a.k'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 33 be 93 6f a1 18 31 b7
+  CLEAR block: 00 66 00 6f 00 72 00 20
+  EVEN bytes (padding): 33 93 a1 31
+  ODD bytes (encrypted): be 6f 18 b7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '0\}/'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '(w~ '
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '3M=('
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '\B1K'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'bJw '
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '6zz[08]'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 33 ac 93 74 a1 1c 31 e7
+  CLEAR block: 00 6f 00 72 00 74 00 21
+  EVEN bytes (padding): 33 93 a1 31
+  ODD bytes (encrypted): ac 74 1c e7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '"Gy[7f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: ':lzp'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '!V9x'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'NY5Л'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'pQsp'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '$a~X'
+
+  --- REMAINING DATA (3 bytes) ---
+  HEX: 33 df 93
+
+================================================================================
+
+================================================================================
+PACKET DUMP #4
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:48:53.849
+  Elapsed time: 3.730 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 97 bytes
+  Packet ID: 0x4a
+  Chat Type: 10
+
+[FULL HEX DUMP]
+  0000: 61 00 4a 00 00 00 00 0a 00 00 31 df 93 10 a5 57  | a.J.......1....W
+  0010: 35 a7 04 33 04 3e 04 34 04 30 35 9f 97 39 a5 50  | 5..3.>.4.05..9.P
+  0020: 35 b7 00 43 00 68 00 61 00 72 31 b2 93 60 a1 02  | 5..C.h.a.r1..`..
+  0030: 31 e3 00 20 00 37 04 30 04 20 31 e0 97 3f a5 58  | 1.. .7.0. 1..?.X
+  0040: 35 a3 04 35 04 40 04 36 04 3a 35 9c 97 21 a1 2d  | 5..5.@.6.:5..!.-
+  0050: 35 a2 04 40 04 32 04 35 04 40 35 ef 97 20 a1 6c  | 5..@.2.5.@5.. .l
+  0060: 31                                               | 1
+
+[PACKET STRUCTURE]
+  Header: 61 00 4a 00 00 00 00 0a 00
+  String data length: 88 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 31 df 93 10 a5 57 35 a7
+  CLEAR block: 04 33 04 3e 04 34 04 30
+  EVEN bytes (padding): 31 93 a5 35
+  ODD bytes (encrypted): df 10 57 a7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x31 ^ 0xe8 = 0xd9
+    padding[0] ^ session_key[1] = 0x31 ^ 0x32 = 0x03
+    padding[0] ^ session_key[2] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[3] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[4] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[5] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[6] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[7] = 0x31 ^ 0x00 = 0x31
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'Q#2?'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'I[08]10'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'R2r8'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '==~['
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[03]580'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'W[05]5И'
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 35 9f 97 39 a5 50 35 b7
+  CLEAR block: 00 43 00 68 00 61 00 72
+  EVEN bytes (padding): 35 97 a5 35
+  ODD bytes (encrypted): 9f 39 50 b7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x35 ^ 0xe8 = 0xdd
+    padding[0] ^ session_key[1] = 0x35 ^ 0x32 = 0x07
+    padding[0] ^ session_key[2] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[3] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[4] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[5] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[6] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[7] = 0x35 ^ 0x00 = 0x35
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'Б[0a]5/'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[09]!6 '
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'ВЛu('
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '}ДyK'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'CМ? '
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'З,2[08]'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 31 b2 93 60 a1 02 31 e3
+  CLEAR block: 00 20 00 37 04 30 04 20
+  EVEN bytes (padding): 31 93 a1 31
+  ODD bytes (encrypted): b2 60 02 e3
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x31 ^ 0xe8 = 0xd9
+    padding[0] ^ session_key[1] = 0x31 ^ 0x32 = 0x03
+    padding[0] ^ session_key[2] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[3] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[4] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[5] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[6] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[7] = 0x31 ^ 0x00 = 0x31
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '<Sg{'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '$xdt'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '?B'|'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'PM+П'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'nEmt'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: ':u`\'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 31 e0 97 3f a5 58 35 a3
+  CLEAR block: 04 35 04 40 04 36 04 3a
+  EVEN bytes (padding): 31 97 a5 35
+  ODD bytes (encrypted): e0 3f 58 a3
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x31 ^ 0xe8 = 0xd9
+    padding[0] ^ session_key[1] = 0x31 ^ 0x32 = 0x03
+    padding[0] ^ session_key[2] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[3] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[4] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[5] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[6] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[7] = 0x31 ^ 0x00 = 0x31
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'n[0c]=;'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'v'>4'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'mН}<'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[02]Вq_'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '<К74'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'h*:М'
+
+  --- BLOCK 4 (offset 65) ---
+  ENC  block: 35 9c 97 21 a1 2d 35 a2
+  CLEAR block: 04 40 04 32 04 35 04 40
+  EVEN bytes (padding): 35 97 a1 35
+  ODD bytes (encrypted): 9c 21 2d a2
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x35 ^ 0xe8 = 0xdd
+    padding[0] ^ session_key[1] = 0x35 ^ 0x32 = 0x07
+    padding[0] ^ session_key[2] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[3] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[4] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[5] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[6] = 0x35 ^ 0x00 = 0x35
+    padding[0] ^ session_key[7] = 0x35 ^ 0x00 = 0x35
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'ВВH:'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[0a]9K5'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'Б[03][08]='
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '~[0c][04]^'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '@[04]B5'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'Д4OН'
+
+  --- REMAINING DATA (7 bytes) ---
+  HEX: 35 ef 97 20 a1 6c 31
+
+================================================================================
+
+================================================================================
+PACKET DUMP #5
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:49:19.156
+  Elapsed time: 29.037 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 79 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 4f 00 4a ae 24 50 48 00 00 00 f1 08 93 64 a1 1f  | O.J.$PH......d..
+  0010: 31 97 00 71 00 77 00 65 00 72 f1 2c 93 30 a1 5e  | 1..q.w.e.r.,.0.^
+  0020: 31 a4 00 34 00 35 00 61 00 73 f1 3c 93 67 a1 0b  | 1..4.5.a.s.<.g..
+  0030: 31 a0 00 38 00 39 00 79 00 78 f1 3b 93 77 a1 0e  | 1..8.9.y.x.;.w..
+  0040: 31 f9 00 36 00 30 00 6c 00 70 f1 15 93 01 a1     | 1..6.0.l.p.....
+
+[PACKET STRUCTURE]
+  Header: 4f 00 4a ae 24 50 48 00 00
+  String data length: 70 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: f1 08 93 64 a1 1f 31 97
+  CLEAR block: 00 71 00 77 00 65 00 72
+  EVEN bytes (padding): f1 93 a1 31
+  ODD bytes (encrypted): 08 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[86]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[9e]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[85]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[ea]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[d4]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[80]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: f1 2c 93 30 a1 5e 31 a4
+  CLEAR block: 00 34 00 35 00 61 00 73
+  EVEN bytes (padding): f1 93 a1 31
+  ODD bytes (encrypted): 2c 30 5e a4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[a2][03];<'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ba](83'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[a1]В{;'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[ce]НwX'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[f0]Е13'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[a4]%<Л'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: f1 3c 93 67 a1 0b 31 a0
+  CLEAR block: 00 38 00 39 00 79 00 78
+  EVEN bytes (padding): f1 93 a1 31
+  ODD bytes (encrypted): 3c 67 0b a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[b2]Tn8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[aa][7f]m7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[b1]E.?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[de]J"\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[e0]Bd7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[b4]riП'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: f1 3b 93 77 a1 0e 31 f9
+  CLEAR block: 00 36 00 30 00 6c 00 70
+  EVEN bytes (padding): f1 93 a1 31
+  ODD bytes (encrypted): 3b 77 0e f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[b5]Dka'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ad]ohn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[b6]U+f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[d9]Z'[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[e7]Ran'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[b3]blF'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: f1 15 93 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #6
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:49:19.463
+  Elapsed time: 29.344 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 79 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 4f 00 4a ae 24 50 48 00 00 00 31 09 93 64 a1 1f  | O.J.$PH...1..d..
+  0010: 31 97 00 71 00 77 00 65 00 72 31 2d 93 30 a1 5e  | 1..q.w.e.r1-.0.^
+  0020: 31 a4 00 34 00 35 00 61 00 73 31 3d 93 67 a1 0b  | 1..4.5.a.s1=.g..
+  0030: 31 a0 00 38 00 39 00 79 00 78 31 3a 93 77 a1 0e  | 1..8.9.y.x1:.w..
+  0040: 31 f9 00 36 00 30 00 6c 00 70 31 14 93 01 a1     | 1..6.0.l.p1....
+
+[PACKET STRUCTURE]
+  Header: 4f 00 4a ae 24 50 48 00 00
+  String data length: 70 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 31 09 93 64 a1 1f 31 97
+  CLEAR block: 00 71 00 77 00 65 00 72
+  EVEN bytes (padding): 31 93 a1 31
+  ODD bytes (encrypted): 09 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x31 ^ 0xe8 = 0xd9
+    padding[0] ^ session_key[1] = 0x31 ^ 0x32 = 0x03
+    padding[0] ^ session_key[2] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[3] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[4] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[5] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[6] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[7] = 0x31 ^ 0x00 = 0x31
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[87]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[9f]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[84]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[eb]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[d5]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[81]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 31 2d 93 30 a1 5e 31 a4
+  CLEAR block: 00 34 00 35 00 61 00 73
+  EVEN bytes (padding): 31 93 a1 31
+  ODD bytes (encrypted): 2d 30 5e a4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x31 ^ 0xe8 = 0xd9
+    padding[0] ^ session_key[1] = 0x31 ^ 0x32 = 0x03
+    padding[0] ^ session_key[2] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[3] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[4] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[5] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[6] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[7] = 0x31 ^ 0x00 = 0x31
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[a3][03];<'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[bb](83'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[a0]В{;'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[cf]НwX'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[f1]Е13'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[a5]%<Л'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 31 3d 93 67 a1 0b 31 a0
+  CLEAR block: 00 38 00 39 00 79 00 78
+  EVEN bytes (padding): 31 93 a1 31
+  ODD bytes (encrypted): 3d 67 0b a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x31 ^ 0xe8 = 0xd9
+    padding[0] ^ session_key[1] = 0x31 ^ 0x32 = 0x03
+    padding[0] ^ session_key[2] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[3] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[4] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[5] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[6] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[7] = 0x31 ^ 0x00 = 0x31
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[b3]Tn8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ab][7f]m7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[b0]E.?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[df]J"\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[e1]Bd7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[b5]riП'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 31 3a 93 77 a1 0e 31 f9
+  CLEAR block: 00 36 00 30 00 6c 00 70
+  EVEN bytes (padding): 31 93 a1 31
+  ODD bytes (encrypted): 3a 77 0e f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x31 ^ 0xe8 = 0xd9
+    padding[0] ^ session_key[1] = 0x31 ^ 0x32 = 0x03
+    padding[0] ^ session_key[2] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[3] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[4] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[5] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[6] = 0x31 ^ 0x00 = 0x31
+    padding[0] ^ session_key[7] = 0x31 ^ 0x00 = 0x31
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[b4]Dka'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ac]ohn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[b7]U+f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[d8]Z'[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[e6]Ran'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[b2]blF'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: 31 14 93 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #7
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:49:31.445
+  Elapsed time: 41.326 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 71 bytes
+  Packet ID: 0x4a
+  Chat Type: 1
+
+[FULL HEX DUMP]
+  0000: 47 00 4a af c7 d0 48 01 00 00 1f 6a 93 79 a1 16  | G.J...H....j.y..
+  0010: 31 ed 00 00 00 20 00 77 00 74 1f 49 93 21 a1 47  | 1.... .w.t.I.!.G
+  0020: 31 a0 00 20 00 61 00 6d 00 20 1f 00 93 30 a1 5c  | 1.. .a.m. ...0.\
+  0030: 31 b7 00 61 00 73 00 20 00 64 1f 49 93 21 a1 04  | 1..a.s. .d.I.!..
+  0040: 31 f3 00 20 00 00 00                             | 1.. ...
+
+[PACKET STRUCTURE]
+  Header: 47 00 4a af c7 d0 48 01 00
+  String data length: 62 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 1f 6a 93 79 a1 16 31 ed
+  CLEAR block: 00 00 00 20 00 77 00 74
+  EVEN bytes (padding): 1f 93 a1 31
+  ODD bytes (encrypted): 6a 79 16 ed
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x1f ^ 0xe8 = 0xf7
+    padding[0] ^ session_key[1] = 0x1f ^ 0x32 = 0x2d
+    padding[0] ^ session_key[2] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[3] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[4] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[5] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[6] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[7] = 0x1f ^ 0x00 = 0x1f
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[e4]Jsu'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[fc]apz'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[e7][3r'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[88]T?Б'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[b6]\yz'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[e2]ltR'
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 1f 49 93 21 a1 47 31 a0
+  CLEAR block: 00 20 00 61 00 6d 00 20
+  EVEN bytes (padding): 1f 93 a1 31
+  ODD bytes (encrypted): 49 21 47 a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x1f ^ 0xe8 = 0xf7
+    padding[0] ^ session_key[1] = 0x1f ^ 0x32 = 0x2d
+    padding[0] ^ session_key[2] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[3] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[4] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[5] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[6] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[7] = 0x1f ^ 0x00 = 0x1f
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c7]В"8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[df]9!7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c4][03]b?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[ab][0c]n\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[95][04](7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c1]4%П'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 1f 00 93 30 a1 5c 31 b7
+  CLEAR block: 00 61 00 73 00 20 00 64
+  EVEN bytes (padding): 1f 93 a1 31
+  ODD bytes (encrypted): 00 30 5c b7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x1f ^ 0xe8 = 0xf7
+    padding[0] ^ session_key[1] = 0x1f ^ 0x32 = 0x2d
+    padding[0] ^ session_key[2] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[3] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[4] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[5] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[6] = 0x1f ^ 0x00 = 0x1f
+    padding[0] ^ session_key[7] = 0x1f ^ 0x00 = 0x1f
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[8e][03]9/'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[96](: '
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[8d]Вy('
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[e2]НuK'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[dc]Е3 '
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[88]%>[08]'
+
+  --- REMAINING DATA (13 bytes) ---
+  HEX: 1f 49 93 21 a1 04 31 f3 00 20 00 00 00
+
+================================================================================
+
+================================================================================
+PACKET DUMP #8
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:49:36.426
+  Elapsed time: 46.307 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 73 bytes
+  Packet ID: 0x4a
+  Chat Type: 8
+
+[FULL HEX DUMP]
+  0000: 49 00 4a af c7 d0 48 08 00 00 71 76 93 79 a1 16  | I.J...H...qv.y..
+  0010: 31 ed 00 00 00 20 00 20 00 77 71 43 93 63 a1 4c  | 1.... . .wqC.c.L
+  0020: 31 bc 00 37 00 20 00 61 00 6d 71 17 93 2a a1 5d  | 1..7. .a.mq..*.]
+  0030: 31 a7 00 20 00 61 00 73 00 20 71 53 93 63 a1 4c  | 1.. .a.s. qS.c.L
+  0040: 31 ff 00 64 00 20 00 00 00                       | 1..d. ...
+
+[PACKET STRUCTURE]
+  Header: 49 00 4a af c7 d0 48 08 00
+  String data length: 64 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 71 76 93 79 a1 16 31 ed
+  CLEAR block: 00 00 00 20 00 20 00 77
+  EVEN bytes (padding): 71 93 a1 31
+  ODD bytes (encrypted): 76 79 16 ed
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x71 ^ 0xe8 = 0x99
+    padding[0] ^ session_key[1] = 0x71 ^ 0x32 = 0x43
+    padding[0] ^ session_key[2] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[3] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[4] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[5] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[6] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[7] = 0x71 ^ 0x00 = 0x71
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[f8]Jsu'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[e0]apz'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[fb][3r'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[94]T?Б'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[aa]\yz'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[fe]ltR'
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 71 43 93 63 a1 4c 31 bc
+  CLEAR block: 00 37 00 20 00 61 00 6d
+  EVEN bytes (padding): 71 93 a1 31
+  ODD bytes (encrypted): 43 63 4c bc
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x71 ^ 0xe8 = 0x99
+    padding[0] ^ session_key[1] = 0x71 ^ 0x32 = 0x43
+    padding[0] ^ session_key[2] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[3] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[4] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[5] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[6] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[7] = 0x71 ^ 0x00 = 0x71
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[cd]P)$'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[d5]{*+'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[ce]Ai#'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[a1]Ne@'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[9f]F#+'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[cb]v.[03]'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 71 17 93 2a a1 5d 31 a7
+  CLEAR block: 00 20 00 61 00 73 00 20
+  EVEN bytes (padding): 71 93 a1 31
+  ODD bytes (encrypted): 17 2a 5d a7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x71 ^ 0xe8 = 0x99
+    padding[0] ^ session_key[1] = 0x71 ^ 0x32 = 0x43
+    padding[0] ^ session_key[2] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[3] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[4] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[5] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[6] = 0x71 ^ 0x00 = 0x71
+    padding[0] ^ session_key[7] = 0x71 ^ 0x00 = 0x71
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[99]Й8?'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[81]2;0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[9a][08]x8'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[f5][07]t['
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[cb][0f]20'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[9f]??И'
+
+  --- REMAINING DATA (15 bytes) ---
+  HEX: 71 53 93 63 a1 4c 31 ff 00 64 00 20 00 00 00
+
+================================================================================
+
+================================================================================
+PACKET DUMP #9
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:49:40.225
+  Elapsed time: 50.106 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 79 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 4f 00 4a ae 24 50 48 00 00 00 13 6f 93 64 a1 1f  | O.J.$PH....o.d..
+  0010: 31 97 00 71 00 77 00 65 00 72 13 4b 93 30 a1 5e  | 1..q.w.e.r.K.0.^
+  0020: 31 a4 00 34 00 35 00 61 00 73 13 5b 93 67 a1 0b  | 1..4.5.a.s.[.g..
+  0030: 31 a0 00 38 00 39 00 79 00 78 13 5c 93 77 a1 0e  | 1..8.9.y.x.\.w..
+  0040: 31 f9 00 36 00 30 00 6c 00 70 13 72 93 01 a1     | 1..6.0.l.p.r...
+
+[PACKET STRUCTURE]
+  Header: 4f 00 4a ae 24 50 48 00 00
+  String data length: 70 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 13 6f 93 64 a1 1f 31 97
+  CLEAR block: 00 71 00 77 00 65 00 72
+  EVEN bytes (padding): 13 93 a1 31
+  ODD bytes (encrypted): 6f 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[e1]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[f9]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[e2]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[8d]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[b3]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[e7]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 13 4b 93 30 a1 5e 31 a4
+  CLEAR block: 00 34 00 35 00 61 00 73
+  EVEN bytes (padding): 13 93 a1 31
+  ODD bytes (encrypted): 4b 30 5e a4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c5][03];<'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[dd](83'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c6]В{;'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[a9]НwX'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[97]Е13'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c3]%<Л'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 13 5b 93 67 a1 0b 31 a0
+  CLEAR block: 00 38 00 39 00 79 00 78
+  EVEN bytes (padding): 13 93 a1 31
+  ODD bytes (encrypted): 5b 67 0b a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[d5]Tn8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[cd][7f]m7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[d6]E.?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[b9]J"\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[87]Bd7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[d3]riП'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 13 5c 93 77 a1 0e 31 f9
+  CLEAR block: 00 36 00 30 00 6c 00 70
+  EVEN bytes (padding): 13 93 a1 31
+  ODD bytes (encrypted): 5c 77 0e f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[d2]Dka'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ca]ohn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[d1]U+f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[be]Z'[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[80]Ran'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[d4]blF'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: 13 72 93 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #10
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:50:04.281
+  Elapsed time: 74.162 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 79 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 4f 00 4a ae 24 50 48 00 00 00 13 87 94 64 a1 1f  | O.J.$PH......d..
+  0010: 31 97 00 71 00 77 00 65 00 72 13 a3 94 30 a1 5e  | 1..q.w.e.r...0.^
+  0020: 31 a4 00 34 00 35 00 61 00 73 13 b3 94 67 a1 0b  | 1..4.5.a.s...g..
+  0030: 31 a0 00 38 00 39 00 79 00 78 13 b4 94 77 a1 0e  | 1..8.9.y.x...w..
+  0040: 31 f9 00 36 00 30 00 6c 00 70 13 9a 94 01 a1     | 1..6.0.l.p.....
+
+[PACKET STRUCTURE]
+  Header: 4f 00 4a ae 24 50 48 00 00
+  String data length: 70 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 13 87 94 64 a1 1f 31 97
+  CLEAR block: 00 71 00 77 00 65 00 72
+  EVEN bytes (padding): 13 94 a1 31
+  ODD bytes (encrypted): 87 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[09]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'Б|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[0a]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'eI6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[0f]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 13 a3 94 30 a1 5e 31 a4
+  CLEAR block: 00 34 00 35 00 61 00 73
+  EVEN bytes (padding): 13 94 a1 31
+  ODD bytes (encrypted): a3 30 5e a4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '-[03];<'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '5(83'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '.В{;'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'AНwX'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[7f]Е13'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '+%<Л'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 13 b3 94 67 a1 0b 31 a0
+  CLEAR block: 00 38 00 39 00 79 00 78
+  EVEN bytes (padding): 13 94 a1 31
+  ODD bytes (encrypted): b3 67 0b a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '=Tn8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '%[7f]m7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '>E.?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'QJ"\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'oBd7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: ';riП'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 13 b4 94 77 a1 0e 31 f9
+  CLEAR block: 00 36 00 30 00 6c 00 70
+  EVEN bytes (padding): 13 94 a1 31
+  ODD bytes (encrypted): b4 77 0e f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: ':Dka'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '"ohn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '9U+f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'VZ'[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'hRan'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '<blF'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: 13 9a 94 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #11
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:50:05.525
+  Elapsed time: 75.406 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 89 bytes
+  Packet ID: 0x4a
+  Chat Type: 1
+
+[FULL HEX DUMP]
+  0000: 59 00 4a b1 ca 70 49 01 00 00 f1 a9 94 6d a1 01  | Y.J..pI......m..
+  0010: 31 e4 00 69 00 76 00 69 00 00 f1 bf 94 55 a1 3f  | 1..i.v.i.....U.?
+  0020: 31 b7 00 45 00 58 00 50 00 20 f1 dc 94 33 a1 41  | 1..E.X.P. ...3.A
+  0030: 31 a0 00 39 00 2f 00 1f 04 20 f5 f6 90 15 a5 7c  | 1..9./... .....|
+  0040: 35 8b 04 20 00 1a 04 10 04 27 f5 c8 94 35 a1 5e  | 5.. .....'...5.^
+  0050: 31 ba 00 37 00 39 00 00 00                       | 1..7.9...
+
+[PACKET STRUCTURE]
+  Header: 59 00 4a b1 ca 70 49 01 00
+  String data length: 80 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: f1 a9 94 6d a1 01 31 e4
+  CLEAR block: 00 69 00 76 00 69 00 00
+  EVEN bytes (padding): f1 94 a1 31
+  ODD bytes (encrypted): a9 6d 01 e4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: ''^d|'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '?ugs'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '$O${'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'K@(И'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'uHns'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '!xc['
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: f1 bf 94 55 a1 3f 31 b7
+  CLEAR block: 00 45 00 58 00 50 00 20
+  EVEN bytes (padding): f1 94 a1 31
+  ODD bytes (encrypted): bf 55 3f b7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '1fZ/'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: ')MY '
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '2wК('
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: ']xЖK'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'cpP '
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '7@][08]'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: f1 dc 94 33 a1 41 31 a0
+  CLEAR block: 00 39 00 2f 00 1f 04 20
+  EVEN bytes (padding): f1 94 a1 31
+  ODD bytes (encrypted): dc 33 41 a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'R\0$8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'J+'7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'QБd?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '>Оh\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '\0Ж.7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'T&#П'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: f5 f6 90 15 a5 7c 35 8b
+  CLEAR block: 04 20 00 1a 04 10 04 27
+  EVEN bytes (padding): f5 90 a5 35
+  ODD bytes (encrypted): f6 15 7c 8b
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf5 ^ 0xe8 = 0x1d
+    padding[0] ^ session_key[1] = 0xf5 ^ 0x32 = 0xc7
+    padding[0] ^ session_key[2] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[3] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[4] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[5] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[6] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[7] = 0xf5 ^ 0x00 = 0xf5
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'x&ЙГ'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '`[0d]КМ'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '{7YД'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'Д8Uw'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '*0ГМ'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '~\0О4'
+
+  --- REMAINING DATA (15 bytes) ---
+  HEX: f5 c8 94 35 a1 5e 31 ba 00 37 00 39 00 00 00
+
+================================================================================
+
+================================================================================
+PACKET DUMP #12
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:50:05.785
+  Elapsed time: 75.666 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 89 bytes
+  Packet ID: 0x4a
+  Chat Type: 8
+
+[FULL HEX DUMP]
+  0000: 59 00 4a b1 ca 70 49 08 00 00 f1 a8 94 6d a1 01  | Y.J..pI......m..
+  0010: 31 e4 00 69 00 76 00 69 00 00 f1 be 94 55 a1 3f  | 1..i.v.i.....U.?
+  0020: 31 b7 00 45 00 58 00 50 00 20 f1 dd 94 33 a1 41  | 1..E.X.P. ...3.A
+  0030: 31 a0 00 39 00 2f 00 1f 04 20 f5 f7 90 15 a5 7c  | 1..9./... .....|
+  0040: 35 8b 04 20 00 1a 04 10 04 27 f5 c9 94 35 a1 5e  | 5.. .....'...5.^
+  0050: 31 ba 00 37 00 39 00 00 00                       | 1..7.9...
+
+[PACKET STRUCTURE]
+  Header: 59 00 4a b1 ca 70 49 08 00
+  String data length: 80 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: f1 a8 94 6d a1 01 31 e4
+  CLEAR block: 00 69 00 76 00 69 00 00
+  EVEN bytes (padding): f1 94 a1 31
+  ODD bytes (encrypted): a8 6d 01 e4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '&^d|'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '>ugs'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '%O${'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'J@(И'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'tHns'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: ' xc['
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: f1 be 94 55 a1 3f 31 b7
+  CLEAR block: 00 45 00 58 00 50 00 20
+  EVEN bytes (padding): f1 94 a1 31
+  ODD bytes (encrypted): be 55 3f b7
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '0fZ/'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '(MY '
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '3wК('
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '\xЖK'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'bpP '
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '6@][08]'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: f1 dd 94 33 a1 41 31 a0
+  CLEAR block: 00 39 00 2f 00 1f 04 20
+  EVEN bytes (padding): f1 94 a1 31
+  ODD bytes (encrypted): dd 33 41 a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf1 ^ 0xe8 = 0x19
+    padding[0] ^ session_key[1] = 0xf1 ^ 0x32 = 0xc3
+    padding[0] ^ session_key[2] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[3] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[4] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[5] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[6] = 0xf1 ^ 0x00 = 0xf1
+    padding[0] ^ session_key[7] = 0xf1 ^ 0x00 = 0xf1
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'S\0$8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'K+'7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'PБd?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '?Оh\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[01]Ж.7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'U&#П'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: f5 f7 90 15 a5 7c 35 8b
+  CLEAR block: 04 20 00 1a 04 10 04 27
+  EVEN bytes (padding): f5 90 a5 35
+  ODD bytes (encrypted): f7 15 7c 8b
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf5 ^ 0xe8 = 0x1d
+    padding[0] ^ session_key[1] = 0xf5 ^ 0x32 = 0xc7
+    padding[0] ^ session_key[2] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[3] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[4] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[5] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[6] = 0xf5 ^ 0x00 = 0xf5
+    padding[0] ^ session_key[7] = 0xf5 ^ 0x00 = 0xf5
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'y&ЙГ'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'a[0d]КМ'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'z7YД'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'Е8Uw'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '+0ГМ'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[7f]\0О4'
+
+  --- REMAINING DATA (15 bytes) ---
+  HEX: f5 c9 94 35 a1 5e 31 ba 00 37 00 39 00 00 00
+
+================================================================================
+
+================================================================================
+PACKET DUMP #13
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:50:09.861
+  Elapsed time: 79.742 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 79 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 4f 00 4a ae 24 50 48 00 00 00 13 bf 94 64 a1 1f  | O.J.$PH......d..
+  0010: 31 97 00 71 00 77 00 65 00 72 13 9b 94 30 a1 5e  | 1..q.w.e.r...0.^
+  0020: 31 a4 00 34 00 35 00 61 00 73 13 8b 94 67 a1 0b  | 1..4.5.a.s...g..
+  0030: 31 a0 00 38 00 39 00 79 00 78 13 8c 94 77 a1 0e  | 1..8.9.y.x...w..
+  0040: 31 f9 00 36 00 30 00 6c 00 70 13 a2 94 01 a1     | 1..6.0.l.p.....
+
+[PACKET STRUCTURE]
+  Header: 4f 00 4a ae 24 50 48 00 00
+  String data length: 70 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 13 bf 94 64 a1 1f 31 97
+  CLEAR block: 00 71 00 77 00 65 00 72
+  EVEN bytes (padding): 13 94 a1 31
+  ODD bytes (encrypted): bf 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '1Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: ')|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '2F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: ']I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'cAp\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '7q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 13 9b 94 30 a1 5e 31 a4
+  CLEAR block: 00 34 00 35 00 61 00 73
+  EVEN bytes (padding): 13 94 a1 31
+  ODD bytes (encrypted): 9b 30 5e a4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: 'Е[03];<'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[0d](83'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: 'ЖВ{;'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'yНwX'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'GЕ13'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: 'Г%<Л'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 13 8b 94 67 a1 0b 31 a0
+  CLEAR block: 00 38 00 39 00 79 00 78
+  EVEN bytes (padding): 13 94 a1 31
+  ODD bytes (encrypted): 8b 67 0b a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[05]Tn8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'Н[7f]m7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[06]E.?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'iJ"\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'WBd7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[03]riП'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 13 8c 94 77 a1 0e 31 f9
+  CLEAR block: 00 36 00 30 00 6c 00 70
+  EVEN bytes (padding): 13 94 a1 31
+  ODD bytes (encrypted): 8c 77 0e f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[02]Dka'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: 'Кohn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[01]U+f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: 'nZ'[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: 'PRan'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[04]blF'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: 13 a2 94 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #14
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:51:03.653
+  Elapsed time: 133.534 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 79 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 4f 00 4a ae 24 50 48 00 00 00 f3 79 95 64 a1 1f  | O.J.$PH....y.d..
+  0010: 31 97 00 71 00 77 00 65 00 72 f3 5d 95 30 a1 5e  | 1..q.w.e.r.].0.^
+  0020: 31 a4 00 34 00 35 00 61 00 73 f3 4d 95 67 a1 0b  | 1..4.5.a.s.M.g..
+  0030: 31 a0 00 38 00 39 00 79 00 78 f3 4a 95 77 a1 0e  | 1..8.9.y.x.J.w..
+  0040: 31 f9 00 36 00 30 00 6c 00 70 f3 64 95 01 a1     | 1..6.0.l.p.d...
+
+[PACKET STRUCTURE]
+  Header: 4f 00 4a ae 24 50 48 00 00
+  String data length: 70 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: f3 79 95 64 a1 1f 31 97
+  CLEAR block: 00 71 00 77 00 65 00 72
+  EVEN bytes (padding): f3 95 a1 31
+  ODD bytes (encrypted): 79 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf3 ^ 0xe8 = 0x1b
+    padding[0] ^ session_key[1] = 0xf3 ^ 0x32 = 0xc1
+    padding[0] ^ session_key[2] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[3] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[4] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[5] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[6] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[7] = 0xf3 ^ 0x00 = 0xf3
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[f7]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ef]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[f4]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[9b]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[a5]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[f1]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: f3 5d 95 30 a1 5e 31 a4
+  CLEAR block: 00 34 00 35 00 61 00 73
+  EVEN bytes (padding): f3 95 a1 31
+  ODD bytes (encrypted): 5d 30 5e a4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf3 ^ 0xe8 = 0x1b
+    padding[0] ^ session_key[1] = 0xf3 ^ 0x32 = 0xc1
+    padding[0] ^ session_key[2] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[3] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[4] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[5] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[6] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[7] = 0xf3 ^ 0x00 = 0xf3
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[d3][03];<'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[cb](83'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[d0]В{;'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[bf]НwX'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[81]Е13'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[d5]%<Л'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: f3 4d 95 67 a1 0b 31 a0
+  CLEAR block: 00 38 00 39 00 79 00 78
+  EVEN bytes (padding): f3 95 a1 31
+  ODD bytes (encrypted): 4d 67 0b a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf3 ^ 0xe8 = 0x1b
+    padding[0] ^ session_key[1] = 0xf3 ^ 0x32 = 0xc1
+    padding[0] ^ session_key[2] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[3] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[4] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[5] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[6] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[7] = 0xf3 ^ 0x00 = 0xf3
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c3]Tn8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[db][7f]m7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c0]E.?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[af]J"\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[91]Bd7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c5]riП'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: f3 4a 95 77 a1 0e 31 f9
+  CLEAR block: 00 36 00 30 00 6c 00 70
+  EVEN bytes (padding): f3 95 a1 31
+  ODD bytes (encrypted): 4a 77 0e f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0xf3 ^ 0xe8 = 0x1b
+    padding[0] ^ session_key[1] = 0xf3 ^ 0x32 = 0xc1
+    padding[0] ^ session_key[2] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[3] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[4] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[5] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[6] = 0xf3 ^ 0x00 = 0xf3
+    padding[0] ^ session_key[7] = 0xf3 ^ 0x00 = 0xf3
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c4]Dka'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[dc]ohn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c7]U+f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[a8]Z'[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[96]Ran'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c2]blF'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: f3 64 95 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #15
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:51:21.898
+  Elapsed time: 151.779 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 57 bytes
+  Packet ID: 0x4a
+  Chat Type: 4
+
+[FULL HEX DUMP]
+  0000: 39 00 4a ae 24 50 48 04 00 00 13 79 95 64 a1 1f  | 9.J.$PH....y.d..
+  0010: 31 97 00 74 00 65 00 68 00 67 13 4c 95 73 a1 0b  | 1..t.e.h.g.L.s..
+  0020: 31 f2 00 72 00 65 00 72 00 67 13 4c 95 73 a1 0b  | 1..r.e.r.g.L.s..
+  0030: 31 f2 00 72 00 67 00 00 00                       | 1..r.g...
+
+[PACKET STRUCTURE]
+  Header: 39 00 4a ae 24 50 48 04 00
+  String data length: 48 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 13 79 95 64 a1 1f 31 97
+  CLEAR block: 00 74 00 65 00 68 00 67
+  EVEN bytes (padding): 13 95 a1 31
+  ODD bytes (encrypted): 79 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[f7]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ef]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[f4]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[9b]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[a5]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[f1]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 13 4c 95 73 a1 0b 31 f2
+  CLEAR block: 00 72 00 65 00 72 00 67
+  EVEN bytes (padding): 13 95 a1 31
+  ODD bytes (encrypted): 4c 73 0b f2
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c2]@nj'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[da]kme'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c1]Q.m'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[ae]^"[0e]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[90]Vde'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c4]fiM'
+
+  --- REMAINING DATA (15 bytes) ---
+  HEX: 13 4c 95 73 a1 0b 31 f2 00 72 00 67 00 00 00
+
+================================================================================
+
+================================================================================
+PACKET DUMP #16
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:51:25.077
+  Elapsed time: 154.959 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 71 bytes
+  Packet ID: 0x4a
+  Chat Type: 9
+
+[FULL HEX DUMP]
+  0000: 47 00 4a ae 24 50 48 09 00 00 13 7b 95 64 a1 1f  | G.J.$PH....{.d..
+  0010: 31 97 00 7a 00 66 00 6a 00 68 13 4f 95 75 a1 0e  | 1..z.f.j.h.O.u..
+  0020: 31 f1 00 76 00 64 00 66 00 76 13 4f 95 67 a1 0e  | 1..v.d.f.v.O.g..
+  0030: 31 e1 00 64 00 66 00 67 00 6e 13 4d 95 66 a1 16  | 1..d.f.g.n.M.f..
+  0040: 31 fd 00 68 00 00 00                             | 1..h...
+
+[PACKET STRUCTURE]
+  Header: 47 00 4a ae 24 50 48 09 00
+  String data length: 62 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 13 7b 95 64 a1 1f 31 97
+  CLEAR block: 00 7a 00 66 00 6a 00 68
+  EVEN bytes (padding): 13 95 a1 31
+  ODD bytes (encrypted): 7b 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[f5]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ed]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[f6]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[99]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[a7]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[f3]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 13 4f 95 75 a1 0e 31 f1
+  CLEAR block: 00 76 00 64 00 66 00 76
+  EVEN bytes (padding): 13 95 a1 31
+  ODD bytes (encrypted): 4f 75 0e f1
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c1]Fki'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[d9]mhf'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c2]W+n'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[ad]X'[0d]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[93]Paf'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c7]`lN'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 13 4f 95 67 a1 0e 31 e1
+  CLEAR block: 00 64 00 66 00 67 00 6e
+  EVEN bytes (padding): 13 95 a1 31
+  ODD bytes (encrypted): 4f 67 0e e1
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x13 ^ 0xe8 = 0xfb
+    padding[0] ^ session_key[1] = 0x13 ^ 0x32 = 0x21
+    padding[0] ^ session_key[2] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[3] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[4] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[5] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[6] = 0x13 ^ 0x00 = 0x13
+    padding[0] ^ session_key[7] = 0x13 ^ 0x00 = 0x13
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c1]Tky'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[d9][7f]hv'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c2]E+~'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[ad]J'Н'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[93]Bav'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c7]rl^'
+
+  --- REMAINING DATA (13 bytes) ---
+  HEX: 13 4d 95 66 a1 16 31 fd 00 68 00 00 00
+
+================================================================================
+
+================================================================================
+PACKET DUMP #17
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:51:29.016
+  Elapsed time: 158.897 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 79 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 4f 00 4a ae 24 50 48 00 00 00 33 7f 95 64 a1 1f  | O.J.$PH...3..d..
+  0010: 31 97 00 71 00 77 00 65 00 72 33 5b 95 30 a1 5e  | 1..q.w.e.r3[.0.^
+  0020: 31 a4 00 34 00 35 00 61 00 73 33 4b 95 67 a1 0b  | 1..4.5.a.s3K.g..
+  0030: 31 a0 00 38 00 39 00 79 00 78 33 4c 95 77 a1 0e  | 1..8.9.y.x3L.w..
+  0040: 31 f9 00 36 00 30 00 6c 00 70 33 62 95 01 a1     | 1..6.0.l.p3b...
+
+[PACKET STRUCTURE]
+  Header: 4f 00 4a ae 24 50 48 00 00
+  String data length: 70 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 33 7f 95 64 a1 1f 31 97
+  CLEAR block: 00 71 00 77 00 65 00 72
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 7f 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[f1]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[e9]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[f2]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[9d]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[a3]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[f7]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 33 5b 95 30 a1 5e 31 a4
+  CLEAR block: 00 34 00 35 00 61 00 73
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 5b 30 5e a4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[d5][03];<'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[cd](83'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[d6]В{;'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[b9]НwX'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[87]Е13'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[d3]%<Л'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 33 4b 95 67 a1 0b 31 a0
+  CLEAR block: 00 38 00 39 00 79 00 78
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 4b 67 0b a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c5]Tn8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[dd][7f]m7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c6]E.?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[a9]J"\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[97]Bd7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c3]riП'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 33 4c 95 77 a1 0e 31 f9
+  CLEAR block: 00 36 00 30 00 6c 00 70
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 4c 77 0e f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[c2]Dka'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[da]ohn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[c1]U+f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[ae]Z'[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[90]Ran'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[c4]blF'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: 33 62 95 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #18
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:51:34.535
+  Elapsed time: 164.416 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 63 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 3f 00 4a ae 24 50 48 00 00 00 33 07 95 64 a1 1f  | ?.J.$PH...3..d..
+  0010: 31 97 00 77 00 65 00 66 00 77 33 32 95 67 a1 1b  | 1..w.e.f.w32.g..
+  0020: 31 f2 00 66 00 77 00 65 00 66 33 20 95 64 a1 0a  | 1..f.w.e.f3 .d..
+  0030: 31 e0 00 65 00 66 00 77 00 65 33 31 95 01 a1     | 1..e.f.w.e31...
+
+[PACKET STRUCTURE]
+  Header: 3f 00 4a ae 24 50 48 00 00
+  String data length: 54 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 33 07 95 64 a1 1f 31 97
+  CLEAR block: 00 77 00 65 00 66 00 77
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 07 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[89]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[91]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[8a]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[e5]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[db]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[8f]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 33 32 95 67 a1 1b 31 f2
+  CLEAR block: 00 66 00 77 00 65 00 66
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 32 67 1b f2
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[bc]T~j'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[a4][7f]}e'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[bf]E>m'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[d0]J2[0e]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[ee]Bte'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[ba]ryM'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 33 20 95 64 a1 0a 31 e0
+  CLEAR block: 00 65 00 66 00 77 00 65
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 20 64 0a e0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[ae]Wox'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[b6]|lw'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[ad]F/[7f]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[c2]I#М'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[fc]Aew'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[a8]qh_'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: 33 31 95 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #19
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:51:36.486
+  Elapsed time: 166.367 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 79 bytes
+  Packet ID: 0x4a
+  Chat Type: 0
+
+[FULL HEX DUMP]
+  0000: 4f 00 4a ae 24 50 48 00 00 00 33 09 95 64 a1 1f  | O.J.$PH...3..d..
+  0010: 31 97 00 71 00 77 00 65 00 72 33 2d 95 30 a1 5e  | 1..q.w.e.r3-.0.^
+  0020: 31 a4 00 34 00 35 00 61 00 73 33 3d 95 67 a1 0b  | 1..4.5.a.s3=.g..
+  0030: 31 a0 00 38 00 39 00 79 00 78 33 3a 95 77 a1 0e  | 1..8.9.y.x3:.w..
+  0040: 31 f9 00 36 00 30 00 6c 00 70 33 14 95 01 a1     | 1..6.0.l.p3....
+
+[PACKET STRUCTURE]
+  Header: 4f 00 4a ae 24 50 48 00 00
+  String data length: 70 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 33 09 95 64 a1 1f 31 97
+  CLEAR block: 00 71 00 77 00 65 00 72
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 09 64 1f 97
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[87]Wz[0f]'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[9f]|y\0'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[84]F:[08]'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[eb]I6k'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[d5]Ap\0'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[81]q}('
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 33 2d 95 30 a1 5e 31 a4
+  CLEAR block: 00 34 00 35 00 61 00 73
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 2d 30 5e a4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[a3][03];<'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[bb](83'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[a0]В{;'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[cf]НwX'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[f1]Е13'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[a5]%<Л'
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 33 3d 95 67 a1 0b 31 a0
+  CLEAR block: 00 38 00 39 00 79 00 78
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 3d 67 0b a0
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[b3]Tn8'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ab][7f]m7'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[b0]E.?'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[df]J"\'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[e1]Bd7'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[b5]riП'
+
+  --- BLOCK 3 (offset 49) ---
+  ENC  block: 33 3a 95 77 a1 0e 31 f9
+  CLEAR block: 00 36 00 30 00 6c 00 70
+  EVEN bytes (padding): 33 95 a1 31
+  ODD bytes (encrypted): 3a 77 0e f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x33 ^ 0xe8 = 0xdb
+    padding[0] ^ session_key[1] = 0x33 ^ 0x32 = 0x01
+    padding[0] ^ session_key[2] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[3] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[4] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[5] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[6] = 0x33 ^ 0x00 = 0x33
+    padding[0] ^ session_key[7] = 0x33 ^ 0x00 = 0x33
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[b4]Dka'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ac]ohn'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[b7]U+f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[d8]Z'[05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[e6]Ran'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[b2]blF'
+
+  --- REMAINING DATA (5 bytes) ---
+  HEX: 33 14 95 01 a1
+
+================================================================================
+
+================================================================================
+PACKET DUMP #20
+================================================================================
+[PACKET INFO]
+  Timestamp: 19:52:05.513
+  Elapsed time: 195.395 seconds
+  Session ID: 1
+  SESSION KEY: e8 32 00 00 00 00 00 00
+  Length: 65 bytes
+  Packet ID: 0x4a
+  Chat Type: 1
+
+[FULL HEX DUMP]
+  0000: 41 00 4a b7 8c 10 49 01 00 00 11 3b 95 74 a1 09  | A.J...I....;.t..
+  0010: 31 f9 00 61 00 73 00 4e 00 6f 11 1a 95 69 a1 09  | 1..a.s.N.o...i..
+  0020: 31 e4 00 00 00 57 00 54 00 53 11 59 95 69 a1 03  | 1....W.T.S.Y.i..
+  0030: 31 fa 00 61 00 20 00 2b 00 20 11 48 95 37 a1 6c  | 1..a. .+. .H.7.l
+  0040: 31                                               | 1
+
+[PACKET STRUCTURE]
+  Header: 41 00 4a b7 8c 10 49 01 00
+  String data length: 56 bytes
+
+[BLOCK ANALYSIS]
+  Start position: 1
+
+  --- BLOCK 0 (offset 1) ---
+  ENC  block: 11 3b 95 74 a1 09 31 f9
+  CLEAR block: 00 61 00 73 00 4e 00 6f
+  EVEN bytes (padding): 11 95 a1 31
+  ODD bytes (encrypted): 3b 74 09 f9
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[b5]Gla'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[ad]lon'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[b6]V,f'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[d9]Y [05]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[e7]Qfn'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[b3]akF'
+
+  --- BLOCK 1 (offset 17) ---
+  ENC  block: 11 1a 95 69 a1 09 31 e4
+  CLEAR block: 00 00 00 57 00 54 00 53
+  EVEN bytes (padding): 11 95 a1 31
+  ODD bytes (encrypted): 1a 69 09 e4
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[94]Zl|'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[8c]qos'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[97]K,{'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[f8]D И'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[c6]Lfs'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[92]|k['
+
+  --- BLOCK 2 (offset 33) ---
+  ENC  block: 11 59 95 69 a1 03 31 fa
+  CLEAR block: 00 61 00 20 00 2b 00 20
+  EVEN bytes (padding): 11 95 a1 31
+  ODD bytes (encrypted): 59 69 03 fa
+  CLEAR text: ''
+  SESSION KEY correlation:
+    padding[0] ^ session_key[0] = 0x11 ^ 0xe8 = 0xf9
+    padding[0] ^ session_key[1] = 0x11 ^ 0x32 = 0x23
+    padding[0] ^ session_key[2] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[3] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[4] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[5] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[6] = 0x11 ^ 0x00 = 0x11
+    padding[0] ^ session_key[7] = 0x11 ^ 0x00 = 0x11
+  Testing known keys:
+    Key0 ['0x8e', '0x33', '0x65', '0x98']: '[d7]Zfb'
+    Key1 ['0x96', '0x18', '0x66', '0x97']: '[cf]qem'
+    Key2 ['0x8d', '0x22', '0x25', '0x9f']: '[d4]K&e'
+    Key3 ['0xe2', '0x2d', '0x29', '0xfc']: '[bb]D*[06]'
+    Key4 ['0xdc', '0x25', '0x6f', '0x97']: '[85]Llm'
+    Key5 ['0x88', '0x15', '0x62', '0xbf']: '[d1]|aE'
+
+  --- REMAINING DATA (7 bytes) ---
+  HEX: 11 48 95 37 a1 6c 31
+
+================================================================================
