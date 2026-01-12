@@ -1,0 +1,3139 @@
+ВОт дампы, моё сообщение было test13 в игровом чате:
+
+
+
+
+
+CPU Dump
+
+Address   Hex dump                                                    ASCII
+
+00BAD3AB  FF D2 8B 4E|38 6A 00 53|8D 44 24 14|50 51 FF 15|            ÿÒ‹N8j SD$PQÿ
+
+
+
+
+
+
+
+
+
+
+
+CPU Stack
+
+Address   Value      ASCII Comments
+
+$-B        51000111   Q
+
+$-7        1624448D  D$
+
+$-3        FFCE8B50  P‹Îÿ
+
+$+1        384E8BD2  Ò‹N8
+
+$+5        8D53006A  j S
+
+$+9        50142444  D$P
+
+$+D        E015FF51  Qÿà
+
+$+11       0102717D  }q
+
+$+15       0109789E  žx      ; UNICODE "e %s"
+
+$+19       7C9E0100   ž|
+
+$+1D       57000109       W
+
+$+21       7B6015FF  ÿ`{
+
+$+25       5F5B0271  q[_
+
+$+29       00C4815E  ^Ä
+
+$+2D       C3000080  €  Ã
+
+$+31       6015FF57  Wÿ`
+
+$+35       5F02717B  {q_
+
+$+39       00C4815E  ^Ä
+
+$+3D       C3000080  €  Ã
+
+$+41       CCCCCCCC  ÌÌÌÌ
+
+$+45       CCCCCCCC  ÌÌÌÌ
+
+$+49       CCCCCCCC  ÌÌÌÌ
+
+$+4D       CCCCCCCC  ÌÌÌÌ
+
+$+51       CCCCCCCC  ÌÌÌÌ
+
+$+55       CCCCCCCC  ÌÌÌÌ
+
+$+59       CCCCCCCC  ÌÌÌÌ
+
+$+5D       CCCCCCCC  ÌÌÌÌ
+
+$+61       CCCCCCCC  ÌÌÌÌ
+
+$+65       CCCCCCCC  ÌÌÌÌ
+
+$+69       CCCCCCCC  ÌÌÌÌ
+
+$+6D       CCCCCCCC  ÌÌÌÌ
+
+$+71       CCCCCCCC  ÌÌÌÌ
+
+$+75       0824548B  ‹T$
+
+$+79       C1074A8D  J Á
+
+$+7D       E18102E9  éá
+
+$+81       3FFFFFFE  þÿÿ?
+
+$+85       33FFC183  ƒÁÿ3
+
+$+89       55C985C0  À…ÉU
+
+$+8D       08246C8B  ‹l$
+
+$+91       8B663E7E  ~>f‹
+
+$+95       53102454  T$S
+
+$+99       F6B60F56  V¶ö
+
+$+9D       57D2B60F  ¶ÒW
+
+$+A1       FE33FA8B  ‹ú3þ
+
+$+A5       33D8B60F  ¶Ø3
+
+$+A9       9D1C8BDF  ß‹
+
+$+AD       012BF540  @õ+
+
+$+B1       40951C33  3•@
+
+$+B5       83012BF5  õ+ƒ
+
+$+B9       1C3301C0  À3
+
+$+BD       2BF540B5  µ@õ+
+
+$+C1       89C13B01  ;Á‰
+
+$+C5       7CFC855C  \…ü|
+
+$+C9       24548BDB  Û‹T$
+
+$+CD       5B5E5F18  _^[
+
+$+D1       C003C003  ÀÀ
+
+$+D5       107DC23B  ;Â}
+
+$+D9       0352D02B  +ÐR
+
+$+DD       506C6AC5  ÅjlP
+
+$+E1       3F110FE8  è?
+
+$+E5       0CC48300   ƒÄ
+
+$+E9       000CC25D  ]Â
+
+$+ED       CCCCCCCC  ÌÌÌÌ
+
+$+F1       CCCCCCCC  ÌÌÌÌ
+
+$+F5       CCCCCCCC  ÌÌÌÌ
+
+$+F9       CCCCCCCC  ÌÌÌÌ
+
+$+FD       CCCCCCCC  ÌÌÌÌ
+
+$+101      CCCCCCCC  ÌÌÌÌ
+
+$+105      CCCCCCCC  ÌÌÌÌ
+
+$+109      CCCCCCCC  ÌÌÌÌ
+
+$+10D      CCCCCCCC  ÌÌÌÌ
+
+$+111      CCCCCCCC  ÌÌÌÌ
+
+$+115      8BF18B56  V‹ñ‹
+
+$+119      C0853846  F8…À
+
+$+11D      FF501474  tPÿ
+
+$+121      717DDC15  Ü}q
+
+$+125      80868D02  †€
+
+$+129      5000010F   P
+
+$+12D      7B5415FF  ÿT{
+
+$+131      46C70271  qÇF
+
+$+135      00000038  8
+
+$+139      CCC35E00   ^ÃÌ
+
+$+13D      CCCCCCCC  ÌÌÌÌ
+
+$+141      CCCCCCCC  ÌÌÌÌ
+
+$+145      8BF18B56  V‹ñ‹
+
+$+149      C0853846  F8…À
+
+$+14D      FF501474  tPÿ
+
+$+151      717DDC15  Ü}q
+
+$+155      80868D02  †€
+
+$+159      5000010F   P
+
+$+15D      7B5415FF  ÿT{
+
+$+161      46C70271  qÇF
+
+$+165      00000038  8
+
+$+169      5ECE8B00   ‹Î^
+
+$+16D      685C25FF  ÿ%\h
+
+$+171      CCCC0271  qÌÌ
+
+$+175      CCCCCCCC  ÌÌÌÌ
+
+$+179      CCCCCCCC  ÌÌÌÌ
+
+$+17D      CCCCCCCC  ÌÌÌÌ
+
+$+181      CCCCCCCC  ÌÌÌÌ
+
+$+185      0824448B  ‹D$
+
+$+189      6610E8C1  Áèf
+
+$+18D      8B56C085  …ÀV‹
+
+$+191      8B5A75F1  ñuZ‹
+
+$+195      4E8B3446  F4‹N
+
+$+199      68256A38  8j%h
+
+$+19D      0000050A  
+
+
+
+$+1A1      15FF5150  PQÿ
+
+$+1A5      02717DE4  ä}q  ; OFFSET <&ws2_32.WSAAsyncSelect>
+
+$+1A9      2974C085  …Àt)
+
+$+1AD      7DE815FF  ÿè}
+
+$+1B1      568B0271  q‹V
+
+$+1B5      68505238  8RPh
+
+$+1B9      01095F40  @_      ; UNICODE "WSAAsyncSelect Error : %d : %d"
+
+$+1BD      EE5A0EE8  èZî
+
+$+1C1      0CC483FF  ÿƒÄ
+
+$+1C5      0F80C681  Æ€
+
+$+1C9      FF560001   Vÿ
+
+$+1CD      717B5415  T{q
+
+$+1D1      08C25E02  ^Â
+
+$+1D5      68006A00   j h
+
+$+1D9      01095EF8  ø^      ; UNICODE "Message"
+
+$+1DD      095ED068  hÐ^    
+
+$+1E1      59E9E801  èéY
+
+$+1E5      C483FFEE  îÿƒÄ
+
+$+1E9      08C25E0C  ^Â
+
+$+1ED      4D3D6600   f=M
+
+$+1F1      680D7527  'u
+
+h
+
+$+1F5      01095E08  ^      ; UNICODE "Connection refused by server"
+
+$+1F9      EE59D2E8  èÒYî
+
+$+1FD      04C483FF  ÿƒÄ
+
+$+201      0008C25E  ^Â
+
+$+205      CCCCCCCC  ÌÌÌÌ
+
+$+209      CCCCCCCC  ÌÌÌÌ
+
+$+20D      CCCCCCCC  ÌÌÌÌ
+
+$+211      CCCCCCCC  ÌÌÌÌ
+
+$+215      CCCCCCCC  ÌÌÌÌ
+
+$+219      CCCCCCCC  ÌÌÌÌ
+
+$+21D      CCCCCCCC  ÌÌÌÌ
+
+$+221      CCCCCCCC  ÌÌÌÌ
+
+$+225      6AEC8B55  U‹ìj
+
+$+229      E2C068FF  ÿhÀâ
+
+$+22D      A1640101  d¡
+
+$+231      00000000
+
+$+235      25896450  Pd‰%
+
+$+239      00000000
+
+$+23D      0210EC81  ì
+
+$+241      56530000    SV
+
+$+245      F0658957  W‰eð
+
+$+249      DB33F18B  ‹ñ3Û
+
+$+24D      8DFC5D89  ‰]ü
+
+$+251      010F8086  †€  ; UNICODE " PlayerStarts in this level"
+
+$+255      15FF5000   Pÿ
+
+$+259      02717BE4  ä{q  ; OFFSET <&kernel32.EnterCriticalSection>
+
+$+25D      8B0C4D8B  ‹M‹
+
+$+261      10E8C1C1  ÁÁè
+
+$+265      0FC33B66  f;Ã
+
+$+269      00016085  …`
+
+$+26D      C1B70F00   ·Á
+
+$+271      83FFC083  ƒÀÿƒ
+
+$+275      870F1FF8  ø‡
+
+$+279      0000013D  =
+
+$+27D      0890B60F  ¶
+
+$+281      FF00BAD8  Øº ÿ
+
+$+285      D7F49524  $•ô×
+
+$+289      3D8B00BA  º ‹=
+
+$+28D      02717DD8  Ø}q  ; OFFSET <&ws2_32.recv>
+
+$+291      0024648D  d$
+
+$+295      1D6C868B  ‹†l
+
+$+299      C32B0001   +Ã
+
+$+29D      E8836B74  tkƒè
+
+$+2A1      C8850F01  …È
+
+$+2A5      8B000000     ‹
+
+$+2A9      011D6886  †h
+
+$+2AD      8E8B5300   S‹Ž
+
+$+2B1      00011D64  d
+
+$+2B5      8D51C82B  +ÈQ
+
+$+2B9      08503094  ”0P
+
+$+2BD      8B520000    R‹
+
+$+2C1      FF503846  F8Pÿ
+
+$+2C5      EC4589D7  ×‰Eì
+
+$+2C9      067EC33B  ;Ã~
+
+$+2CD      1D688601  †h
+
+$+2D1      868B0001   ‹†
+
+$+2D5      00011D64  d
+
+$+2D9      1D688639  9†h
+
+$+2DD      850F0001   …
+
+$+2E1      0000008B  ‹
+
+$+2E5      8D50168B  ‹P
+
+$+2E9      00085086  †P
+
+$+2ED      CE8B5000   P‹Î
+
+$+2F1      FF74528B  ‹Rtÿ
+
+$+2F5      649E89D2  Ò‰žd
+
+$+2F9      8900011D   ‰
+
+
+
+
+
+
+
+CPU Stack
+
+Address   Value      ASCII Comments
+
+00BAC8AB   088B0271  q‹
+
+00BAC8AF   095E5068  hP^    
+
+00BAC8B3   15FF5101  Qÿ
+
+00BAC8B7   02716A2C  ,jq  ; OFFSET <&Core.?Logf@FOutputDevice@@QAAXPBGZZ>
+
+00BAC8BB   5F28C483  ƒÄ(_
+
+00BAC8BF   08C4815E  ^Ä
+
+00BAC8C3   C2000008    Â
+
+00BAC8C7   3D660008   f=
+
+00BAC8CB   0D75274D  M'u
+
+00BAC8CF   095E0868  h^    
+
+00BAC8D3   66A2E801  è¢f
+
+00BAC8D7   C483FFEE  îÿƒÄ
+
+00BAC8DB   C4815E04  ^Ä
+
+00BAC8DF   00000808  
+
+00BAC8E3   CC0008C2  Â Ì
+
+00BAC8E7   CCCCCCCC  ÌÌÌÌ
+
+00BAC8EB   CCCCCCCC  ÌÌÌÌ
+
+00BAC8EF   CCCCCCCC  ÌÌÌÌ
+
+00BAC8F3   CCCCCCCC  ÌÌÌÌ
+
+00BAC8F7   CCCCCCCC  ÌÌÌÌ
+
+00BAC8FB   CCCCCCCC  ÌÌÌÌ
+
+00BAC8FF   CCCCCCCC  ÌÌÌÌ
+
+00BAC903   CCCCCCCC  ÌÌÌÌ
+
+00BAC907   CCCCCCCC  ÌÌÌÌ
+
+00BAC90B   CCCCCCCC  ÌÌÌÌ
+
+00BAC90F   CCCCCCCC  ÌÌÌÌ
+
+00BAC913   CCCCCCCC  ÌÌÌÌ
+
+00BAC917   CCCCCCCC  ÌÌÌÌ
+
+00BAC91B   CCCCCCCC  ÌÌÌÌ
+
+00BAC91F   CCCCCCCC  ÌÌÌÌ
+
+00BAC923   CCCCCCCC  ÌÌÌÌ
+
+00BAC927   CCCCCCCC  ÌÌÌÌ
+
+00BAC92B   CCCCCCCC  ÌÌÌÌ
+
+00BAC92F   CCCCCCCC  ÌÌÌÌ
+
+00BAC933   CCCCCCCC  ÌÌÌÌ
+
+00BAC937   CCCCCCCC  ÌÌÌÌ
+
+00BAC93B   CCCCCCCC  ÌÌÌÌ
+
+00BAC93F   CCCCCCCC  ÌÌÌÌ
+
+00BAC943   CCCCCCCC  ÌÌÌÌ
+
+00BAC947   CCCCCCCC  ÌÌÌÌ
+
+00BAC94B   CCCCCCCC  ÌÌÌÌ
+
+00BAC94F   244C8BCC  Ì‹L$
+
+00BAC953   08EC8304  ƒì
+
+00BAC957   24748B56  V‹t$
+
+00BAC95B   01468A14  ŠF
+
+00BAC95F   8B570130  0W‹
+
+00BAC963   B81C247C  |$¸
+
+00BAC967   00000001  
+
+00BAC96B   197EF83B  ;ø~
+
+00BAC96F   83D08B90  ‹Ðƒ
+
+00BAC973   548A0FE2  âŠT
+
+00BAC977   54320132  22T
+
+00BAC97B   C083FF08  ÿƒÀ
+
+00BAC97F   08543001  0T
+
+00BAC983   7CC73BFF  ÿ;Ç|
+
+00BAC987   6AC033E8  è3Àj
+
+00BAC98B   09C68308  ƒÆ    
+
+00BAC98F   24448956  V‰D$
+
+00BAC993   24448910  ‰D$
+
+00BAC997   24448D14  D$
+
+00BAC99B   50086A10  jP
+
+00BAC99F   3F1A96E8  è–?
+
+00BAC9A3   99C78B00   ‹Ç™
+
+00BAC9A7   18244401  D$
+
+00BAC9AB   4C8D086A  jL
+
+00BAC9AF   54111C24  $T
+
+00BAC9B3   6A512024  $ Qj  ; ASCII "TlgAggregateInternal"
+
+00BAC9B7   7CE85608  Vè|
+
+00BAC9BB   83003F1A  ? ƒ
+
+00BAC9BF   5E5F20C4  Ä _^
+
+00BAC9C3   C208C483  ƒÄÂ
+
+00BAC9C7   CCCC000C   ÌÌ
+
+00BAC9CB   CCCCCCCC  ÌÌÌÌ
+
+00BAC9CF   CCCCCCCC  ÌÌÌÌ
+
+00BAC9D3   CCCCCCCC  ÌÌÌÌ
+
+00BAC9D7   CCCCCCCC  ÌÌÌÌ
+
+00BAC9DB   CCCCCCCC  ÌÌÌÌ
+
+00BAC9DF   CCCCCCCC  ÌÌÌÌ
+
+00BAC9E3   CCCCCCCC  ÌÌÌÌ
+
+00BAC9E7   CCCCCCCC  ÌÌÌÌ
+
+00BAC9EB   CCCCCCCC  ÌÌÌÌ
+
+00BAC9EF   08EC83CC  Ìƒì
+
+00BAC9F3   246C8B55  U‹l$
+
+00BAC9F7   748B5618  V‹t
+
+00BAC9FB   168A1424  $Š
+
+00BAC9FF   247C8B57  W‹|$
+
+00BACA03   01478A1C  ŠG
+
+00BACA07   0688C232  2Âˆ
+
+00BACA0B   000001B8  ¸
+
+00BACA0F   7EE83B00   ;è~
+
+00BACA13   0C8A531E  SŠ
+
+00BACA17   83D88B30  0‹Øƒ
+
+00BACA1B   5C8A0FE3  ãŠ\
+
+00BACA1F   D932013B  ;2Ù
+
+00BACA23   1C88DA32  2Úˆ
+
+00BACA27   01C08330  0ƒÀ
+
+00BACA2B   D18AC53B  ;ÅŠÑ
+
+00BACA2F   6A5BE47C  |ä[j
+
+00BACA33   09778D08  w    
+
+00BACA37   8DC03356  V3À
+
+00BACA3B   6A14244C  L$j
+
+00BACA3F   44895108  Q‰D
+
+00BACA43   44891C24  $‰D
+
+00BACA47   ECE82024  $ èì
+
+00BACA4B   8B003F19  ? ‹
+
+00BACA4F   440199C5  Å™D
+
+00BACA53   086A1C24  $j
+
+00BACA57   24245411  T$$
+
+00BACA5B   2024548D  T$
+
+00BACA5F   56086A52  RjV
+
+00BACA63   3F19D2E8  èÒ?
+
+00BACA67   20C48300   ƒÄ
+
+00BACA6B   835D5E5F  _^]ƒ
+
+00BACA6F   0CC208C4  ÄÂ
+
+00BACA73   CCCCCC00   ÌÌÌ
+
+00BACA77   CCCCCCCC  ÌÌÌÌ
+
+00BACA7B   CCCCCCCC  ÌÌÌÌ
+
+00BACA7F   CCCCCCCC  ÌÌÌÌ
+
+00BACA83   CCCCCCCC  ÌÌÌÌ
+
+00BACA87   CCCCCCCC  ÌÌÌÌ
+
+00BACA8B   CCCCCCCC  ÌÌÌÌ
+
+00BACA8F   CCCCCCCC  ÌÌÌÌ
+
+00BACA93   CCCCCCCC  ÌÌÌÌ
+
+00BACA97   CCCCCCCC  ÌÌÌÌ
+
+00BACA9B   CCCCCCCC  ÌÌÌÌ
+
+00BACA9F   1C0D8BCC  Ì‹
+
+
+
+00BACAA3   8B0141B9  ¹A‹
+
+00BACAA7   24548B01  ‹T$
+
+00BACAAB   B4808B04  ‹€´
+
+00BACAAF   56000000     V
+
+00BACAB3   8BD0FF52  RÿÐ‹
+
+00BACAB7   74F685F0  ð…öt
+
+00BACABB   24448B2F  /‹D$
+
+00BACABF   57C0850C  …ÀW
+
+00BACAC3   6C0C3D8B  ‹=l
+
+00BACAC7   0A740271  qt
+
+00BACACB   044E8D50  PN
+
+00BACACF   83D7FF51  Qÿ×ƒ
+
+00BACAD3   448B08C4  Ä‹D
+
+00BACAD7   C0851424  $…À
+
+00BACADB   81500D74  t
+
+P
+
+00BACADF   00009CC6  Æœ
+
+00BACAE3   D7FF5600   Vÿ×
+
+00BACAE7   5F08C483  ƒÄ_
+
+00BACAEB   000CC25E  ^Â
+
+00BACAEF   CCCCCCCC  ÌÌÌÌ
+
+00BACAF3   CCCCCCCC  ÌÌÌÌ
+
+00BACAF7   CCCCCCCC  ÌÌÌÌ
+
+00BACAFB   CCCCCCCC  ÌÌÌÌ
+
+00BACAFF   CCCCCCCC  ÌÌÌÌ
+
+00BACB03   CCCCCCCC  ÌÌÌÌ
+
+00BACB07   CCCCCCCC  ÌÌÌÌ
+
+00BACB0B   CCCCCCCC  ÌÌÌÌ
+
+00BACB0F   24448BCC  Ì‹D$
+
+00BACB13   24548B04  ‹T$
+
+00BACB17   D4818908  ‰Ô
+
+00BACB1B   8B00010F   ‹
+
+00BACB1F   890C2444  D$‰
+
+00BACB23   010FD891  ‘Ø
+
+00BACB27   24548B00   ‹T$
+
+00BACB2B   0C818910  ‰
+
+00BACB2F   8B000110   ‹
+
+00BACB33   89142444  D$‰
+
+00BACB37   01101091  ‘
+
+00BACB3B   14818900   ‰
+
+00BACB3F   C2000110   Â
+
+00BACB43   CCCC0014   ÌÌ
+
+00BACB47   CCCCCCCC  ÌÌÌÌ
+
+00BACB4B   CCCCCCCC  ÌÌÌÌ
+
+00BACB4F   CCCCCCCC  ÌÌÌÌ
+
+00BACB53   CCCCCCCC  ÌÌÌÌ
+
+00BACB57   CCCCCCCC  ÌÌÌÌ
+
+00BACB5B   CCCCCCCC  ÌÌÌÌ
+
+00BACB5F   0CEC83CC  Ìƒì
+
+00BACB63   1024448B  ‹D$
+
+00BACB67   14244C8B  ‹L$
+
+00BACB6B   1824548B  ‹T$
+
+00BACB6F   2C8D5553  SU,
+
+00BACB73   0ABE0F08  ¾
+
+00BACB77   5756C985  …ÉVW
+
+00BACB7B   10244489  ‰D$
+
+00BACB7F   019F840F  „Ÿ
+
+00BACB83   748B0000    ‹t  ; OFFSET shell32.#1114
+
+00BACB87   7E8D2C24  $,~
+
+00BACB8B   FCC683F8  øƒÆü
+
+00BACB8F   24448390  ƒD$
+
+00BACB93   C1830128  (ƒÁ
+
+00BACB97   27F983AF  ¯ƒù'
+
+00BACB9B   0174870F  ‡t
+
+00BACB9F   B60F0000    ¶
+
+00BACBA3   BACD6089  ‰`Íº
+
+00BACBA7   8D24FF00   ÿ$
+
+00BACBAB   00BACD3C  <Íº
+
+00BACBAF   83044E8B  ‹Nƒ
+
+00BACBB3   C78304C6  ÆƒÇ
+
+00BACBB7   011C8D04  
+
+00BACBBB   8304C683  ƒÆƒ
+
+00BACBBF   DD3B04C7  Ç;Ý
+
+00BACBC3   0167870F  ‡g
+
+00BACBC7   168B0000    ‹
+
+00BACBCB   E8505251  QRPè
+
+00BACBCF   003F122D  -?
+
+00BACBD3   8B0CC483  ƒÄ‹
+
+00BACBD7   0138E9C3  Ãé8
+
+00BACBDB   568B0000    ‹V
+
+00BACBDF   04C68304  ƒÆ
+
+00BACBE3   8504C783  ƒÇ…
+
+00BACBE7   8B3974D2  Òt9‹
+
+00BACBEB   01598DCA  ÊY
+
+00BACBEF   20245C89  ‰\$
+
+00BACBF3   C183198A  ŠƒÁ
+
+00BACBF7   75DB8401  „Ûu
+
+00BACBFB   244C2BF7  ÷+L$
+
+00BACBFF   015C8D20   \
+
+00BACC03   0FDD3B01  ;Ý
+
+00BACC07   00012487  ‡$
+
+00BACC0B   2BCA8B00   ‹Ê+
+
+00BACC0F   88118AC2  ÂŠˆ
+
+00BACC13   C1830814  ƒÁ
+
+00BACC17   75D28401  „Òu
+
+00BACC1B   E9C38BF4  ô‹Ãé
+
+00BACC1F   000000F2  ò
+
+00BACC23   3B01488D  H;
+
+00BACC27   02870FCD  Í‡
+
+00BACC2B   C6000001    Æ
+
+00BACC2F   DDE90000    éÝ
+
+00BACC33   8B000000     ‹
+
+00BACC37   C6830456  VƒÆ
+
+00BACC3B   04C78304  ƒÇ
+
+00BACC3F   3F74D285  …Òt?
+
+00BACC43   598DCA8B  ‹ÊY
+
+00BACC47   245C8902  ‰\$
+
+00BACC4B   24648D20   d$
+
+00BACC4F   198B6600   f‹
+
+00BACC53   6602C183  ƒÁf
+
+00BACC57   F575DB85  …Ûuõ
+
+00BACC5B   20244C2B  +L$
+
+00BACC5F   4C8DF9D1  ÑùL
+
+00BACC63   1C8D0209      
+
+00BACC67   0FDD3B01  ;Ý
+
+00BACC6B   0000C087  ‡À
+
+00BACC6F   50525100   QRP
+
+00BACC73   3F1188E8  èˆ?
+
+00BACC77   0CC48300   ƒÄ
+
+00BACC7B   93E9C38B  ‹Ãé“
+
+00BACC7F   8D000000     
+
+00BACC83   CD3B0248  H;Í
+
+00BACC87   00A3870F  ‡£
+
+00BACC8B   00C60000    Æ
+
+00BACC8F   01C08300   ƒÀ
+
+00BACC93   830000C6  Æ  ƒ
+
+00BACC97   7AEB01C0  Àëz
+
+00BACC9B   8301488D  Hƒ
+
+00BACC9F   C78304C6  ÆƒÇ
+
+00BACCA3   0FCD3B04  ;Í
+
+00BACCA7   00008487  ‡„
+
+00BACCAB   88168A00   Šˆ
+
+00BACCAF   8D61EB10  ëa
+
+00BACCB3   C6830248  HƒÆ
+
+00BACCB7   04C78304  ƒÇ
+
+00BACCBB   7177CD3B  ;Íwq
+
+00BACCBF   66168B66  f‹f
+
+00BACCC3   4CEB1089  ‰ëL
+
+00BACCC7   8304488D  Hƒ
+
+00BACCCB   C78304C6  ÆƒÇ
+
+00BACCCF   77CD3B04  ;Íw
+
+00BACCD3   EB168B5C  \‹ë
+
+00BACCD7   0847DD39  9ÝG
+
+00BACCDB   8D08C783  ƒÇ
+
+00BACCDF   5CDD0848  HÝ\
+
+00BACCE3   C6831424  $ƒÆ
+
+00BACCE7   77CD3B08  ;Íw
+
+00BACCEB   24548B44  D‹T$
+
+00BACCEF   8B108914  ‰‹
+
+00BACCF3   89182454  T$‰
+
+00BACCF7   18EB0450  Pë
+
+00BACCFB   8B08578B  ‹W‹
+
+00BACCFF   C7830C5F  _ƒÇ
+
+00BACD03   08488D08  H
+
+00BACD07   3B08C683  ƒÆ;
+
+00BACD0B   892277CD  Íw"‰
+
+00BACD0F   10890458  X‰
+
+00BACD13   4C8BC18B  ‹Á‹L
+
+00BACD17   BE0F2824  $(¾
+
+00BACD1B   0FC98509      …É
+
+00BACD1F   FFFE6C85  …lþÿ
+
+00BACD23   24442BFF  ÿ+D$
+
+00BACD27   5D5E5F10  _^]  ; Entry point
+
+00BACD2B   0CC4835B  [ƒÄ
+
+00BACD2F   5D5E5FC3  Ã_^]
+
+00BACD33   835BC033  3À[ƒ
+
+00BACD37   8BC30CC4  ÄÃ‹
+
+00BACD3B   BACCFBFF  ÿûÌº
+
+00BACD3F   BACC3600   6Ìº
+
+00BACD43   BACBAF00   ¯Ëº
+
+00BACD47   BACC9B00   ›Ìº
+
+00BACD4B   BACCC700   ÇÌº
+
+00BACD4F   BACCD800   ØÌº
+
+00BACD53   BACCB200   ²Ìº
+
+00BACD57   BACBDD00   ÝËº
+
+00BACD5B   BACD1500   Íº
+
+00BACD5F   01080000    
+
+00BACD63   08080808  
+
+00BACD67   08080808  
+
+00BACD6B   08080808  
+
+00BACD6F   03020808  
+
+00BACD73   08050804  
+
+00BACD77   08080806  
+
+00BACD7B   08080808  
+
+00BACD7F   07080808   
+
+00BACD83   08080808  
+
+00BACD87   CCCCCC02  ÌÌÌ
+
+00BACD8B   CCCCCCCC  ÌÌÌÌ
+
+00BACD8F   CCCCCCCC  ÌÌÌÌ
+
+00BACD93   CCCCCCCC  ÌÌÌÌ
+
+00BACD97   CCCCCCCC  ÌÌÌÌ
+
+00BACD9B   CCCCCCCC  ÌÌÌÌ
+
+00BACD9F   CCCCCCCC  ÌÌÌÌ
+
+00BACDA3   CCCCCCCC  ÌÌÌÌ
+
+00BACDA7   CCCCCCCC  ÌÌÌÌ
+
+00BACDAB   CCCCCCCC  ÌÌÌÌ
+
+00BACDAF   CCCCCCCC  ÌÌÌÌ
+
+00BACDB3   CCCCCCCC  ÌÌÌÌ
+
+00BACDB7   CCCCCCCC  ÌÌÌÌ
+
+00BACDBB   CCCCCCCC  ÌÌÌÌ
+
+00BACDBF   CCCCCCCC  ÌÌÌÌ
+
+00BACDC3   CCCCCCCC  ÌÌÌÌ
+
+00BACDC7   CCCCCCCC  ÌÌÌÌ
+
+00BACDCB   CCCCCCCC  ÌÌÌÌ
+
+00BACDCF   CCCCCCCC  ÌÌÌÌ
+
+00BACDD3   CCCCCCCC  ÌÌÌÌ
+
+00BACDD7   CCCCCCCC  ÌÌÌÌ
+
+00BACDDB   CCCCCCCC  ÌÌÌÌ
+
+00BACDDF   CCCCCCCC  ÌÌÌÌ
+
+00BACDE3   CCCCCCCC  ÌÌÌÌ
+
+00BACDE7   CCCCCCCC  ÌÌÌÌ
+
+00BACDEB   CCCCCCCC  ÌÌÌÌ
+
+00BACDEF   CCCCCCCC  ÌÌÌÌ
+
+00BACDF3   CCCCCCCC  ÌÌÌÌ
+
+00BACDF7   CCCCCCCC  ÌÌÌÌ
+
+00BACDFB   CCCCCCCC  ÌÌÌÌ
+
+00BACDFF   CCCCCCCC  ÌÌÌÌ
+
+00BACE03   CCCCCCCC  ÌÌÌÌ
+
+00BACE07   CCCCCCCC  ÌÌÌÌ
+
+00BACE0B   CCCCCCCC  ÌÌÌÌ
+
+00BACE0F   CCCCCCCC  ÌÌÌÌ
+
+00BACE13   CCCCCCCC  ÌÌÌÌ
+
+00BACE17   CCCCCCCC  ÌÌÌÌ
+
+00BACE1B   CCCCCCCC  ÌÌÌÌ
+
+00BACE1F   8000B8CC  Ì¸ €
+
+00BACE23   F6E80000    èö
+
+00BACE27   8B003F17  ? ‹
+
+00BACE2B   80082484  „$€
+
+00BACE2F   C0850000    …À
+
+00BACE33   8B565174  tQV‹
+
+00BACE37   800824B4  ´$€
+
+00BACE3B   F6850000    …ö
+
+00BACE3F   8C8D4474  tDŒ
+
+00BACE43   00801024  $€
+
+00BACE47   8D505100   QP
+
+00BACE4B   680E2454  T$h
+
+00BACE4F   00007FFE  þ
+
+00BACE53   B181E852  Rè±
+
+00BACE57   C483FFEE  îÿƒÄ
+
+00BACE5B   7EC08510  …À~
+
+00BACE5F   02C08325  %ƒÀ
+
+00BACE63   8B50006A  j P‹
+
+00BACE67   24548DC8  ÈT$
+
+00BACE6B   2444880C  ˆD$
+
+00BACE6F   50868B0C  ‹†P
+
+00BACE73   52000008    R
+
+00BACE77   5008F9C1  ÁùP
+
+00BACE7B   15244C88  ˆL$
+
+00BACE7F   7DE015FF  ÿà}
+
+00BACE83   815E0271  q^
+
+00BACE87   008000C4  Ä €
+
+00BACE8B   CCCCC300   ÃÌÌ
+
+00BACE8F   CCCCCCCC  ÌÌÌÌ
+
+00BACE93   CCCCCCCC  ÌÌÌÌ
+
+00BACE97   CCCCCCCC  ÌÌÌÌ
+
+00BACE9B   CCCCCCCC  ÌÌÌÌ
+
+00BACE9F   CCCCCCCC  ÌÌÌÌ
+
+00BACEA3   CCCCCCCC  ÌÌÌÌ
+
+00BACEA7   CCCCCCCC  ÌÌÌÌ
+
+00BACEAB   CCCCCCCC  ÌÌÌÌ
+
+00BACEAF   748B56CC  ÌV‹t
+
+00BACEB3   168B0824  $‹
+
+00BACEB7   257CD285  …Ò|%
+
+00BACEBB   0080FA81  ú€
+
+00BACEBF   1D7D0000    }
+
+00BACEC3   E0C1C28B  ‹ÂÁà
+
+00BACEC7   08448D04  D
+
+00BACECB   8B108934  4‰‹
+
+00BACECF   4889044E  N‰H
+
+00BACED3   08568B04  ‹V
+
+00BACED7   8B085089  ‰P‹
+
+00BACEDB   48890C4E  N‰H
+
+00BACEDF   04C25E0C  ^Â
+
+00BACEE3   CCCCCC00   ÌÌÌ
+
+00BACEE7   CCCCCCCC  ÌÌÌÌ
+
+00BACEEB   CCCCCCCC  ÌÌÌÌ
+
+00BACEEF   CCCCCCCC  ÌÌÌÌ
+
+00BACEF3   CCCCCCCC  ÌÌÌÌ
+
+00BACEF7   CCCCCCCC  ÌÌÌÌ
+
+00BACEFB   CCCCCCCC  ÌÌÌÌ
+
+00BACEFF   50818BCC  Ì‹P
+
+00BACF03   85000008    …
+
+00BACF07   500774C0  Àt P
+
+00BACF0B   7DDC15FF  ÿÜ}
+
+00BACF0F   CCC30271  qÃÌ
+
+00BACF13   CCCCCCCC  ÌÌÌÌ
+
+00BACF17   CCCCCCCC  ÌÌÌÌ
+
+00BACF1B   CCCCCCCC  ÌÌÌÌ
+
+00BACF1F   F18B56CC  ÌV‹ñ
+
+00BACF23   0850868B  ‹†P
+
+00BACF27   33570000    W3
+
+00BACF2B   74C73BFF  ÿ;Çt
+
+00BACF2F   15FF5007   Pÿ
+
+00BACF33   02717DDC  Ü}q  ; OFFSET <&ws2_32.closesocket>
+
+00BACF37   084CBE39  9¾L
+
+00BACF3B   06740000    t
+
+00BACF3F   084CBE89  ‰¾L
+
+00BACF43   468D0000    F
+
+00BACF47   0080B93C  <¹€
+
+00BACF4B   CA830000    ƒÊ
+
+00BACF4F   F85089FF  ÿ‰Pø
+
+00BACF53   89FC7889  ‰xü‰
+
+00BACF57   04788938  8‰x
+
+00BACF5B   8310C083  ƒÀƒ
+
+00BACF5F   ED7501E9  éuí
+
+00BACF63   CCC35E5F  _^ÃÌ
+
+00BACF67   CCCCCCCC  ÌÌÌÌ
+
+00BACF6B   CCCCCCCC  ÌÌÌÌ
+
+00BACF6F   CCCCCCCC  ÌÌÌÌ
+
+00BACF73   CCCCCCCC  ÌÌÌÌ
+
+00BACF77   CCCCCCCC  ÌÌÌÌ
+
+00BACF7B   CCCCCCCC  ÌÌÌÌ
+
+00BACF7F   244C8BCC  Ì‹L$
+
+00BACF83   24548B10  ‹T$
+
+00BACF87   24448D0C  D$
+
+00BACF8B   448B5014  P‹D
+
+00BACF8F   52510C24  $QR
+
+00BACF93   B041E850  PèA°
+
+00BACF97   C483FFEE  îÿƒÄ
+
+00BACF9B   CCCCC310  ÃÌÌ
+
+00BACF9F   CCCCCCCC  ÌÌÌÌ
+
+00BACFA3   CCCCCCCC  ÌÌÌÌ
+
+00BACFA7   CCCCCCCC  ÌÌÌÌ
+
+00BACFAB   CCCCCCCC  ÌÌÌÌ
+
+00BACFAF   244C8BCC  Ì‹L$
+
+00BACFB3   8BC9850C  …É‹
+
+00BACFB7   7E042444  D$~
+
+00BACFBB   24548A12  ŠT$
+
+00BACFBF   74103808  8t
+
+00BACFC3   01E9830A  
+
+ƒé
+
+00BACFC7   8501C083  ƒÀ…
+
+00BACFCB   C2F27FC9  ÉòÂ
+
+00BACFCF   CCCC000C   ÌÌ
+
+00BACFD3   CCCCCCCC  ÌÌÌÌ
+
+00BACFD7   CCCCCCCC  ÌÌÌÌ
+
+00BACFDB   CCCCCCCC  ÌÌÌÌ
+
+00BACFDF   24548BCC  Ì‹T$
+
+00BACFE3   85C03308  3À…
+
+00BACFE7   8B1B7ED2  Ò~‹
+
+00BACFEB   8B04244C  L$‹
+
+00BACFEF   003980FF  ÿ€9
+
+00BACFF3   79800675  u€y
+
+00BACFF7   0A740001   t
+
+00BACFFB   8301C083  ƒÀƒ
+
+00BACFFF   C23B02C1  Á;Â
+
+00BAD003   08C2EB7C  |ëÂ
+
+00BAD007   CCCCCC00   ÌÌÌ
+
+00BAD00B   CCCCCCCC  ÌÌÌÌ
+
+00BAD00F   CCCCCCCC  ÌÌÌÌ
+
+00BAD013   CCCCCCCC  ÌÌÌÌ
+
+00BAD017   CCCCCCCC  ÌÌÌÌ
+
+00BAD01B   CCCCCCCC  ÌÌÌÌ
+
+00BAD01F   8B5351CC  ÌQS‹
+
+00BAD023   830C245C  \$ƒ
+
+00BAD027   010F7CBB  »|
+
+00BAD02B   07750000    u 
+
+00BAD02F   1024448B  ‹D$
+
+00BAD033   8BC3595B  [YÃ‹
+
+00BAD037   0F14244C  L$
+
+00BAD03B   C08501BE  ¾…À
+
+00BAD03F   24748B56  V‹t$
+
+00BAD043   244C8914  ‰L$
+
+00BAD047   E1840F08  „á
+
+00BAD04B   55000001    U
+
+00BAD04F   247C8D57  W|$
+
+00BAD053   01C18320   ƒÁ
+
+00BAD057   20244C89  ‰L$
+
+00BAD05B   83AF488D  H¯ƒ
+
+00BAD05F   870F22F9  ù"‡
+
+00BAD063   000001A4  ¤
+
+00BAD067   5C89B60F  ¶‰\
+
+00BAD06B   FF00BAD2  Òº ÿ
+
+00BAD06F   D2388D24  $8Ò
+
+00BAD073   478B00BA  º ‹G
+
+00BAD077   04C78304  ƒÇ
+
+00BAD07B   0F7CB33B  ;³|
+
+00BAD07F   0C730001   s
+
+00BAD083   1088168A  Šˆ
+
+00BAD087   E901C683  ƒÆé
+
+00BAD08B   0000018F  
+
+00BAD08F   E90000C6  Æ  é
+
+00BAD093   00000187  ‡
+
+00BAD097   8304478B  ‹Gƒ
+
+00BAD09B   B33B04C7  Ç;³
+
+00BAD09F   00010F7C  |
+
+00BAD0A3   8B660E73  sf‹
+
+00BAD0A7   0889660E  f‰
+
+00BAD0AB   E902C683  ƒÆé
+
+00BAD0AF   0000016B  k
+
+00BAD0B3   0000C766  fÇ
+
+00BAD0B7   0161E900   éa
+
+00BAD0BB   478B0000    ‹G
+
+00BAD0BF   04C78304  ƒÇ
+
+00BAD0C3   0F7CB33B  ;³|
+
+00BAD0C7   0C730001   s
+
+00BAD0CB   1089168B  ‹‰
+
+00BAD0CF   E904C683  ƒÆé
+
+00BAD0D3   00000147  G
+
+00BAD0D7   000000C7  Ç
+
+00BAD0DB   3CE90000    é<
+
+00BAD0DF   8B000001    ‹
+
+00BAD0E3   C7830447  GƒÇ
+
+00BAD0E7   7CB33B04  ;³|
+
+00BAD0EB   7300010F   s
+
+00BAD0EF   890E8B12  ‹‰
+
+00BAD0F3   04568B08  ‹V  ; UNICODE "AD ShortcutUse OnRelease num=4 | JOYPAD ShortcutUse OnRelease Extend1 num=8 |JOYPAD ShortcutUse Onrelease Extend2 num=12"
+
+00BAD0F7   83045089  ‰Pƒ
+
+00BAD0FB   1CE908C6  Æé
+
+00BAD0FF   D9000001    Ù
+
+00BAD103   E918DDEE  îÝé
+
+00BAD107   00000113  
+
+00BAD10B   8304478B  ‹Gƒ
+
+00BAD10F   B33B04C7  Ç;³
+
+00BAD113   00010F7C  |
+
+00BAD117   0E8B1273  s‹
+
+00BAD11B   568B0889  ‰‹V
+
+00BAD11F   04508904  ‰P
+
+00BAD123   E908C683  ƒÆé
+
+00BAD127   000000F3  ó
+
+00BAD12B   000000C7  Ç
+
+00BAD12F   40C70000    Ç@
+
+00BAD133   00000004  
+
+00BAD137   00E1E900   éá
+
+00BAD13B   6F8B0000    ‹o
+
+00BAD13F   24448B04  ‹D$
+
+00BAD143   04C78318  ƒÇ
+
+00BAD147   83045F8B  ‹_ƒ
+
+00BAD14B   B03B04C7  Ç;°
+
+00BAD14F   00010F7C  |
+
+00BAD153   56552B73  s+UV
+
+00BAD157   14F3E853  Sèó
+
+00BAD15B   4C8B003F  ? ‹L
+
+00BAD15F   C4832424  $$ƒÄ
+
+00BAD163   006A550C  Uj
+
+00BAD167   2B44C656  VÆD+
+
+00BAD16B   8AE800FF  ÿ èŠ
+
+00BAD16F   8BFFED79  yíÿ‹
+
+00BAD173   8318245C  \$ƒ
+
+00BAD177   F08B01C0  À‹ð
+
+00BAD17B   00009EE9  éž
+
+00BAD17F   0003C600   Æ
+
+00BAD183   94E9D88B  ‹Øé”
+
+00BAD187   8B000000     ‹
+
+00BAD18B   C783044F  OƒÇ
+
+00BAD18F   04478B04  ‹G
+
+00BAD193   D104C783  ƒÇÑ
+
+00BAD197   7CB33BE9  é;³|
+
+00BAD19B   0F00010F   
+
+00BAD19F   FFFF0F83  ƒÿÿ
+
+00BAD1A3   8DC68BFF  ÿ‹Æ
+
+00BAD1A7   A48D0258  X¤
+
+00BAD1AB   00000024  $
+
+00BAD1AF   108B6600   f‹
+
+00BAD1B3   6602C083  ƒÀf
+
+00BAD1B7   F575D285  …Òuõ
+
+00BAD1BB   F8D1C32B  +ÃÑø
+
+00BAD1BF   418DE88B  ‹èA
+
+00BAD1C3   7CC53BFF  ÿ;Å|
+
+00BAD1C7   8DC58B02  ‹Å
+
+00BAD1CB   078B001C   ‹ 
+
+00BAD1CF   E8505653  SVPè
+
+00BAD1D3   003F0C29  )?
+
+00BAD1D7   C766078B  ‹ fÇ
+
+00BAD1DB   00000304  
+
+00BAD1DF   24245C8B  ‹\$$
+
+00BAD1E3   026E748D  tn
+
+00BAD1E7   6F8B32EB  ë2‹o
+
+00BAD1EB   04C78304  ƒÇ
+
+00BAD1EF   3B04C783  ƒÇ;
+
+00BAD1F3   010F7CB3  ³|
+
+00BAD1F7   8B247300   s$‹
+
+00BAD1FB   5156550F  UVQ
+
+00BAD1FF   3F0BFCE8  èü
+?
+
+00BAD203   0CC48300   ƒÄ
+
+00BAD207   13EBF503  õë
+
+00BAD20B   1024548B  ‹T$
+
+00BAD20F   0C685052  RPh
+
+00BAD213   E801095F  _    è
+
+00BAD217   FFEE5D60  `]îÿ
+
+00BAD21B   8B0CC483  ƒÄ‹
+
+00BAD21F   0F20244C  L$ 
+
+00BAD223   C08501BE  ¾…À
+
+00BAD227   FE27850F  …'þ
+
+00BAD22B   5D5FFFFF  ÿÿ_]  ; RETURN from nvd3dum.5D2F7470 to nvd3dum.5D5FFFFF
+
+00BAD22F   5B5EC68B  ‹Æ^[
+
+00BAD233   498DC359  YÃI
+
+00BAD237   BAD10B00   
+Ñº
+
+00BAD23B   BAD18A00   ŠÑº
+
+00BAD23F   BAD1E900   éÑº
+
+00BAD243   BAD07500   uÐº
+
+00BAD247   BAD0BD00   ½Ðº
+
+00BAD24B   BAD0E200   âÐº
+
+00BAD24F   BAD09700   —Ðº
+
+00BAD253   BAD13D00   =Ñº
+
+00BAD257   BAD20B00   
+Òº
+
+00BAD25B   01080000    
+
+00BAD25F   08080808  
+
+00BAD263   08080808  
+
+00BAD267   08080808  
+
+00BAD26B   03020808  
+
+00BAD26F   08050804  
+
+00BAD273   08080806  
+
+00BAD277   08080808  
+
+00BAD27B   07080808   
+
+00BAD27F   CCCCCCCC  ÌÌÌÌ
+
+00BAD283   CCCCCCCC  ÌÌÌÌ
+
+00BAD287   CCCCCCCC  ÌÌÌÌ
+
+00BAD28B   CCCCCCCC  ÌÌÌÌ
+
+00BAD28F   CCCCCCCC  ÌÌÌÌ
+
+00BAD293   CCCCCCCC  ÌÌÌÌ
+
+00BAD297   CCCCCCCC  ÌÌÌÌ
+
+00BAD29B   CCCCCCCC  ÌÌÌÌ
+
+00BAD29F   CCCCCCCC  ÌÌÌÌ
+
+00BAD2A3   CCCCCCCC  ÌÌÌÌ
+
+00BAD2A7   CCCCCCCC  ÌÌÌÌ
+
+00BAD2AB   CCCCCCCC  ÌÌÌÌ
+
+00BAD2AF   CCCCCCCC  ÌÌÌÌ
+
+00BAD2B3   CCCCCCCC  ÌÌÌÌ
+
+00BAD2B7   CCCCCCCC  ÌÌÌÌ
+
+00BAD2BB   CCCCCCCC  ÌÌÌÌ
+
+00BAD2BF   CCCCCCCC  ÌÌÌÌ
+
+00BAD2C3   CCCCCCCC  ÌÌÌÌ
+
+00BAD2C7   CCCCCCCC  ÌÌÌÌ
+
+00BAD2CB   CCCCCCCC  ÌÌÌÌ
+
+00BAD2CF   CCCCCCCC  ÌÌÌÌ
+
+00BAD2D3   CCCCCCCC  ÌÌÌÌ
+
+00BAD2D7   CCCCCCCC  ÌÌÌÌ
+
+00BAD2DB   CCCCCCCC  ÌÌÌÌ
+
+00BAD2DF   CCCCCCCC  ÌÌÌÌ
+
+00BAD2E3   CCCCCCCC  ÌÌÌÌ
+
+00BAD2E7   CCCCCCCC  ÌÌÌÌ
+
+00BAD2EB   CCCCCCCC  ÌÌÌÌ
+
+00BAD2EF   CCCCCCCC  ÌÌÌÌ
+
+00BAD2F3   CCCCCCCC  ÌÌÌÌ
+
+00BAD2F7   CCCCCCCC  ÌÌÌÌ
+
+00BAD2FB   CCCCCCCC  ÌÌÌÌ
+
+00BAD2FF   CCCCCCCC  ÌÌÌÌ
+
+00BAD303   CCCCCCCC  ÌÌÌÌ
+
+00BAD307   CCCCCCCC  ÌÌÌÌ
+
+00BAD30B   CCCCCCCC  ÌÌÌÌ
+
+00BAD30F   CCCCCCCC  ÌÌÌÌ
+
+00BAD313   CCCCCCCC  ÌÌÌÌ
+
+00BAD317   CCCCCCCC  ÌÌÌÌ
+
+00BAD31B   CCCCCCCC  ÌÌÌÌ
+
+00BAD31F   8000B8CC  Ì¸ €
+
+00BAD323   F6E80000    èö
+
+00BAD327   56003F12  ? V
+
+00BAD32B   0824B48B  ‹´$
+
+00BAD32F   83000080  €  ƒ
+
+00BAD333   0F00387E  ~8 
+
+00BAD337   0000A884  „¨
+
+00BAD33B   BE8D5700   W¾
+
+00BAD33F   00010F80  €
+
+00BAD343   E415FF57  Wÿä
+
+00BAD347   8B02717B  {q‹
+
+00BAD34B   80102484  „$€
+
+00BAD34F   C0850000    …À
+
+00BAD353   0083840F  „ƒ
+
+00BAD357   8D530000    S
+
+00BAD35B   8018248C  Œ$€
+
+00BAD35F   50510000    QP
+
+00BAD363   1624548D  T$
+
+00BAD367   007FFE68  hþ
+
+00BAD36B   68E85200   Rèh
+
+00BAD36F   8BFFEEAC  ¬îÿ‹
+
+00BAD373   10C483D8  ØƒÄ
+
+00BAD377   5074DB85  …ÛtP
+
+00BAD37B   8B02C383  ƒÃ‹
+
+00BAD37F   08F8C1C3  ÃÁø
+
+00BAD383   1130BE83  ƒ¾0
+
+00BAD387   88000001    ˆ
+
+00BAD38B   880C245C  \$ˆ
+
+00BAD38F   740D2444  D$
+
+t
+
+00BAD393   8B168B19  ‹‹
+
+00BAD397   438D7852  RxC
+
+00BAD39B   8E8D50FE  þPŽ
+
+00BAD39F   00011134  4
+
+00BAD3A3   24448D51  QD$
+
+00BAD3A7   CE8B5016  P‹Î
+
+00BAD3AB   4E8BD2FF  ÿÒ‹N
+
+00BAD3AF   53006A38  8j S
+
+00BAD3B3   1424448D  D$
+
+00BAD3B7   15FF5150  PQÿ
+
+00BAD3BB   02717DE0  à}q  ; OFFSET <&ws2_32.send>
+
+00BAD3BF   09789E01  žx    
+
+00BAD3C3   9E010001   ž
+
+00BAD3C7   0001097C  |    
+
+00BAD3CB   6015FF57  Wÿ`
+
+00BAD3CF   5B02717B  {q[
+
+00BAD3D3   C4815E5F  _^Ä
+
+00BAD3D7   00008000   €
+
+00BAD3DB   15FF57C3  ÃWÿ
+
+00BAD3DF   02717B60  `{q  ; OFFSET <&kernel32.LeaveCriticalSection>
+
+00BAD3E3   C4815E5F  _^Ä
+
+00BAD3E7   00008000   €
+
+00BAD3EB   CCCCCCC3  ÃÌÌÌ
+
+00BAD3EF   CCCCCCCC  ÌÌÌÌ
+
+00BAD3F3   CCCCCCCC  ÌÌÌÌ
+
+00BAD3F7   CCCCCCCC  ÌÌÌÌ
+
+
+
+
+
+
+
+Скину тебе ещё вот так этот дамп. Скажи, к правильному ли выводу ты пришёл и нет ли больше других ключей или заморочек с криптой этих пакетов?
+
+CPU Disasm
+
+Address            Hex dump                    Command                                           Comments
+
+00F9E37B               CC                      INT3
+
+00F9E37C               CC                      INT3
+
+00F9E37D               CC                      INT3
+
+00F9E37E               CC                      INT3
+
+00F9E37F               CC                      INT3
+
+00F9E380           /$  83EC 0C                 SUB ESP,0C                                        ; Engine.00F9E380(guessed void)
+
+00F9E383           |.  DD1424                  FST QWORD PTR SS:[LOCAL.2]
+
+00F9E386           |.  E8 3D7D0000             CALL 00FA60C8
+
+00F9E38B           |.  E8 0D000000             CALL 00F9E39D
+
+00F9E390           |.  83C4 0C                 ADD ESP,0C
+
+00F9E393           \.  C3                      RETN
+
+00F9E394           /$  8D5424 04               LEA EDX,[ARG.1]
+
+00F9E398           |.  E8 E87C0000             CALL 00FA6085
+
+00F9E39D           |$  52                      PUSH EDX
+
+00F9E39E           |.  9B                      WAIT
+
+00F9E39F           |.  D93C24                  FSTCW WORD PTR SS:[LOCAL.0]
+
+00F9E3A2           |.  8B4424 0C               MOV EAX,DWORD PTR SS:[ARG.2]
+
+00F9E3A6           |.  74 51                   JE SHORT 00F9E3F9
+
+00F9E3A8           |.  66:813C24 7F02          CMP WORD PTR SS:[LOCAL.0],27F
+
+00F9E3AE           |.  74 05                   JE SHORT 00F9E3B5
+
+00F9E3B0           |.  E8 A07C0000             CALL 00FA6055
+
+00F9E3B5           |>  A9 00000080             TEST EAX,80000000
+
+00F9E3BA           |.  75 1F                   JNZ SHORT 00F9E3DB
+
+00F9E3BC           |.  D9FA                    FSQRT
+
+00F9E3BE           |>  833D 54287102 00        CMP DWORD PTR DS:[2712854],0
+
+00F9E3C5           |.  0F85 137D0000           JNE 00FA60DE
+
+00F9E3CB           |.  BA 05000000             MOV EDX,5
+
+00F9E3D0           |.  8D0D 60744001           LEA ECX,[1407460]                                 ; ASCII "sqrt"
+
+00F9E3D6           |.  E9 107D0000             JMP 00FA60EB
+
+00F9E3DB           |>  A9 0000F07F             TEST EAX,7FF00000
+
+00F9E3E0           |.  75 2C                   JNZ SHORT 00F9E40E
+
+00F9E3E2           |.  A9 FFFF0F00             TEST EAX,000FFFFF
+
+00F9E3E7           |.  75 25                   JNZ SHORT 00F9E40E
+
+00F9E3E9           |.  837C24 08 00            CMP DWORD PTR SS:[ARG.1],0
+
+00F9E3EE           |.  75 1E                   JNE SHORT 00F9E40E
+
+00F9E3F0           |.^ EB CC                   JMP SHORT 00F9E3BE
+
+00F9E3F2           |>  E8 757C0000             CALL 00FA606C
+
+00F9E3F7           |.  EB 22                   JMP SHORT 00F9E41B
+
+00F9E3F9           |>  A9 FFFF0F00             TEST EAX,000FFFFF
+
+00F9E3FE           |.^ 75 F2                   JNZ SHORT 00F9E3F2
+
+00F9E400           |.  837C24 08 00            CMP DWORD PTR SS:[ARG.1],0
+
+00F9E405           |.^ 75 EB                   JNE SHORT 00F9E3F2
+
+00F9E407           |.  25 00000080             AND EAX,80000000
+
+00F9E40C           |.^ 74 B0                   JZ SHORT 00F9E3BE
+
+00F9E40E           |>  DDD8                    FSTP ST
+
+00F9E410           |.  DB2D B0764001           FLD TBYTE PTR DS:[14076B0]                        ; FLOAT -NAN FFFF C0000000 00000000
+
+00F9E416           |.  B8 01000000             MOV EAX,1
+
+00F9E41B           |>  833D 54287102 00        CMP DWORD PTR DS:[2712854],0
+
+00F9E422           |.  0F85 B67C0000           JNE 00FA60DE
+
+00F9E428           |.  BA 05000000             MOV EDX,5
+
+00F9E42D           |.  8D0D 60744001           LEA ECX,[1407460]                                 ; ASCII "sqrt"
+
+00F9E433           |.  E8 BF7B0000             CALL 00FA5FF7
+
+00F9E438           |.  5A                      POP EDX
+
+00F9E439           \.  C3                      RETN
+
+00F9E43A           /$  55                      PUSH EBP                                          ; Engine.00F9E43A(guessed Arg1,Arg2,Arg3,Arg4)
+
+00F9E43B           |.  8BEC                    MOV EBP,ESP
+
+00F9E43D           |.  56                      PUSH ESI
+
+00F9E43E           |.  8B75 14                 MOV ESI,DWORD PTR SS:[ARG.4]
+
+00F9E441           |.  57                      PUSH EDI
+
+00F9E442           |.  33FF                    XOR EDI,EDI
+
+00F9E444           |.  3BF7                    CMP ESI,EDI
+
+00F9E446           |.  75 04                   JNE SHORT 00F9E44C
+
+00F9E448           |>  33C0                    XOR EAX,EAX
+
+00F9E44A           |.  EB 65                   JMP SHORT 00F9E4B1
+
+00F9E44C           |>  397D 08                 CMP DWORD PTR SS:[ARG.1],EDI
+
+00F9E44F           |.  75 1B                   JNE SHORT 00F9E46C
+
+00F9E451           |>  E8 2C7F0000             CALL 00FA6382                                     ; [Engine.00FA6382
+
+00F9E456           |.  6A 16                   PUSH 16
+
+00F9E458           |.  5E                      POP ESI
+
+00F9E459           |.  8930                    MOV DWORD PTR DS:[EAX],ESI
+
+00F9E45B           |>  57                      PUSH EDI                                          ; /Arg5
+
+00F9E45C           |.  57                      PUSH EDI                                          ; |Arg4
+
+00F9E45D           |.  57                      PUSH EDI                                          ; |Arg3
+
+00F9E45E           |.  57                      PUSH EDI                                          ; |Arg2
+
+00F9E45F           |.  57                      PUSH EDI                                          ; |Arg1
+
+00F9E460           |.  E8 A57E0000             CALL 00FA630A                                     ; \Engine.00FA630A
+
+00F9E465           |.  83C4 14                 ADD ESP,14
+
+00F9E468           |.  8BC6                    MOV EAX,ESI
+
+00F9E46A           |.  EB 45                   JMP SHORT 00F9E4B1
+
+00F9E46C           |>  397D 10                 CMP DWORD PTR SS:[ARG.3],EDI
+
+00F9E46F           |.  74 16                   JE SHORT 00F9E487
+
+00F9E471           |.  3975 0C                 CMP DWORD PTR SS:[ARG.2],ESI
+
+00F9E474           |.  72 11                   JB SHORT 00F9E487
+
+00F9E476           |.  56                      PUSH ESI                                          ; /Arg3 => [ARG.4]
+
+00F9E477           |.  FF75 10                 PUSH DWORD PTR SS:[ARG.3]                         ; |Arg2 => [ARG.3]
+
+00F9E47A           |.  FF75 08                 PUSH DWORD PTR SS:[ARG.1]                         ; |Arg1 => [ARG.1]
+
+00F9E47D           |.  E8 7EF9FFFF             CALL 00F9DE00                                     ; \Engine.00F9DE00
+
+00F9E482           |.  83C4 0C                 ADD ESP,0C
+
+00F9E485           |.^ EB C1                   JMP SHORT 00F9E448
+
+00F9E487           |>  FF75 0C                 PUSH DWORD PTR SS:[ARG.2]                         ; /Arg3 => [ARG.2]
+
+00F9E48A           |.  57                      PUSH EDI                                          ; |Arg2 => 0
+
+00F9E48B           |.  FF75 08                 PUSH DWORD PTR SS:[ARG.1]                         ; |Arg1 => [ARG.1]
+
+00F9E48E           |.  E8 0D010000             CALL 00F9E5A0                                     ; \Engine.00F9E5A0
+
+00F9E493           |.  83C4 0C                 ADD ESP,0C
+
+00F9E496           |.  397D 10                 CMP DWORD PTR SS:[ARG.3],EDI
+
+00F9E499           |.^ 74 B6                   JE SHORT 00F9E451
+
+00F9E49B           |.  3975 0C                 CMP DWORD PTR SS:[ARG.2],ESI
+
+00F9E49E           |.  73 0E                   JAE SHORT 00F9E4AE
+
+00F9E4A0           |.  E8 DD7E0000             CALL 00FA6382                                     ; [Engine.00FA6382
+
+00F9E4A5           |.  6A 22                   PUSH 22
+
+00F9E4A7           |.  59                      POP ECX
+
+00F9E4A8           |.  8908                    MOV DWORD PTR DS:[EAX],ECX
+
+00F9E4AA           |.  8BF1                    MOV ESI,ECX
+
+00F9E4AC           |.^ EB AD                   JMP SHORT 00F9E45B
+
+00F9E4AE           |>  6A 16                   PUSH 16
+
+00F9E4B0           |.  58                      POP EAX
+
+00F9E4B1           |>  5F                      POP EDI
+
+00F9E4B2           |.  5E                      POP ESI
+
+00F9E4B3           |.  5D                      POP EBP
+
+00F9E4B4           \.  C3                      RETN
+
+00F9E4B5           /$  55                      PUSH EBP
+
+00F9E4B6           |.  8BEC                    MOV EBP,ESP
+
+00F9E4B8           |.  83EC 20                 SUB ESP,20
+
+00F9E4BB           |.  57                      PUSH EDI
+
+00F9E4BC           |.  56                      PUSH ESI                                          ; /Arg1 => ARG.ESI
+
+00F9E4BD           |.  E8 8E7F0000             CALL 00FA6450                                     ; \Engine.00FA6450
+
+00F9E4C2           |.  33FF                    XOR EDI,EDI
+
+00F9E4C4           |.  3BF7                    CMP ESI,EDI
+
+00F9E4C6           |.  59                      POP ECX
+
+00F9E4C7           |.  75 1D                   JNE SHORT 00F9E4E6
+
+00F9E4C9           |>  E8 B47E0000             CALL 00FA6382                                     ; [Engine.00FA6382
+
+00F9E4CE           |.  57                      PUSH EDI                                          ; /Arg5
+
+00F9E4CF           |.  57                      PUSH EDI                                          ; |Arg4
+
+00F9E4D0           |.  57                      PUSH EDI                                          ; |Arg3
+
+00F9E4D1           |.  57                      PUSH EDI                                          ; |Arg2
+
+00F9E4D2           |.  57                      PUSH EDI                                          ; |Arg1
+
+00F9E4D3           |.  C700 16000000           MOV DWORD PTR DS:[EAX],16                         ; |
+
+00F9E4D9           |.  E8 2C7E0000             CALL 00FA630A                                     ; \Engine.00FA630A
+
+00F9E4DE           |.  83C4 14                 ADD ESP,14
+
+00F9E4E1           |.  83C8 FF                 OR EAX,FFFFFFFF
+
+00F9E4E4           |.  EB 34                   JMP SHORT 00F9E51A
+
+00F9E4E6           |>  397D 0C                 CMP DWORD PTR SS:[ARG.2],EDI
+
+00F9E4E9           |.^ 74 DE                   JE SHORT 00F9E4C9
+
+00F9E4EB           |.  B9 FFFFFF7F             MOV ECX,7FFFFFFF
+
+00F9E4F0           |.  3BC1                    CMP EAX,ECX
+
+00F9E4F2           |.  C745 EC 49000000        MOV DWORD PTR SS:[LOCAL.5],49
+
+00F9E4F9           |.  8975 E8                 MOV DWORD PTR SS:[LOCAL.6],ESI
+
+00F9E4FC           |.  8975 E0                 MOV DWORD PTR SS:[LOCAL.8],ESI
+
+00F9E4FF           |.  894D E4                 MOV DWORD PTR SS:[LOCAL.7],ECX
+
+00F9E502           |.  77 03                   JA SHORT 00F9E507
+
+00F9E504           |.  8945 E4                 MOV DWORD PTR SS:[LOCAL.7],EAX
+
+00F9E507           |>  FF75 14                 PUSH DWORD PTR SS:[ARG.4]
+
+00F9E50A           |.  8D45 E0                 LEA EAX,[LOCAL.8]
+
+00F9E50D           |.  FF75 10                 PUSH DWORD PTR SS:[ARG.3]
+
+00F9E510           |.  FF75 0C                 PUSH DWORD PTR SS:[ARG.2]
+
+00F9E513           |.  50                      PUSH EAX
+
+00F9E514           |.  FF55 08                 CALL DWORD PTR SS:[ARG.1]
+
+00F9E517           |.  83C4 10                 ADD ESP,10
+
+00F9E51A           |>  5F                      POP EDI
+
+00F9E51B           |.  C9                      LEAVE
+
+00F9E51C           \.  C3                      RETN
+
+00F9E51D           /$  56                      PUSH ESI                                          ; Engine.00F9E51D(guessed Arg1,Format...)
+
+00F9E51E           |.  8B7424 08               MOV ESI,DWORD PTR SS:[ARG.1]
+
+00F9E522           |.  8D4424 10               LEA EAX,[ARG.3]
+
+00F9E526           |.  50                      PUSH EAX
+
+00F9E527           |.  6A 00                   PUSH 0
+
+00F9E529           |.  FF7424 14               PUSH DWORD PTR SS:[ARG.2]
+
+00F9E52D           |.  68 9C65FA00             PUSH 00FA659C                                     ; Entry point
+
+00F9E532           |.  E8 7EFFFFFF             CALL 00F9E4B5
+
+00F9E537           |.  83C4 10                 ADD ESP,10
+
+00F9E53A           |.  5E                      POP ESI
+
+00F9E53B           \.  C3                      RETN
+
+00F9E53C           /.  56                      PUSH ESI
+
+00F9E53D           |.  8B7424 08               MOV ESI,DWORD PTR SS:[ARG.1]
+
+00F9E541           |.  8D4424 14               LEA EAX,[ARG.4]
+
+00F9E545           |.  50                      PUSH EAX
+
+00F9E546           |.  FF7424 14               PUSH DWORD PTR SS:[ARG.3]
+
+00F9E54A           |.  FF7424 14               PUSH DWORD PTR SS:[ARG.2]
+
+00F9E54E           |.  68 9C65FA00             PUSH 00FA659C                                     ; Entry point
+
+00F9E553           |.  E8 5DFFFFFF             CALL 00F9E4B5
+
+00F9E558           |.  83C4 10                 ADD ESP,10
+
+00F9E55B           |.  5E                      POP ESI
+
+00F9E55C           \.  C3                      RETN
+
+00F9E55D           /.  56                      PUSH ESI
+
+00F9E55E           |.  8B7424 08               MOV ESI,DWORD PTR SS:[ARG.1]
+
+00F9E562           |.  8D4424 10               LEA EAX,[ARG.3]
+
+00F9E566           |.  50                      PUSH EAX
+
+00F9E567           |.  6A 00                   PUSH 0
+
+00F9E569           |.  FF7424 14               PUSH DWORD PTR SS:[ARG.2]
+
+00F9E56D           |.  68 9D72FA00             PUSH 00FA729D                                     ; Entry point
+
+00F9E572           |.  E8 3EFFFFFF             CALL 00F9E4B5
+
+00F9E577           |.  83C4 10                 ADD ESP,10
+
+00F9E57A           |.  5E                      POP ESI
+
+00F9E57B           \.  C3                      RETN
+
+00F9E57C           /.  56                      PUSH ESI
+
+00F9E57D           |.  8B7424 08               MOV ESI,DWORD PTR SS:[ARG.1]
+
+00F9E581           |.  8D4424 14               LEA EAX,[ARG.4]
+
+00F9E585           |.  50                      PUSH EAX
+
+00F9E586           |.  FF7424 14               PUSH DWORD PTR SS:[ARG.3]
+
+00F9E58A           |.  FF7424 14               PUSH DWORD PTR SS:[ARG.2]
+
+00F9E58E           |.  68 9D72FA00             PUSH 00FA729D                                     ; Entry point
+
+00F9E593           |.  E8 1DFFFFFF             CALL 00F9E4B5
+
+00F9E598           |.  83C4 10                 ADD ESP,10
+
+00F9E59B           |.  5E                      POP ESI
+
+00F9E59C           \.  C3                      RETN
+
+00F9E59D               CC                      INT3
+
+00F9E59E               CC                      INT3
+
+00F9E59F               CC                      INT3
+
+00F9E5A0           /$  8B5424 0C               MOV EDX,DWORD PTR SS:[ARG.3]                      ; Engine.00F9E5A0(guessed Arg1,Arg2,Arg3)
+
+00F9E5A4           |.  8B4C24 04               MOV ECX,DWORD PTR SS:[ARG.1]
+
+00F9E5A8           |.  85D2                    TEST EDX,EDX
+
+00F9E5AA           |.  74 69                   JZ SHORT 00F9E615
+
+00F9E5AC           |.  33C0                    XOR EAX,EAX
+
+00F9E5AE           |.  8A4424 08               MOV AL,BYTE PTR SS:[ARG.2]
+
+00F9E5B2           |.  84C0                    TEST AL,AL
+
+00F9E5B4           |.  75 16                   JNZ SHORT 00F9E5CC
+
+00F9E5B6           |.  81FA 00010000           CMP EDX,100
+
+00F9E5BC           |.  72 0E                   JB SHORT 00F9E5CC
+
+00F9E5BE           |.  833D 4C487102 00        CMP DWORD PTR DS:[271484C],0
+
+00F9E5C5           |.  74 05                   JE SHORT 00F9E5CC
+
+00F9E5C7           |.  E9 539A0000             JMP 00FA801F
+
+00F9E5CC           |>  57                      PUSH EDI
+
+00F9E5CD           |.  8BF9                    MOV EDI,ECX
+
+00F9E5CF           |.  83FA 04                 CMP EDX,4
+
+00F9E5D2           |.  72 31                   JB SHORT 00F9E605
+
+00F9E5D4           |.  F7D9                    NEG ECX
+
+00F9E5D6           |.  83E1 03                 AND ECX,00000003
+
+00F9E5D9           |.  74 0C                   JZ SHORT 00F9E5E7
+
+00F9E5DB           |.  2BD1                    SUB EDX,ECX
+
+00F9E5DD           |>  8807                    /MOV BYTE PTR DS:[EDI],AL
+
+00F9E5DF           |.  83C7 01                 |ADD EDI,1
+
+00F9E5E2           |.  83E9 01                 |SUB ECX,1
+
+00F9E5E5           |.^ 75 F6                   \JNZ SHORT 00F9E5DD
+
+00F9E5E7           |>  8BC8                    MOV ECX,EAX
+
+00F9E5E9           |.  C1E0 08                 SHL EAX,8
+
+00F9E5EC           |.  03C1                    ADD EAX,ECX
+
+00F9E5EE           |.  8BC8                    MOV ECX,EAX
+
+00F9E5F0           |.  C1E0 10                 SHL EAX,10
+
+00F9E5F3           |.  03C1                    ADD EAX,ECX
+
+00F9E5F5           |.  8BCA                    MOV ECX,EDX
+
+00F9E5F7           |.  83E2 03                 AND EDX,00000003
+
+00F9E5FA           |.  C1E9 02                 SHR ECX,2
+
+00F9E5FD           |.  74 06                   JZ SHORT 00F9E605
+
+00F9E5FF           |.  F3:AB                   REP STOS DWORD PTR ES:[EDI]
+
+00F9E601           |.  85D2                    TEST EDX,EDX
+
+00F9E603           |.  74 0A                   JZ SHORT 00F9E60F
+
+00F9E605           |>  8807                    /MOV BYTE PTR DS:[EDI],AL
+
+00F9E607           |.  83C7 01                 |ADD EDI,1
+
+00F9E60A           |.  83EA 01                 |SUB EDX,1
+
+00F9E60D           |.^ 75 F6                   \JNZ SHORT 00F9E605
+
+00F9E60F           |>  8B4424 08               MOV EAX,DWORD PTR SS:[ARG.1]
+
+00F9E613           |.  5F                      POP EDI
+
+00F9E614           |.  C3                      RETN
+
+00F9E615           |>  8B4424 04               MOV EAX,DWORD PTR SS:[ARG.1]
+
+00F9E619           \.  C3                      RETN
+
+00F9E61A               CC                      INT3
+
+00F9E61B               CC                      INT3
+
+00F9E61C               CC                      INT3
+
+00F9E61D               CC                      INT3
+
+00F9E61E               CC                      INT3
+
+00F9E61F               CC                      INT3
+
+00F9E620           /$  51                      PUSH ECX
+
+00F9E621           |.  8D4C24 04               LEA ECX,[ESP+4]
+
+00F9E625           |.  2BC8                    SUB ECX,EAX
+
+00F9E627           |.  1BC0                    SBB EAX,EAX
+
+00F9E629           |.  F7D0                    NOT EAX
+
+00F9E62B           |.  23C8                    AND ECX,EAX
+
+00F9E62D           |.  8BC4                    MOV EAX,ESP
+
+00F9E62F           |.  25 00F0FFFF             AND EAX,FFFFF000
+
+00F9E634           |>  3BC8                    /CMP ECX,EAX
+
+00F9E636           |.  72 0A                   |JB SHORT 00F9E642
+
+00F9E638           |.  8BC1                    |MOV EAX,ECX
+
+00F9E63A           |.  59                      |POP ECX
+
+00F9E63B           |.  94                      |XCHG EAX,ESP
+
+00F9E63C           |.  8B00                    |MOV EAX,DWORD PTR DS:[EAX]
+
+00F9E63E           |.  890424                  |MOV DWORD PTR SS:[ARG.RETADDR],EAX
+
+00F9E641           |.  C3                      |RETN
+
+00F9E642           |>  2D 00100000             |SUB EAX,1000
+
+00F9E647           |.  8500                    |TEST DWORD PTR DS:[EAX],EAX
+
+00F9E649           \.^ EB E9                   \JMP SHORT 00F9E634
+
+00F9E64B               CC                      INT3
+
+00F9E64C               CC                      INT3
+
+00F9E64D               CC                      INT3
+
+00F9E64E               CC                      INT3
+
+00F9E64F               CC                      INT3
+
+00F9E650           /$  8B4C24 0C               MOV ECX,DWORD PTR SS:[ARG.3]                      ; Engine.00F9E650(guessed Arg1,Arg2,Arg3)
+
+00F9E654           |.  57                      PUSH EDI
+
+00F9E655           |.  85C9                    TEST ECX,ECX
+
+00F9E657           |.  0F84 92000000           JZ 00F9E6EF
+
+00F9E65D           |.  56                      PUSH ESI
+
+00F9E65E           |.  53                      PUSH EBX
+
+00F9E65F           |.  8BD9                    MOV EBX,ECX
+
+00F9E661           |.  8B7424 14               MOV ESI,DWORD PTR SS:[ARG.2]
+
+00F9E665           |.  F7C6 03000000           TEST ESI,00000003
+
+00F9E66B           |.  8B7C24 10               MOV EDI,DWORD PTR SS:[ARG.1]
+
+00F9E66F           |.  75 0B                   JNZ SHORT 00F9E67C
+
+00F9E671           |.  C1E9 02                 SHR ECX,2
+
+00F9E674           |.  0F85 85000000           JNZ 00F9E6FF
+
+00F9E67A           |.  EB 27                   JMP SHORT 00F9E6A3
+
+00F9E67C           |>  8A06                    /MOV AL,BYTE PTR DS:[ESI]
+
+00F9E67E           |.  83C6 01                 |ADD ESI,1
+
+00F9E681           |.  8807                    |MOV BYTE PTR DS:[EDI],AL
+
+00F9E683           |.  83C7 01                 |ADD EDI,1
+
+00F9E686           |.  83E9 01                 |SUB ECX,1
+
+00F9E689           |.  74 2B                   |JZ SHORT 00F9E6B6
+
+00F9E68B           |.  84C0                    |TEST AL,AL
+
+00F9E68D           |.  74 2F                   |JZ SHORT 00F9E6BE
+
+00F9E68F           |.  F7C6 03000000           |TEST ESI,00000003
+
+00F9E695           |.^ 75 E5                   \JNZ SHORT 00F9E67C
+
+00F9E697           |.  8BD9                    MOV EBX,ECX
+
+00F9E699           |.  C1E9 02                 SHR ECX,2
+
+00F9E69C           |.  75 61                   JNZ SHORT 00F9E6FF
+
+00F9E69E           |>  83E3 03                 AND EBX,00000003
+
+00F9E6A1           |.  74 13                   JZ SHORT 00F9E6B6
+
+00F9E6A3           |>  8A06                    /MOV AL,BYTE PTR DS:[ESI]
+
+00F9E6A5           |.  83C6 01                 |ADD ESI,1
+
+00F9E6A8           |.  8807                    |MOV BYTE PTR DS:[EDI],AL
+
+00F9E6AA           |.  83C7 01                 |ADD EDI,1
+
+00F9E6AD           |.  84C0                    |TEST AL,AL
+
+00F9E6AF           |.  74 37                   |JZ SHORT 00F9E6E8
+
+00F9E6B1           |.  83EB 01                 |SUB EBX,1
+
+00F9E6B4           |.^ 75 ED                   \JNZ SHORT 00F9E6A3
+
+00F9E6B6           |>  8B4424 10               MOV EAX,DWORD PTR SS:[ARG.1]
+
+00F9E6BA           |.  5B                      POP EBX
+
+00F9E6BB           |.  5E                      POP ESI
+
+00F9E6BC           |.  5F                      POP EDI
+
+00F9E6BD           |.  C3                      RETN
+
+00F9E6BE           |>  F7C7 03000000           TEST EDI,00000003
+
+00F9E6C4           |.  74 16                   JZ SHORT 00F9E6DC
+
+00F9E6C6           |>  8807                    /MOV BYTE PTR DS:[EDI],AL
+
+00F9E6C8           |.  83C7 01                 |ADD EDI,1
+
+00F9E6CB           |.  83E9 01                 |SUB ECX,1
+
+00F9E6CE           |.  0F84 98000000           |JZ 00F9E76C
+
+00F9E6D4           |.  F7C7 03000000           |TEST EDI,00000003
+
+00F9E6DA           |.^ 75 EA                   \JNZ SHORT 00F9E6C6
+
+00F9E6DC           |>  8BD9                    MOV EBX,ECX
+
+00F9E6DE           |.  C1E9 02                 SHR ECX,2
+
+00F9E6E1           |.  75 74                   JNZ SHORT 00F9E757
+
+00F9E6E3           |>  8807                    MOV BYTE PTR DS:[EDI],AL
+
+00F9E6E5           |.  83C7 01                 ADD EDI,1
+
+00F9E6E8           |>  83EB 01                 SUB EBX,1
+
+00F9E6EB           |.^ 75 F6                   JNZ SHORT 00F9E6E3
+
+00F9E6ED           |.  5B                      POP EBX
+
+00F9E6EE           |.  5E                      POP ESI
+
+00F9E6EF           |>  8B4424 08               MOV EAX,DWORD PTR SS:[ARG.1]
+
+00F9E6F3           |.  5F                      POP EDI
+
+00F9E6F4           |.  C3                      RETN
+
+00F9E6F5           |>  8917                    /MOV DWORD PTR DS:[EDI],EDX
+
+00F9E6F7           |.  83C7 04                 |ADD EDI,4
+
+00F9E6FA           |.  83E9 01                 |SUB ECX,1
+
+00F9E6FD           |.^ 74 9F                   |JZ SHORT 00F9E69E
+
+00F9E6FF           |>  BA FFFEFE7E             |MOV EDX,7EFEFEFF
+
+00F9E704           |.  8B06                    |MOV EAX,DWORD PTR DS:[ESI]
+
+00F9E706           |.  03D0                    |ADD EDX,EAX
+
+00F9E708           |.  83F0 FF                 |XOR EAX,FFFFFFFF
+
+00F9E70B           |.  33C2                    |XOR EAX,EDX
+
+00F9E70D           |.  8B16                    |MOV EDX,DWORD PTR DS:[ESI]
+
+00F9E70F           |.  83C6 04                 |ADD ESI,4
+
+00F9E712           |.  A9 00010181             |TEST EAX,81010100
+
+00F9E717           |.^ 74 DC                   |JZ SHORT 00F9E6F5
+
+00F9E719           |.  84D2                    |TEST DL,DL
+
+00F9E71B           |.  74 2C                   |JZ SHORT 00F9E749
+
+00F9E71D           |.  84F6                    |TEST DH,DH
+
+00F9E71F           |.  74 1E                   |JZ SHORT 00F9E73F
+
+00F9E721           |.  F7C2 0000FF00           |TEST EDX,00FF0000
+
+00F9E727           |.  74 0C                   |JZ SHORT 00F9E735
+
+00F9E729           |.  F7C2 000000FF           |TEST EDX,FF000000
+
+00F9E72F           |.^ 75 C4                   \JNZ SHORT 00F9E6F5
+
+00F9E731           |.  8917                    MOV DWORD PTR DS:[EDI],EDX
+
+00F9E733           |.  EB 18                   JMP SHORT 00F9E74D
+
+00F9E735           |>  81E2 FFFF0000           AND EDX,0000FFFF
+
+00F9E73B           |.  8917                    MOV DWORD PTR DS:[EDI],EDX
+
+00F9E73D           |.  EB 0E                   JMP SHORT 00F9E74D
+
+00F9E73F           |>  81E2 FF000000           AND EDX,000000FF
+
+00F9E745           |.  8917                    MOV DWORD PTR DS:[EDI],EDX
+
+00F9E747           |.  EB 04                   JMP SHORT 00F9E74D
+
+00F9E749           |>  33D2                    XOR EDX,EDX
+
+00F9E74B           |.  8917                    MOV DWORD PTR DS:[EDI],EDX
+
+00F9E74D           |>  83C7 04                 ADD EDI,4
+
+00F9E750           |.  33C0                    XOR EAX,EAX
+
+00F9E752           |.  83E9 01                 SUB ECX,1
+
+00F9E755           |.  74 0C                   JZ SHORT 00F9E763
+
+00F9E757           |>  33C0                    XOR EAX,EAX
+
+00F9E759           |>  8907                    /MOV DWORD PTR DS:[EDI],EAX
+
+00F9E75B           |.  83C7 04                 |ADD EDI,4
+
+00F9E75E           |.  83E9 01                 |SUB ECX,1
+
+00F9E761           |.^ 75 F6                   \JNZ SHORT 00F9E759
+
+00F9E763           |>  83E3 03                 AND EBX,00000003
+
+00F9E766           |.^ 0F85 77FFFFFF           JNZ 00F9E6E3
+
+00F9E76C           |>  8B4424 10               MOV EAX,DWORD PTR SS:[ARG.1]
+
+00F9E770           |.  5B                      POP EBX
+
+00F9E771           |.  5E                      POP ESI
+
+00F9E772           |.  5F                      POP EDI
+
+00F9E773           \.  C3                      RETN
+
+00F9E774           /$  E8 49540000             CALL 00FA3BC2                                     ; [Engine.00FA3BC2
+
+00F9E779           |.  8B4C24 04               MOV ECX,DWORD PTR SS:[ARG.1]
+
+00F9E77D           |.  8948 14                 MOV DWORD PTR DS:[EAX+14],ECX
+
+00F9E780           \.  C3                      RETN
+
+00F9E781           /$  E8 3C540000             CALL 00FA3BC2                                     ; [Engine.00FA3BC2
+
+00F9E786           |.  8B48 14                 MOV ECX,DWORD PTR DS:[EAX+14]
+
+00F9E789           |.  69C9 FD430300           IMUL ECX,ECX,343FD
+
+00F9E78F           |.  81C1 C39E2600           ADD ECX,269EC3
+
+00F9E795           |.  8948 14                 MOV DWORD PTR DS:[EAX+14],ECX
+
+00F9E798           |.  8BC1                    MOV EAX,ECX
+
+00F9E79A           |.  C1E8 10                 SHR EAX,10
+
+00F9E79D           |.  25 FF7F0000             AND EAX,00007FFF
+
+00F9E7A2           \.  C3                      RETN
+
+00F9E7A3           /$  6A 0C                   PUSH 0C                                           ; Engine.00F9E7A3(guessed Arg1)
+
+00F9E7A5           |.  68 28ED1E01             PUSH OFFSET 011EED28
+
+00F9E7AA           |.  E8 E1670000             CALL 00FA4F90
+
+00F9E7AF           |.  8B75 08                 MOV ESI,DWORD PTR SS:[EBP+8]
+
+00F9E7B2           |.  85F6                    TEST ESI,ESI
+
+00F9E7B4           |.  74 75                   JZ SHORT 00F9E82B
+
+00F9E7B6           |.  833D 30487102 03        CMP DWORD PTR DS:[2714830],3
+
+00F9E7BD           |.  75 43                   JNE SHORT 00F9E802
+
+00F9E7BF           |.  6A 04                   PUSH 4                                            ; /Arg1 = 4
+
+00F9E7C1           |.  E8 A59B0000             CALL 00FA836B                                     ; \Engine.00FA836B
+
+00F9E7C6           |.  59                      POP ECX
+
+00F9E7C7           |.  8365 FC 00              AND DWORD PTR SS:[EBP-4],00000000
+
+00F9E7CB           |.  56                      PUSH ESI                                          ; /Arg1
+
+00F9E7CC           |.  E8 B69C0000             CALL 00FA8487                                     ; \Engine.00FA8487
+
+00F9E7D1           |.  59                      POP ECX
+
+00F9E7D2           |.  8945 E4                 MOV DWORD PTR SS:[EBP-1C],EAX
+
+00F9E7D5           |.  85C0                    TEST EAX,EAX
+
+00F9E7D7           |.  74 09                   JZ SHORT 00F9E7E2
+
+00F9E7D9           |.  56                      PUSH ESI
+
+00F9E7DA           |.  50                      PUSH EAX
+
+00F9E7DB           |.  E8 D29C0000             CALL 00FA84B2
+
+00F9E7E0           |.  59                      POP ECX
+
+00F9E7E1           |.  59                      POP ECX
+
+00F9E7E2           |>  C745 FC FEFFFFFF        MOV DWORD PTR SS:[EBP-4],-2
+
+00F9E7E9           |.  E8 0B000000             CALL 00F9E7F9
+
+00F9E7EE           |.  837D E4 00              CMP DWORD PTR SS:[EBP-1C],0
+
+00F9E7F2           |.  75 37                   JNE SHORT 00F9E82B
+
+00F9E7F4           |.  FF75 08                 PUSH DWORD PTR SS:[EBP+8]
+
+00F9E7F7           \.  EB 0A                   JMP SHORT 00F9E803
+
+00F9E7F9           /$  6A 04                   PUSH 4                                            ; /Arg1 = 4
+
+00F9E7FB           |.  E8 7B9A0000             CALL 00FA827B                                     ; \Engine.00FA827B
+
+00F9E800           |.  59                      POP ECX
+
+00F9E801           \.  C3                      RETN
+
+00F9E802           />  56                      PUSH ESI
+
+00F9E803           |>  6A 00                   PUSH 0                                            ; |Flags = 0
+
+00F9E805           |.  FF35 042C7102           PUSH DWORD PTR DS:[2712C04]                       ; |Heap = 04640000
+
+00F9E80B           |.  FF15 087C7102           CALL DWORD PTR DS:[<&kernel32.HeapFree>]          ; \KERNEL32.HeapFree
+
+00F9E811           |.  85C0                    TEST EAX,EAX
+
+00F9E813           |.  75 16                   JNZ SHORT 00F9E82B
+
+00F9E815           |.  E8 687B0000             CALL 00FA6382                                     ; [Engine.00FA6382
+
+00F9E81A           |.  8BF0                    MOV ESI,EAX
+
+00F9E81C           |.  FF15 887B7102           CALL DWORD PTR DS:[<&kernel32.GetLastError>]      ; [KERNEL32.GetLastError
+
+00F9E822           |.  50                      PUSH EAX                                          ; /Arg1
+
+00F9E823           |.  E8 1F7B0000             CALL 00FA6347                                     ; \Engine.00FA6347
+
+00F9E828           |.  8906                    MOV DWORD PTR DS:[ESI],EAX
+
+00F9E82A           |.  59                      POP ECX
+
+00F9E82B           |>  E8 A5670000             CALL 00FA4FD5
+
+00F9E830           \.  C3                      RETN
+
+00F9E831           /$  6A 0C                   PUSH 0C
+
+00F9E833           |.  68 48ED1E01             PUSH OFFSET 011EED48
+
+00F9E838           |.  E8 53670000             CALL 00FA4F90
+
+00F9E83D           |.  8365 E4 00              AND DWORD PTR SS:[EBP-1C],00000000
+
+00F9E841           |.  8B75 08                 MOV ESI,DWORD PTR SS:[EBP+8]
+
+00F9E844           |.  3B35 20487102           CMP ESI,DWORD PTR DS:[2714820]
+
+00F9E84A           |.  77 22                   JA SHORT 00F9E86E
+
+00F9E84C           |.  6A 04                   PUSH 4                                            ; /Arg1 = 4
+
+00F9E84E           |.  E8 189B0000             CALL 00FA836B                                     ; \Engine.00FA836B
+
+00F9E853           |.  59                      POP ECX
+
+00F9E854           |.  8365 FC 00              AND DWORD PTR SS:[EBP-4],00000000
+
+00F9E858           |.  56                      PUSH ESI                                          ; /Arg1
+
+00F9E859           |.  E8 54A80000             CALL 00FA90B2                                     ; \Engine.00FA90B2
+
+00F9E85E           |.  59                      POP ECX
+
+00F9E85F           |.  8945 E4                 MOV DWORD PTR SS:[EBP-1C],EAX
+
+00F9E862           |.  C745 FC FEFFFFFF        MOV DWORD PTR SS:[EBP-4],-2
+
+00F9E869           |.  E8 09000000             CALL 00F9E877
+
+00F9E86E           |>  8B45 E4                 MOV EAX,DWORD PTR SS:[EBP-1C]
+
+00F9E871           |.  E8 5F670000             CALL 00FA4FD5
+
+00F9E876           \.  C3                      RETN
+
+00F9E877           /$  6A 04                   PUSH 4                                            ; /Arg1 = 4
+
+00F9E879           |.  E8 FD990000             CALL 00FA827B                                     ; \Engine.00FA827B
+
+00F9E87E           |.  59                      POP ECX
+
+00F9E87F           \.  C3                      RETN
+
+00F9E880           /.  833D 042C7102 00        CMP DWORD PTR DS:[2712C04],0
+
+00F9E887           |.  75 18                   JNE SHORT 00F9E8A1
+
+00F9E889           |.  E8 DC730000             CALL 00FA5C6A                                     ; [Engine.00FA5C6A
+
+00F9E88E           |.  6A 1E                   PUSH 1E                                           ; /Arg1 = 1E
+
+00F9E890           |.  E8 15720000             CALL 00FA5AAA                                     ; \Engine.00FA5AAA
+
+00F9E895           |.  68 FF000000             PUSH 0FF
+
+00F9E89A           |.  E8 746B0000             CALL 00FA5413
+
+00F9E89F           |.  59                      POP ECX
+
+00F9E8A0           |.  59                      POP ECX
+
+00F9E8A1           |>  A1 30487102             MOV EAX,DWORD PTR DS:[2714830]
+
+00F9E8A6           |.  83F8 01                 CMP EAX,1
+
+00F9E8A9           |.  75 19                   JNE SHORT 00F9E8C4
+
+00F9E8AB           |.  8B4424 04               MOV EAX,DWORD PTR SS:[ARG.1]
+
+00F9E8AF           |.  85C0                    TEST EAX,EAX
+
+00F9E8B1           |.  75 01                   JNZ SHORT 00F9E8B4
+
+00F9E8B3           |.  40                      INC EAX
+
+00F9E8B4           |>  50                      PUSH EAX                                          ; /Size
+
+00F9E8B5           |.  6A 00                   PUSH 0                                            ; |Flags = 0
+
+00F9E8B7           |.  FF35 042C7102           PUSH DWORD PTR DS:[2712C04]                       ; |Heap = 04640000
+
+00F9E8BD           |.  FF15 0C7C7102           CALL DWORD PTR DS:[<&kernel32.HeapAlloc>]         ; \NTDLL.RtlAllocateHeap
+
+00F9E8C3           |.  C3                      RETN
+
+00F9E8C4           |>  83F8 03                 CMP EAX,3
+
+00F9E8C7           |.  56                      PUSH ESI
+
+00F9E8C8           |.  8B7424 08               MOV ESI,DWORD PTR SS:[ARG.1]
+
+00F9E8CC           |.  75 0B                   JNE SHORT 00F9E8D9
+
+00F9E8CE           |.  56                      PUSH ESI
+
+00F9E8CF           |.  E8 5DFFFFFF             CALL 00F9E831
+
+00F9E8D4           |.  85C0                    TEST EAX,EAX
+
+00F9E8D6           |.  59                      POP ECX
+
+00F9E8D7           |.  75 1A                   JNZ SHORT 00F9E8F3
+
+00F9E8D9           |>  85F6                    TEST ESI,ESI
+
+00F9E8DB           |.  75 01                   JNZ SHORT 00F9E8DE
+
+00F9E8DD           |.  46                      INC ESI
+
+00F9E8DE           |>  83C6 0F                 ADD ESI,0F
+
+00F9E8E1           |.  83E6 F0                 AND ESI,FFFFFFF0
+
+00F9E8E4           |.  56                      PUSH ESI                                          ; /Size
+
+00F9E8E5           |.  6A 00                   PUSH 0                                            ; |Flags = 0
+
+00F9E8E7           |.  FF35 042C7102           PUSH DWORD PTR DS:[2712C04]                       ; |Heap = 04640000
+
+00F9E8ED           |.  FF15 0C7C7102           CALL DWORD PTR DS:[<&kernel32.HeapAlloc>]         ; \NTDLL.RtlAllocateHeap
+
+00F9E8F3           |>  5E                      POP ESI
+
+00F9E8F4           \.  C3                      RETN
+
+00F9E8F5           /$  55                      PUSH EBP                                          ; Engine.00F9E8F5(guessed Arg1)
+
+00F9E8F6           |.  8B6C24 08               MOV EBP,DWORD PTR SS:[ARG.1]
+
+00F9E8FA           |.  83FD E0                 CMP EBP,-20
+
+00F9E8FD           |.  0F87 9F000000           JA 00F9E9A2
+
+00F9E903           |.  53                      PUSH EBX
+
+00F9E904           |.  8B1D 0C7C7102           MOV EBX,DWORD PTR DS:[<&kernel32.HeapAlloc>]
+
+00F9E90A           |.  56                      PUSH ESI
+
+00F9E90B           |.  57                      PUSH EDI
+
+00F9E90C           |>  33F6                    /XOR ESI,ESI
+
+00F9E90E           |.  3935 042C7102           |CMP DWORD PTR DS:[2712C04],ESI
+
+00F9E914           |.  8BFD                    |MOV EDI,EBP
+
+00F9E916           |.  75 18                   |JNE SHORT 00F9E930
+
+00F9E918           |.  E8 4D730000             |CALL 00FA5C6A                                    ; [Engine.00FA5C6A
+
+00F9E91D           |.  6A 1E                   |PUSH 1E                                          ; /Arg1 = 1E
+
+00F9E91F           |.  E8 86710000             |CALL 00FA5AAA                                    ; \Engine.00FA5AAA
+
+00F9E924           |.  68 FF000000             |PUSH 0FF
+
+00F9E929           |.  E8 E56A0000             |CALL 00FA5413
+
+00F9E92E           |.  59                      |POP ECX
+
+00F9E92F           |.  59                      |POP ECX
+
+00F9E930           |>  A1 30487102             |MOV EAX,DWORD PTR DS:[2714830]
+
+00F9E935           |.  83F8 01                 |CMP EAX,1
+
+00F9E938           |.  75 0E                   |JNE SHORT 00F9E948
+
+00F9E93A           |.  3BEE                    |CMP EBP,ESI
+
+00F9E93C           |.  74 04                   |JE SHORT 00F9E942
+
+00F9E93E           |.  8BC5                    |MOV EAX,EBP
+
+00F9E940           |.  EB 03                   |JMP SHORT 00F9E945
+
+00F9E942           |>  33C0                    |XOR EAX,EAX
+
+00F9E944           |.  40                      |INC EAX
+
+00F9E945           |>  50                      |PUSH EAX
+
+00F9E946           |.  EB 1E                   |JMP SHORT 00F9E966
+
+00F9E948           |>  83F8 03                 |CMP EAX,3
+
+00F9E94B           |.  75 0B                   |JNE SHORT 00F9E958
+
+00F9E94D           |.  55                      |PUSH EBP
+
+00F9E94E           |.  E8 DEFEFFFF             |CALL 00F9E831
+
+00F9E953           |.  3BC6                    |CMP EAX,ESI
+
+00F9E955           |.  59                      |POP ECX
+
+00F9E956           |.  75 17                   |JNE SHORT 00F9E96F
+
+00F9E958           |>  3BEE                    |CMP EBP,ESI
+
+00F9E95A           |.  75 03                   |JNE SHORT 00F9E95F
+
+00F9E95C           |.  33FF                    |XOR EDI,EDI
+
+00F9E95E           |.  47                      |INC EDI
+
+00F9E95F           |>  83C7 0F                 |ADD EDI,0F
+
+00F9E962           |.  83E7 F0                 |AND EDI,FFFFFFF0
+
+00F9E965           |.  57                      |PUSH EDI
+
+00F9E966           |>  56                      |PUSH ESI
+
+00F9E967           |.  FF35 042C7102           |PUSH DWORD PTR DS:[2712C04]
+
+00F9E96D           |.  FFD3                    |CALL EBX
+
+00F9E96F           |>  8BF0                    |MOV ESI,EAX
+
+00F9E971           |.  85F6                    |TEST ESI,ESI
+
+00F9E973           |.  75 26                   |JNZ SHORT 00F9E99B
+
+00F9E975           |.  3905 602D7102           |CMP DWORD PTR DS:[2712D60],EAX
+
+00F9E97B           |.  6A 0C                   |PUSH 0C
+
+00F9E97D           |.  5F                      |POP EDI
+
+00F9E97E           |.  74 0D                   |JE SHORT 00F9E98D
+
+00F9E980           |.  55                      |PUSH EBP                                         ; /Arg1 => [ARG.1]
+
+00F9E981           |.  E8 60AA0000             |CALL 00FA93E6                                    ; \Engine.00FA93E6
+
+00F9E986           |.  85C0                    |TEST EAX,EAX
+
+00F9E988           |.  59                      |POP ECX
+
+00F9E989           |.^ 75 81                   \JNZ SHORT 00F9E90C
+
+00F9E98B           |.  EB 07                   JMP SHORT 00F9E994
+
+00F9E98D           |>  E8 F0790000             CALL 00FA6382                                     ; [Engine.00FA6382
+
+00F9E992           |.  8938                    MOV DWORD PTR DS:[EAX],EDI
+
+00F9E994           |>  E8 E9790000             CALL 00FA6382                                     ; [Engine.00FA6382
+
+00F9E999           |.  8938                    MOV DWORD PTR DS:[EAX],EDI
+
+00F9E99B           |>  5F                      POP EDI
+
+00F9E99C           |.  8BC6                    MOV EAX,ESI
+
+00F9E99E           |.  5E                      POP ESI
+
+00F9E99F           |.  5B                      POP EBX
+
+00F9E9A0           |.  5D                      POP EBP
+
+00F9E9A1           |.  C3                      RETN
+
+00F9E9A2           |>  55                      PUSH EBP                                          ; /Arg1 => [ARG.1]
+
+00F9E9A3           |.  E8 3EAA0000             CALL 00FA93E6                                     ; \Engine.00FA93E6
+
+00F9E9A8           |.  59                      POP ECX
+
+00F9E9A9           |.  E8 D4790000             CALL 00FA6382                                     ; [Engine.00FA6382
+
+00F9E9AE           |.  C700 0C000000           MOV DWORD PTR DS:[EAX],0C
+
+00F9E9B4           |.  33C0                    XOR EAX,EAX
+
+00F9E9B6           |.  5D                      POP EBP
+
+00F9E9B7           \.  C3                      RETN
+
+00F9E9B8           /$  833D 80BE1201 00        CMP DWORD PTR DS:[112BE80],0                      ; Entry point
+
+00F9E9BF           |.  74 15                   JE SHORT 00F9E9D6
+
+00F9E9C1           |.  68 80BE1201             PUSH OFFSET 0112BE80                              ; /Arg1 = Engine.112BE80
+
+00F9E9C6           |.  E8 C5AA0000             CALL 00FA9490                                     ; \Engine.00FA9490
+
+00F9E9CB           |.  85C0                    TEST EAX,EAX
+
+00F9E9CD           |.  59                      POP ECX
+
+00F9E9CE           |.  74 06                   JZ SHORT 00F9E9D6
+
+00F9E9D0           |.  FF15 80BE1201           CALL DWORD PTR DS:[112BE80]
+
+00F9E9D6           |>  56                      PUSH ESI
+
+00F9E9D7           |.  E8 6F510000             CALL 00FA3B4B
+
+00F9E9DC           |.  8BF0                    MOV ESI,EAX
+
+00F9E9DE           |.  85F6                    TEST ESI,ESI
+
+00F9E9E0           |.  74 16                   JZ SHORT 00F9E9F8
+
+00F9E9E2           |.  8B46 04                 MOV EAX,DWORD PTR DS:[ESI+4]
+
+00F9E9E5           |.  83F8 FF                 CMP EAX,-1
+
+00F9E9E8           |.  74 07                   JE SHORT 00F9E9F1
+
+00F9E9EA           |.  50                      PUSH EAX                                          ; /hObject
+
+00F9E9EB           |.  FF15 687B7102           CALL DWORD PTR DS:[<&kernel32.CloseHandle>]       ; \KERNEL32.CloseHandle
+
+00F9E9F1           |>  56                      PUSH ESI                                          ; /Arg1
+
+00F9E9F2           |.  E8 04530000             CALL 00FA3CFB                                     ; \Engine.00FA3CFB
+
+00F9E9F7           |.  59                      POP ECX
+
+00F9E9F8           |>  6A 00                   PUSH 0                                            ; /Arg1 = 0
+
+00F9E9FA           |.  FF15 107C7102           CALL DWORD PTR DS:[<&kernel32.ExitThread>]        ; \ntdll.RtlExitUserThread
+
+00F9EA00           |.  5E                      POP ESI
+
+00F9EA01           |$  6A 0C                   PUSH 0C
+
+00F9EA03           |.  68 68ED1E01             PUSH OFFSET 011EED68
+
+00F9EA08           |.  E8 83650000             CALL 00FA4F90
+
+00F9EA0D           |.  E8 B0510000             CALL 00FA3BC2                                     ; [Engine.00FA3BC2
+
+00F9EA12           |.  8365 FC 00              AND DWORD PTR SS:[EBP-4],00000000
+
+00F9EA16           |.  FF70 58                 PUSH DWORD PTR DS:[EAX+58]
+
+00F9EA19           |.  FF50 54                 CALL DWORD PTR DS:[EAX+54]
+
+00F9EA1C           |.  59                      POP ECX
+
